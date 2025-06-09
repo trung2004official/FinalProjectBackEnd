@@ -28,7 +28,7 @@ export const loginUser = async (req, res) => {
         );
 
         res.json({ message: 'Đăng nhập thành công', token});
-    } catch (error) {
+    } catch (error) {   
         res.status(500).json({ message: 'Lỗi Server', error });
     }
 };
