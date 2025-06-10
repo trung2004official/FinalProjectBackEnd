@@ -1,6 +1,6 @@
 import { DataTypes } from "sequelize";
-import sequelize from "../config/sequelize";
-import Question from "./question";
+import sequelize from "../config/sequelize.js";
+import Question from "./question.js";
 
 const Answer = sequelize.define('Answer', {
     id: {

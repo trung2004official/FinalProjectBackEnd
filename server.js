@@ -6,6 +6,13 @@ import quizRoute from './src/routes/quizRoutes.js';
 import questionRoute from './src/routes/questionRoutes.js';
 import cors from 'cors';
 
+import './src/models/quiz.js';
+import './src/models/user.js';
+import './src/models/question.js';
+import './src/models/answer.js';
+import './src/models/quizAttempt.js';
+import './src/models/userAnswer.js';
+
 dotenv.config();
 
 const app = express();

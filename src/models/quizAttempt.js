@@ -1,7 +1,7 @@
 import { DataTypes, DATE } from "sequelize";
-import sequelize from "../config/sequelize";
-import User from "./user";
-import Quiz from "./quiz";
+import sequelize from "../config/sequelize.js";
+import User from "./user.js";
+import Quiz from "./quiz.js";
 
 const QuizAttempt = sequelize.define('QuizAttempt', {
     id: {
