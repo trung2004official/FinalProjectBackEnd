@@ -1,7 +1,7 @@
-import { DataTypes } from 'sequelize';
-import sequelize from '../config/sequelize.js';
+import { DataTypes } from "sequelize";
+import sequelize from "../config/sequelize.js";
 
-const Quiz = sequelize.define('Quiz', {
+const Question = sequelize.define('Question', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
@@ -13,36 +13,24 @@ const Quiz = sequelize.define('Quiz', {
     },
     description: {
         type: DataTypes.TEXT,
-        allowNull: true,
+        allowNull: false,
     },
     major: {
         type: DataTypes.ENUM('Thiết Kế Web', 'Mobile', 'Mạng Máy Tính'),
-        allowNull: false,
-    },
-    duration: {
-        type: DataTypes.INTEGER,
         allowNull: false,
     },
     difficulty: {
         type: DataTypes.ENUM('Gà mờ', 'Cứng tay', 'Đỉnh kout', 'Trùm cuối'),
         allowNull: false,
     },
-    question_count: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-    },
-    image: {
-        type: DataTypes.STRING,
-        allowNull: false,
-    },
     createAt: {
         type: DataTypes.DATE,
-        allowNull: false,
+        allowNull:false,
         defaultValue: DataTypes.NOW,
-    },  
+    }
 }, {
-    tableName: 'quizzes',
+    tableName: 'questions', 
     timestamps: true,
 });
 
-export default Quiz;
+export default Question;

@@ -26,7 +26,7 @@ const seedUser = async () => {
       password: hashedPassword,
     });
 
-    console.log('✅ User seeded thành công!');
+    console.log('✅ User seeded thành công!');  
     process.exit(); // Thoát khi xong
   } catch (error) {
     console.error('❌ Lỗi khi seed user:', error);

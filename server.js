@@ -2,6 +2,8 @@ import express from 'express';
 import dotenv from 'dotenv';
 import sequelize from './src/config/sequelize.js';
 import authRoute from './src/routes/authRoutes.js'; 
+import quizRoute from './src/routes/quizRoutes.js';
+import questionRoute from './src/routes/questionRoutes.js';
 import cors from 'cors';
 
 dotenv.config();
@@ -16,6 +18,8 @@ app.use(cors({
 }));
 
 app.use('/api/auth', authRoute);
+app.use('/api/quiz', quizRoute);
+app.use('/api/questions', questionRoute);
 
 sequelize.sync({ alter: true })
     .then(() => console.log('DB synced with Sequelize'))
