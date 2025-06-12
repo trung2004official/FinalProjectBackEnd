@@ -33,7 +33,7 @@ const Quiz = sequelize.define('Quiz', {
     },
     image: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
     },
     createAt: {
         type: DataTypes.DATE,
