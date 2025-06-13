@@ -1,6 +1,6 @@
 import { Op } from "sequelize";
 import Quiz from "../models/quiz.js";
-import QuizAttempt from "../models/quizAttempt.js";
+// import QuizAttempt from "../models/quizAttempt.js";
 export const getQuizzes = async (req, res) => {
     try {
         const { id } = req.params;
@@ -126,94 +126,94 @@ export const deleteQuiz = async (req, res) => {
     }
 }
 
-export const submitAnswer = async (req, res) => {
-       try {
-           const { id: quizId } = req.params;
-           const { questionId, answerId } = req.body;
-           const userId = req.user?.id;
+// export const submitAnswer = async (req, res) => {
+//        try {
+//            const { id: quizId } = req.params;
+//            const { questionId, answerId } = req.body;
+//            const userId = req.user?.id;
 
-           if (!userId) {
-               return res.status(401).json({ message: "Yêu cầu đăng nhập" });
-           }
+//            if (!userId) {
+//                return res.status(401).json({ message: "Yêu cầu đăng nhập" });
+//            }
 
-           const attempt = await QuizAttempt.findOne({
-               where: { userId, quizId, status: 'ongoing' },
-           });
-           if (!attempt) {
-               return res.status(400).json({ message: "Không tìm thấy lượt thi đang thực hiện" });
-           }
+//            const attempt = await QuizAttempt.findOne({
+//                where: { userId, quizId, status: 'ongoing' },
+//            });
+//            if (!attempt) {
+//                return res.status(400).json({ message: "Không tìm thấy lượt thi đang thực hiện" });
+//            }
 
-           const question = await Question.findByPk(questionId);
-           if (!question || question.quizId !== parseInt(quizId)) {
-               return res.status(404).json({ message: "Câu hỏi không hợp lệ" });
-           }
+//            const question = await Question.findByPk(questionId);
+//            if (!question || question.quizId !== parseInt(quizId)) {
+//                return res.status(404).json({ message: "Câu hỏi không hợp lệ" });
+//            }
 
-           const answer = await Answer.findByPk(answerId);
-           if (!answer || answer.questionId !== questionId) {
-               return res.status(404).json({ message: "Đáp án không hợp lệ" });
-           }
+//            const answer = await Answer.findByPk(answerId);
+//            if (!answer || answer.questionId !== questionId) {
+//                return res.status(404).json({ message: "Đáp án không hợp lệ" });
+//            }
 
-           const userAnswer = await UserAnswer.create({
-               quizAttemptId: attempt.id,
-               questionId,
-               answerId,
-           });
+//            const userAnswer = await UserAnswer.create({
+//                quizAttemptId: attempt.id,
+//                questionId,
+//                answerId,
+//            });
 
-           return res.status(201).json(userAnswer);
-       } catch (error) {
-           console.error("Lỗi khi gửi đáp án:", error);
-           return res.status(500).json({ message: "Lỗi server", error: error.message });
-       }
-   };
+//            return res.status(201).json(userAnswer);
+//        } catch (error) {
+//            console.error("Lỗi khi gửi đáp án:", error);
+//            return res.status(500).json({ message: "Lỗi server", error: error.message });
+//        }
+//    };
 
-   export const submitQuiz = async (req, res) => {
-       try {
-           const { id: quizId } = req.params;
-           const userId = req.user?.id;
+//    export const submitQuiz = async (req, res) => {
+//        try {
+//            const { id: quizId } = req.params;
+//            const userId = req.user?.id;
 
-           if (!userId) {
-               return res.status(401).json({ message: "Yêu cầu đăng nhập" });
-           }
+//            if (!userId) {
+//                return res.status(401).json({ message: "Yêu cầu đăng nhập" });
+//            }
 
-           const attempt = await QuizAttempt.findOne({
-               where: { userId, quizId, status: 'ongoing' },
-           });
-           if (!attempt) {
-               return res.status(400).json({ message: "Không tìm thấy lượt thi đang thực hiện" });
-           }
+//            const attempt = await QuizAttempt.findOne({
+//                where: { userId, quizId, status: 'ongoing' },
+//            });
+//            if (!attempt) {
+//                return res.status(400).json({ message: "Không tìm thấy lượt thi đang thực hiện" });
+//            }
 
-           const userAnswers = await UserAnswer.findAll({
-               where: { quizAttemptId: attempt.id },
-               include: [{ model: Answer }],
-           });
+//            const userAnswers = await UserAnswer.findAll({
+//                where: { quizAttemptId: attempt.id },
+//                include: [{ model: Answer }],
+//            });
 
-           let correctCount = 0;
-           for (const userAnswer of userAnswers) {
-               if (userAnswer.Answer.isCorrect) {
-                   correctCount++;
-               }
-           }
+//            let correctCount = 0;
+//            for (const userAnswer of userAnswers) {
+//                if (userAnswer.Answer.isCorrect) {
+//                    correctCount++;
+//                }
+//            }
 
-           const quiz = await Quiz.findByPk(quizId);
-           const totalQuestions = quiz.question_count;
-           const score = (correctCount / totalQuestions) * 100;
+//            const quiz = await Quiz.findByPk(quizId);
+//            const totalQuestions = quiz.question_count;
+//            const score = (correctCount / totalQuestions) * 100;
 
-           attempt.score = score;
-           attempt.endTime = new Date();
-           attempt.status = 'completed';
-           await attempt.save();
+//            attempt.score = score;
+//            attempt.endTime = new Date();
+//            attempt.status = 'completed';
+//            await attempt.save();
 
-           return res.status(200).json({
-               correctCount,
-               totalQuestions,
-               score,
-               attempt,
-           });
-       } catch (error) {
-           console.error("Lỗi khi nộp bài:", error);
-           return res.status(500).json({ message: "Lỗi server", error: error.message });
-       }
-   };
+//            return res.status(200).json({
+//                correctCount,
+//                totalQuestions,
+//                score,
+//                attempt,
+//            });
+//        } catch (error) {
+//            console.error("Lỗi khi nộp bài:", error);
+//            return res.status(500).json({ message: "Lỗi server", error: error.message });
+//        }
+//    };
 
 const getQuizzesById = async (id) => {
     const quiz = await Quiz.findByPk(id);

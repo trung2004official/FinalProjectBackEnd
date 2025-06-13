@@ -1,37 +1,68 @@
-import { DataTypes } from "sequelize";
-import sequelize from "../config/sequelize.js";
-import Quiz from "./quiz.js";
+import { Model, DataTypes } from 'sequelize';
+import sequelize from '../config/sequelize.js';
 
-const Question = sequelize.define('Question', {
+class Question extends Model {
+  static associate(models) {
+    Question,this.belongsToMany(models.Quiz, {
+      through: models.QuestionQuiz,
+      foreignKey: 'question_id',
+      otherKey: 'quiz_id',
+      as: 'quizzes',
+    });
+
+    Question.hasMany(models.Answer, {
+      foreignKey: 'question_id',
+      as: 'answers',
+    });
+
+    Question.hasMany(models.QuestionQuiz, {
+      foreignKey: 'question_id',
+      as: 'questionQuizzes',
+    })
+  }
+}
+
+Question.init(
+  {
     id: {
-        type: DataTypes.INTEGER,
-        primaryKey: true,
-        autoIncrement: true,
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      autoIncrement: true,
+      primaryKey: true,
     },
-    title: {
-        type: DataTypes.STRING,
-        allowNull: false,
-    },
-    description: {
-        type: DataTypes.TEXT,
-        allowNull: false,
+    content: {
+      type: DataTypes.TEXT,
+      allowNull: false,
     },
     major: {
-        type: DataTypes.ENUM('Thiết Kế Web', 'Mobile', 'Mạng Máy Tính'),
-        allowNull: false,
+      type: DataTypes.ENUM('Thiết Kế Web', 'Mobile', 'Mạng Máy Tính'),
+      allowNull: false,
     },
-    difficulty: {
-        type: DataTypes.ENUM('Gà mờ', 'Cứng tay', 'Đỉnh kout', 'Trùm cuối'),
-        allowNull: false,
+    explaination: {
+      type: DataTypes.TEXT,
+      allowNull: true,
     },
-    createAt: {
-        type: DataTypes.DATE,
-        allowNull:false,
-        defaultValue: DataTypes.NOW,
-    }
-}, {
-    tableName: 'questions', 
-    timestamps: true,
-});
+    score: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+    quiz_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      references: {
+        model: 'quizzes',
+        key: 'id',
+      },
+      onDelete: 'CASCADE',
+      onUpdate: 'CASCADE',
+    },
+  },
+  {
+    sequelize,
+    modelName: 'Question',
+    tableName: 'questions',
+    timestamps: false, // No timestamps defined in original
+  },
+);
 
 export default Question;

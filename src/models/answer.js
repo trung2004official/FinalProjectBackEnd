@@ -1,33 +1,48 @@
-import { DataTypes } from "sequelize";
-import sequelize from "../config/sequelize.js";
-import Question from "./question.js";
+import { Model, DataTypes } from 'sequelize';
+import sequelize from '../config/sequelize.js';
+class Answer extends Model {
+  static associate(models) {
+    Answer.belongsTo(models.Question, {
+      foreignKey: 'question_id',
+      as: 'question',
+    });
+  }
+}
 
-const Answer = sequelize.define('Answer', {
+Answer.init(
+  {
     id: {
-        type: DataTypes.INTEGER,
-        primaryKey: true,
-        autoIncrement: true,
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+      autoIncrement: true,
+      allowNull: false,
     },
-    questionId: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        references: {
-            model: Question,
-            key: 'id',
-        },
+    question_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'questions',
+        key: 'id',
+      },
+      allowNull: false,
+      onDelete: 'CASCADE',
+      onUpdate: 'CASCADE',
+    },
+    is_correct: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: true,
     },
     content: {
-        type: DataTypes.TEXT,
-        allowNull: false,
+      type: DataTypes.STRING,
+      allowNull: false,
     },
-    isCorrect: {
-        type: DataTypes.BOOLEAN,
-        allowNull: false,
-        defaultValue: false,
-    },
-}, {
+  },
+  {
+    sequelize,
+    modelName: 'Answer',
     tableName: 'answers',
-    timestamps: false,
-});
+    timestamps: false, // Tắt timestamps nếu không cần createdAt/updatedAt
+  },
+);
 
 export default Answer;

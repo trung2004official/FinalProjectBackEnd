@@ -1,48 +1,69 @@
-import { DataTypes } from 'sequelize';
+import { Model, DataTypes } from 'sequelize';
 import sequelize from '../config/sequelize.js';
 
-const Quiz = sequelize.define('Quiz', {
+class Quiz extends Model {
+  static associate(models) {
+    Quiz.belongsToMany(models.Question, {
+      through: models.QuestionQuiz,
+      foreignKey: 'quiz_id',
+      otherKey: 'question_id',
+      as: 'questions'
+    });
+
+    Quiz.hasMany(models.QuestionQuiz, {
+      foreignKey: 'quiz_id',
+      as: 'questionQuizzes',
+    });
+  }
+}
+
+Quiz.init(
+  {
     id: {
-        type: DataTypes.INTEGER,
-        primaryKey: true,
-        autoIncrement: true,
+      type: DataTypes.INTEGER,
+      autoIncrement: true,
+      primaryKey: true,
+      allowNull: false,
     },
     title: {
-        type: DataTypes.STRING,
-        allowNull: false,
+      type: DataTypes.STRING,
+      allowNull: false,
     },
     description: {
-        type: DataTypes.TEXT,
-        allowNull: true,
+      type: DataTypes.TEXT,
+      allowNull: true,
     },
     major: {
-        type: DataTypes.ENUM('Thiết Kế Web', 'Mobile', 'Mạng Máy Tính'),
-        allowNull: false,
+      type: DataTypes.ENUM('Thiết Kế Web', 'Mobile', 'Mạng Máy Tính'),
+      allowNull: false,
     },
     duration: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
+      type: DataTypes.INTEGER,
+      allowNull: false,
     },
     difficulty: {
-        type: DataTypes.ENUM('Gà mờ', 'Cứng tay', 'Đỉnh kout', 'Trùm cuối'),
-        allowNull: false,
+      type: DataTypes.ENUM('Gà mờ', 'Cứng tay', 'Đỉnh kout', 'Trùm cuối'),
+      allowNull: false,
     },
-    question_count: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
+    status: {
+      type: DataTypes.ENUM('public', 'private'),
+      allowNull: true,
     },
     image: {
-        type: DataTypes.STRING,
-        allowNull: true,
+      type: DataTypes.STRING,
+      allowNull: true,
     },
-    createAt: {
-        type: DataTypes.DATE,
-        allowNull: false,
-        defaultValue: DataTypes.NOW,
-    },  
-}, {
+    question_count: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+  },
+  {
+    sequelize,
+    modelName: 'Quiz',
     tableName: 'quizzes',
-    timestamps: true,
-});
+    timestamps: false, // No timestamps defined in original
+  },
+);
 
 export default Quiz;
