@@ -28,7 +28,7 @@ export default {
       },
       status: {
         type: Sequelize.ENUM('public', 'private'),
-        allowNull: false,
+        allowNull: true,
       },
       image: {
         type: Sequelize.STRING
