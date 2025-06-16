@@ -1,4 +1,5 @@
 import { Model, DataTypes } from "sequelize";
+import sequelize from "../config/sequelize.js";
 
 class QuizAttempt extends Model {
     static associations(models) {
@@ -59,6 +60,9 @@ QuizAttempt.init (
             allowNull: true,
         }
     }, {
+        sequelize,
         tableName: 'quiz_attempts',
     }
 )
+
+export default QuizAttempt;
