@@ -4,9 +4,12 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug Express",
-      "skipFiles": ["<node_internals>/**"],
-      "program": "server.js",
+      "name": "Debug Server",
+      "program": "${workspaceFolder}/server.js",
+      "runtimeExecutable": "nodemon",
+      "restart": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
       "env": {
         "NODE_ENV": "development"
       }

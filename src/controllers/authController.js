@@ -3,17 +3,17 @@ import jwt from 'jsonwebtoken';
 import User from '../models/user.js';
 
 export const loginUser = async (req, res) => {
-    const { email, password } = req.body;
+    const { username, password } = req.body;
 
-    if (!email || !password) {
+    if (!username || !password) {
         return res.status(400).json({ message: 'Vui lòng nhập tài khoản và mật khẩu!' });
     }
 
     try {
-        const user = await User.findOne({ where: { email }});
+        const user = await User.findOne({ where: { username }});
 
         if (!user) {
-            return res.status(401).json({ message: 'Email không tồn tại '});
+            return res.status(401).json({ message: 'tài khoản đăng nhập không đúng'});
         }
 
         const isMatch = await bcrypt.compare(password, user.password);
@@ -22,7 +22,7 @@ export const loginUser = async (req, res) => {
         }
 
         const token = jwt.sign(
-            { id: user.id, email: user.email },
+            { id: user.id, username: user.username, role: user.role },
             process.env.JWT_SECRET,
             { expiresIn: process.env.JWT_EXPIRES_IN || '1d' },
         );
@@ -32,3 +32,27 @@ export const loginUser = async (req, res) => {
         res.status(500).json({ message: 'Lỗi Server', error });
     }
 };
+
+export const registerUser = async (req, res) => {
+    const { username, password, email, rePassword } = req.body;
+
+    if (!username || !password || !email || !rePassword) {
+        return res.status(400).json({message: 'Cần nhập đầy đủ thông tin!'});
+    }
+
+    if (password !== rePassword) {
+        return res.status(400).json({message: 'Mật khẩu nhập lại không khớp'});
+    }
+
+    try {
+        const newUser = await User.create({
+            username: username,
+            password: await bcrypt.hash(password,10),
+            email: email,
+            role: 'user',
+        });
+        return res.status(200).json({message: 'Đăng ký thành công', user: newUser});
+    } catch (error) {
+        return res.status(401).json({message: 'Đăng ký tài khoản thất bại'});
+    }
+}
