@@ -18,7 +18,11 @@ class Question extends Model {
     Question.hasMany(models.QuestionQuiz, {
       foreignKey: 'question_id',
       as: 'questionQuizzes',
-    })
+    });
+
+    Question.hasMany(models.AnswerAttempt, {
+      foreignKey: 'question_id',
+    });
   }
 }
 
@@ -45,16 +49,6 @@ Question.init(
     score: {
       type: DataTypes.INTEGER,
       allowNull: false,
-    },
-    quiz_id: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      references: {
-        model: 'quizzes',
-        key: 'id',
-      },
-      onDelete: 'CASCADE',
-      onUpdate: 'CASCADE',
     },
   },
   {

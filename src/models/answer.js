@@ -6,6 +6,10 @@ class Answer extends Model {
       foreignKey: 'question_id',
       as: 'question',
     });
+
+    Answer.hasMany(models.AnswerAttempt, {
+      foreignKey: 'selected_answer_id'
+    });
   }
 }
 

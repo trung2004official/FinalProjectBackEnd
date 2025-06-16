@@ -3,7 +3,9 @@ import sequelize from '../config/sequelize.js';
 
 class User extends Model {
   static associate(models) {
-
+    User.hasMany(models.QuizAttempt, {
+      foreignKey: user_id,
+    });
   }
 }
 

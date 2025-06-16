@@ -14,6 +14,10 @@ class Quiz extends Model {
       foreignKey: 'quiz_id',
       as: 'questionQuizzes',
     });
+
+    Quiz.hasMany(models.QuizAttempt, {
+      foreignKey: 'quiz_id',
+    });
   }
 }
 
