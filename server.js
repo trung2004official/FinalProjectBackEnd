@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import authRoute from './src/routes/authRoutes.js';
 import quizRoute from './src/routes/quizRoutes.js';
 import questionRoute from './src/routes/questionRoutes.js';
+import quizzesQuestionsRoute from './src/routes/quizzesQuestionsRoutes.js';
 import cors from 'cors';
 import db from './src/models/index.js';
 
@@ -21,7 +22,7 @@ app.use(cors({
 app.use('/api/auth', authRoute);
 app.use('/api/quiz', quizRoute);
 app.use('/api/questions', questionRoute);
-
+app.use('/api/quizzes-questions', quizzesQuestionsRoute);
 
 db.sequelize.sync().then(() => {
   app.listen(port, () => {

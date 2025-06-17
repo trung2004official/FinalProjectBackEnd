@@ -49,8 +49,6 @@ QuestionQuiz.init(
     modelName: 'QuestionQuiz',
     tableName: 'questions_quizzes',
     timestamps: true,
-    createdAt: 'created_at',
-    updatedAt: 'updated_at',
   },
 );
 

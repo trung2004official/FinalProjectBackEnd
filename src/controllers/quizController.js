@@ -1,5 +1,6 @@
 import { Op } from "sequelize";
 import Quiz from "../models/quiz.js";
+import { getQuizById, getQuizzesByKeyword, getAllQuizzes } from "../services/quiz_services.js";
 // import QuizAttempt from "../models/quizAttempt.js";
 export const getQuizzes = async (req, res) => {
     try {
@@ -7,7 +8,7 @@ export const getQuizzes = async (req, res) => {
         const { search } = req.query;
 
         if (id) {
-            const quiz = await getQuizzesById(id);
+            const quiz = await getQuizById(id);
             return res.status(200).json(quiz);
         }
 
@@ -214,25 +215,3 @@ export const deleteQuiz = async (req, res) => {
 //            return res.status(500).json({ message: "Lỗi server", error: error.message });
 //        }
 //    };
-
-const getQuizzesById = async (id) => {
-    const quiz = await Quiz.findByPk(id);
-    return quiz;
-};
-
-const getQuizzesByKeyword = async (search) => {
-    const quizzes = await Quiz.findAll({
-        where: {
-            [Op.or]: [
-                {title: {[Op.like]: `%${search}%`}},
-                {description: {[Op.like]: `%${search}%`}},
-            ],
-        },
-    });
-    return quizzes;
-};
-
-const getAllQuizzes = async () => {
-    const quizzes = await Quiz.findAll();
-    return quizzes;
-};
