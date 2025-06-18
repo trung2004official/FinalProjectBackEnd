@@ -49,7 +49,8 @@ AnswerAttempt.init(
         },
     }, {
         sequelize,
-        tableName: 'answer_attempts'
+        tableName: 'answer_attempts',
+        
     }
 );
 

@@ -58,10 +58,24 @@ QuizAttempt.init (
         status: {
             type: DataTypes.ENUM('in_progress', 'completed'),
             allowNull: true,
+        },
+        created_at: {
+            type: DataTypes.DATE,
+            allowNull: false,
+            defaultValue: DataTypes.NOW,
+            field: 'created_at',
+        },
+        updated_at: {
+            type: DataTypes.DATE,
+            allowNull: false,
+            defaultValue: DataTypes.NOW,
+            field: 'updated_at',
         }
     }, {
         sequelize,
         tableName: 'quiz_attempts',
+        timestamps: true,
+        underscored: true,
     }
 )
 

@@ -9,3 +9,18 @@ export const startQuiz = async (userId, quizId) => {
     });
     return attempt;
 };
+
+export const getAttemptById = async (id) => {
+    const attempt = await QuizAttempt.findByPk(id);
+    return attempt;
+}
+
+export const getAllAttempts = async () => {
+    const attempts = await QuizAttempt.findAll();
+    return attempts;
+}
+
+export const submitQuiz = async (id) => {
+    const quizAttempt = await QuizAttempt.findByPk(id);
+    if (!quizAttempt) return res.status(404).json({ message: 'Attempt không tồn tại' });
+}
