@@ -3,7 +3,7 @@ import sequelize from '../config/sequelize.js';
 
 class Question extends Model {
   static associate(models) {
-    Question,this.belongsToMany(models.Quiz, {
+    Question, this.belongsToMany(models.Quiz, {
       through: models.QuestionQuiz,
       foreignKey: 'question_id',
       otherKey: 'quiz_id',
@@ -46,9 +46,9 @@ Question.init(
       type: DataTypes.TEXT,
       allowNull: true,
     },
-    score: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
+    difficulty: {
+      type: DataTypes.ENUM('Gà mờ', 'Cứng tay', 'Đỉnh kout', 'Trùm cuối'),
+      allowNull: false
     },
   },
   {

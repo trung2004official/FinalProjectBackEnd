@@ -7,13 +7,13 @@ export const getQuestions = async (req, res) => {
 
 export const addNewQuestion = async (req, res) => {
     try {
-        const {content, major, explaination, score} = req.body;
+        const {content, major, explaination} = req.body;
 
-        if(!content || !major|| !score) {
+        if(!content || !major) {
             return res.status(400).json({message: 'Vui lòng nhập đầy đủ thông tin'});
         }
 
-        const newQuestion = await addQuestion(content, major, explaination, score);
+        const newQuestion = await addQuestion(content, major, explaination);
         return res.status(200).json({message: 'Tạo câu hỏi mới thành công', question: newQuestion});
     } catch (error) {
         console.error('Lỗi khi tạo câu hỏi: ',error);
@@ -24,9 +24,9 @@ export const addNewQuestion = async (req, res) => {
 export const updateQuestionData = async (req, res) => {
     try {
         const {id} = req.params;
-        const {content, major, explaination, score} = req.body;
+        const {content, major, explaination} = req.body;
 
-        const question = await updateQuestion(id, content, major, explaination, score)
+        const question = await updateQuestion(id, content, major, explaination)
 
         if(!question) {
             return res.status(404).json({message: 'Không tìm thấy câu hỏi.'});
@@ -39,4 +39,3 @@ export const updateQuestionData = async (req, res) => {
         return res.status(500).json({message: 'Lỗi khi chỉnh sửa câu hỏi.'})
     }
 }
-

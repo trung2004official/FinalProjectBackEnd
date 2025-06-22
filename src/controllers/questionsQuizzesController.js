@@ -23,4 +23,3 @@ export const getQuizzesQuestions = async (req, res) => {
     const allData = await getAllQuizzesQuestionData();
     return res.status(200).json({message: 'Đã lấy dữ liệu questions_quizzes: ', data: allData});
 };
-

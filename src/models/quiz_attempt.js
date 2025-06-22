@@ -43,10 +43,6 @@ QuizAttempt.init (
             onDelete: 'CASCADE',
             onUpdate: 'CASCADE',
         },
-        score: {
-            type: DataTypes.FLOAT,
-            allowNull: true,
-        },
         start_time: {
             type: DataTypes.DATE,
             allowNull: true,

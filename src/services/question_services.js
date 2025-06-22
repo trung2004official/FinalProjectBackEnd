@@ -14,12 +14,11 @@ export const getAllQuestions = async () => {
     return data;
 }
 
-export const addQuestion = async (content, major, explaination, score) => {
+export const addQuestion = async (content, major, explaination) => {
     const newQuestion = await Question.create({
         content,
         major,
         explaination,
-        score,
     });
     return newQuestion;
 }
@@ -29,7 +28,7 @@ export const getQuestionById = async (id) => {
     return question;
 }
 
-export const updateQuestion = async (id, content, major, explaination, score) => {
+export const updateQuestion = async (id, content, major, explaination) => {
     const updatedQuestion = await Question.findByPk(id);
 
     if (!updatedQuestion) {
@@ -39,7 +38,6 @@ export const updateQuestion = async (id, content, major, explaination, score) =>
     updatedQuestion.content = content;
     updatedQuestion.major = major;
     updatedQuestion.explaination = explaination;
-    updatedQuestion.score = score;
 
     return updatedQuestion;
 }

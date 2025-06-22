@@ -22,7 +22,7 @@ app.use(cors({
 }));
 
 app.use('/api/auth', authRoute);
-app.use('/api/quiz', quizRoute);
+app.use('/api/quizzes', quizRoute);
 app.use('/api/questions', questionRoute);
 app.use('/api/quizzes-questions', quizzesQuestionsRoute);
 app.use('/api/attempts', quizAttemptRoute);

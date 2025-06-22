@@ -20,9 +20,9 @@ export default {
       explaination: {
         type: Sequelize.TEXT,
       },
-      score: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
+      difficulty: {
+        type: Sequelize.ENUM('Gà mờ', 'Cứng tay' ,'Đỉnh kout', 'Trùm cuối'),
+        allowNull: false
       },
       createdAt: {
         allowNull: false,

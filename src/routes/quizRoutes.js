@@ -7,8 +7,8 @@ router.get('/:id?',getQuizzes);
 // router.post('/:id/attempt', startQuizAttempt);
 // router.post('/:id/attempt/answer', submitAnswer);
 // router.post('/:id/attempt/submit', submitQuiz);
-// router.post('/create-quiz', addNewQuiz);
-// router.put('/update-quiz/:id', updateQuiz);
+router.post('/create-quiz', addNewQuiz);
+router.put('/update-quiz/:id', updateQuiz);
 // router.delete('/delete-quiz/:id', deleteQuiz);
 
 export default router;

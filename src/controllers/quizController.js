@@ -1,6 +1,5 @@
 import { Op } from "sequelize";
-import Quiz from "../models/quiz.js";
-import { getQuizById, getQuizzesByKeyword, getAllQuizzes } from "../services/quiz_services.js";
+import { getQuizById, getQuizzesByKeyword, getAllQuizzes, addQuiz, editQuiz } from "../services/quiz_services.js";
 // import QuizAttempt from "../models/quizAttempt.js";
 export const getQuizzes = async (req, res) => {
     try {
@@ -34,13 +33,7 @@ export const addNewQuiz = async (req, res) => {
             return res.status(400).json({ message: "Vui lòng cung cấp đầy đủ thông tin" });
         }
 
-        const newQuiz = await Quiz.create({
-            title,
-            duration,
-            difficulty,
-            major,
-            question_count,
-        });
+        const newQuiz = await addQuiz(title, duration, difficulty, major, question_count);
     
         return res.status(201).json({
             message: 'Đã thêm quiz mới',
@@ -60,16 +53,10 @@ export const updateQuiz = async (req, res) => {
         const {id} = req.params;
         const {title, duration, difficulty, major, question_count} = req.body;
 
-        const quiz = await Quiz.findByPk(id);
+        const quiz = await editQuiz(id, title, duration, difficulty, major, question_count);
         if (!quiz) {
             return res.status(404).json({ message: 'Quiz không tồn tại' });
         }
-
-        quiz.title = title || quiz.title;
-        quiz.duration = duration || quiz.duration;
-        quiz.major = major || quiz.major;
-        quiz.difficulty = difficulty || quiz.difficulty;
-        quiz.question_count = question_count || quiz.question_count;
 
         await quiz.save();
 

@@ -28,10 +28,6 @@ export default {
         onUpdate: 'CASCADE',
         onDelete: 'CASCADE',
       },
-      score: {
-        type: Sequelize.FLOAT,
-        allowNull: true,
-      },
       start_time: {
         type: Sequelize.DATE,
         allowNull: true,
