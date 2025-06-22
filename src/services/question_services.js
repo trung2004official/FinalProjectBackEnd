@@ -14,10 +14,16 @@ export const getAllQuestions = async () => {
     return data;
 }
 
-export const addQuestion = async (content, major, explaination) => {
+export const findQuesionExisted = async (content) => {
+    const existedQuestion = await Question.findOne({ content });
+    return existedQuestion;
+}
+
+export const addQuestion = async (content, major, difficulty, explaination) => {
     const newQuestion = await Question.create({
         content,
         major,
+        difficulty,
         explaination,
     });
     return newQuestion;

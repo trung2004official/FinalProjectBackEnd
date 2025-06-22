@@ -1,4 +1,4 @@
-import { addQuestion, getAllQuestions, getQuestionById, updateQuestion } from "../services/question_services.js";
+import { addQuestion, findQuesionExisted, getAllQuestions, getQuestionById, updateQuestion } from "../services/question_services.js";
 
 export const getQuestions = async (req, res) => {
     const questions = await getAllQuestions();
@@ -7,13 +7,19 @@ export const getQuestions = async (req, res) => {
 
 export const addNewQuestion = async (req, res) => {
     try {
-        const {content, major, explaination} = req.body;
+        const {content, major, difficulty, explaination} = req.body;
 
-        if(!content || !major) {
+        if(!content || !major || !difficulty) {
             return res.status(400).json({message: 'Vui lòng nhập đầy đủ thông tin'});
         }
 
-        const newQuestion = await addQuestion(content, major, explaination);
+        // const existed = await findQuesionExisted(content);
+
+        // if (existed) {
+        //     return res.status(409).json({message: 'Đã có câu hỏi này trong hệ thống'});
+        // }
+
+        const newQuestion = await addQuestion(content, major, difficulty, explaination);
         return res.status(200).json({message: 'Tạo câu hỏi mới thành công', question: newQuestion});
     } catch (error) {
         console.error('Lỗi khi tạo câu hỏi: ',error);
