@@ -51,7 +51,8 @@ Quiz.init(
     },
     status: {
       type: DataTypes.ENUM('public', 'private'),
-      allowNull: true,
+      allowNull: false,
+      defaultValue: 'private',
     },
     image: {
       type: DataTypes.STRING,
@@ -59,7 +60,8 @@ Quiz.init(
     },
     question_count: {
       type: DataTypes.INTEGER,
-      allowNull: true,
+      allowNull: false,
+      defaultValue: 0,
     },
   },
   {

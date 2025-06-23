@@ -28,13 +28,16 @@ export default {
       },
       status: {
         type: Sequelize.ENUM('public', 'private'),
-        allowNull: true,
+        allowNull: false,
+        defaultValue: 'private'
       },
       image: {
         type: Sequelize.STRING
       },
       question_count: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        defaultValue: 0
       },
       createdAt: {
         allowNull: false,

@@ -22,13 +22,13 @@ export const getAllQuizzes = async () => {
     return quizzes;
 }
 
-export const addQuiz = async (title, duration, difficulty, major, question_count) => {
+export const addQuiz = async (title, duration, difficulty, major, description) => {
     const quiz = await Quiz.create({
         title,
         duration,
         difficulty,
         major,
-        question_count,
+        description,
     });
     return quiz;
 }

@@ -27,13 +27,13 @@ export const getQuizzes = async (req, res) => {
 
 export const addNewQuiz = async (req, res) => {
     try {
-        const {title, duration, difficulty, major, question_count} = req.body;
+        const {title, duration, difficulty, major, description} = req.body;
         
-        if (!title || !duration || !difficulty || !major || !question_count) {
+        if (!title || !duration || !difficulty || !major) {
             return res.status(400).json({ message: "Vui lòng cung cấp đầy đủ thông tin" });
         }
 
-        const newQuiz = await addQuiz(title, duration, difficulty, major, question_count);
+        const newQuiz = await addQuiz(title, duration, difficulty, major, description);
     
         return res.status(201).json({
             message: 'Đã thêm quiz mới',
