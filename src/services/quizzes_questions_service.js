@@ -12,3 +12,16 @@ export const getAllQuestionsByQuiz = async (id) => {
     });
     return data;
 }
+
+export const findQuizQuestionById = async (id) => {
+    const data = await QuestionQuiz.findByPk(id);
+    return data;
+}
+
+export const createNewQuizQuestion = async (quiz_id, question_id) => {
+    const newQuizQuestion = await QuestionQuiz.create({
+        quiz_id,
+        question_id
+    });
+    return newQuizQuestion;
+}

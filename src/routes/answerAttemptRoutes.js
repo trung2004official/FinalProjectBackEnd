@@ -3,7 +3,7 @@ import { getSubmitAnswers, submitAnswer } from "../controllers/answerAttemptCont
 
 const router = e.Router();
 
-router.get('/', getSubmitAnswers);
+router.get('/:quizAttemptId?', getSubmitAnswers);
 router.post('/:attempId', submitAnswer);
 
 export default router;

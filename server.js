@@ -6,6 +6,7 @@ import questionRoute from './src/routes/questionRoutes.js';
 import quizzesQuestionsRoute from './src/routes/quizzesQuestionsRoutes.js';
 import quizAttemptRoute from './src/routes/quizAttemptRoutes.js';
 import answerAttemptRoute from './src/routes/answerAttemptRoutes.js';
+import answerRoute from './src/routes/answerRoutes.js';
 import cors from 'cors';
 import db from './src/models/index.js';
 
@@ -27,6 +28,7 @@ app.use('/api/questions', questionRoute);
 app.use('/api/quizzes-questions', quizzesQuestionsRoute);
 app.use('/api/attempts', quizAttemptRoute);
 app.use('/api/answers-attempts', answerAttemptRoute);
+app.use('/api/answers', answerRoute );
 
 db.sequelize.sync().then(() => {
   app.listen(port, () => {

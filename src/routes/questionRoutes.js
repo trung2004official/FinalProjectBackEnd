@@ -3,7 +3,7 @@ import { addNewQuestion, getQuestions, updateQuestionData } from '../controllers
 
 const router = express.Router();
 
-router.get('/', getQuestions);
+router.get('/:id?', getQuestions);
 router.post('/add-question', addNewQuestion);
 router.put('/update-question/:id', updateQuestionData);
 

@@ -47,3 +47,17 @@ export const findQuizAttempt = async (id) => {
     const quizAttempt = await QuizAttempt.findByPk(id);
     return quizAttempt;
 }
+
+export const addAnswer = async (question_id, content, is_correct) => {
+    const answer = await Answer.create({
+        question_id,
+        content,
+        is_correct,
+    });
+    return answer;
+}   
+
+export const getAllAnswer = async () => {
+    const answers = await Answer.findAll();
+    return answers;
+}

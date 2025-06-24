@@ -34,7 +34,7 @@ Answer.init(
     is_correct: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
-      defaultValue: true,
+      defaultValue: false,
     },
     content: {
       type: DataTypes.STRING,

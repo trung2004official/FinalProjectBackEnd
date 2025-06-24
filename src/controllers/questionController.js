@@ -1,6 +1,14 @@
 import { addQuestion, findQuesionExisted, getAllQuestions, getQuestionById, updateQuestion } from "../services/question_services.js";
-
 export const getQuestions = async (req, res) => {
+    const {id} = req.params;
+    if(id) {
+        const question = await getQuestionById(id);
+        if(!question) {
+            return res.status(404).json({message: 'Không tìm thấy câu hỏi.'});
+        }
+        return res.status(200).json({message: 'Đã lấy câu hỏi.', question});
+    }
+
     const questions = await getAllQuestions();
     return res.status(200).json({message: 'Đã lấy tất cả questions.', questions});
 }
