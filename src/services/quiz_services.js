@@ -17,6 +17,15 @@ export const getQuizzesByKeyword = async (search) => {
     return quizzes;
 };
 
+export const getQuizzesByMajor = async (major) => {
+    const quizzes = await Quiz.findAll({
+        where: {
+            major: major,
+        },
+    });
+    return quizzes;
+}
+
 export const getAllQuizzes = async () => {
     const quizzes = await Quiz.findAll();
     return quizzes;

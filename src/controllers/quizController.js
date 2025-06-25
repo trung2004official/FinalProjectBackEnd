@@ -24,6 +24,25 @@ export const getQuizzes = async (req, res) => {
     }
 };
 
+export const getQuizzesByMajor = async (req, res) => {
+    try {
+        const { major } = req;
+
+        if (!major) {
+            return res.status(400).json({ message: 'Vui lòng cung cấp chuyên ngành' });
+        }
+
+        const quizzes = await getQuizzesByMajor(major);
+        if (quizzes.length === 0) {
+            return res.status(404).json({ message: 'Không tìm thấy quiz cho chuyên ngành này' });
+        }
+
+        return res.status(200).json(quizzes);
+    } catch (error) {
+        console.error('Lỗi khi lấy quiz theo chuyên ngành: ', error);
+        return res.status(500).json({ message: 'Lỗi Server', error: error.message });
+    }
+}
 
 export const addNewQuiz = async (req, res) => {
     try {
@@ -47,6 +66,33 @@ export const addNewQuiz = async (req, res) => {
         });
     }
 };
+
+export const updateQuizStatus = async (req, res) => {
+    try {
+        const { id } = req.params;
+        const { status } = req.body;
+
+        if (!status) {
+            return res.status(400).json({ message: 'Vui lòng cung cấp trạng thái' });
+        }
+
+        const quiz = await getQuizById(id);
+        if (!quiz) {
+            return res.status(404).json({ message: 'Quiz không tồn tại' });
+        }
+
+        quiz.status = status;
+        await quiz.save();
+
+        return res.status(200).json({
+            message: 'Cập nhật trạng thái quiz thành công',
+            quiz,
+        });
+    } catch (error) {
+        console.error('Lỗi Server: ', error);
+        return res.status(500).json({ message: 'Lỗi Server', error: error.message });
+    }
+}
 
 export const updateQuiz = async (req, res) => {
     try {
