@@ -1,6 +1,6 @@
 import Question from "../models/question.js";
 import Answer from "../models/answer.js";
-import { getAllQuizzesQuestionData, getAllQuestionsByQuiz, findQuizQuestionById, createNewQuizQuestion } from "../services/quizzes_questions_service.js"
+import { getAllQuizzesQuestionData, getAllQuestionsByQuiz, findQuizQuestionById, createNewQuizQuestion, findQuesionExisted, getQuestionsNotInThisQuiz } from "../services/quizzes_questions_service.js"
 import { getQuizById } from "../services/quiz_services.js";
 import { getQuestionById } from "../services/question_services.js";
 
@@ -33,6 +33,12 @@ export const createQuizQuestion = async (req, res) => {
         return res.status(400).json({message: 'Vui lòng cung cấp đầy đủ thông tin'});
     }
 
+    const existedQuestion = await findQuesionExisted(quizId, question_id);
+
+    if (existedQuestion) {
+        return res.status(409).json({message: 'Câu hỏi đã tồn tại trong quiz này'});
+    }
+
     try {
         const quiz = await getQuizById(quizId);
         if (!quiz) {
@@ -49,5 +55,21 @@ export const createQuizQuestion = async (req, res) => {
     } catch (error) {
         console.error('Lỗi khi thêm câu hỏi vào quiz: ', error);
         return res.status(500).json({message: 'Lỗi khi thêm câu hỏi vào quiz', error: error.message});
+    }
+}
+
+export const getQuestionsNotInQuiz = async (req, res) => {
+    const {quizId} = req.params;
+    if (!quizId) {
+        return res.status(400).json({message: 'Vui lòng cung cấp quizId'});
+    }
+    try {
+        const questionsNotInQuiz = await getQuestionsNotInThisQuiz(quizId);
+
+        return res.status(200).json({message: 'Đã lấy danh sách câu hỏi không có trong quiz', questions: questionsNotInQuiz});
+        
+    } catch (error) {
+        console.error('Lỗi khi lấy câu hỏi không có trong quiz: ', error);
+        return res.status(500).json({message: 'Lỗi khi lấy câu hỏi không có trong quiz', error: error.message});
     }
 }
