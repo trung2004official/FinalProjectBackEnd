@@ -1,6 +1,6 @@
 import Question from "../models/question.js";
 import Answer from "../models/answer.js";
-import { getAllQuizzesQuestionData, getAllQuestionsByQuiz, findQuizQuestionById, createNewQuizQuestion, findQuesionExisted, getQuestionsNotInThisQuiz } from "../services/quizzes_questions_service.js"
+import { getAllQuizzesQuestionData, getAllQuestionsByQuiz, findQuizQuestionById, createNewQuizQuestion, findQuesionExisted, getQuestionsNotInThisQuiz, deleteQuizQuestion } from "../services/quizzes_questions_service.js"
 import { getQuizById } from "../services/quiz_services.js";
 import { getQuestionById } from "../services/question_services.js";
 
@@ -55,6 +55,21 @@ export const createQuizQuestion = async (req, res) => {
     } catch (error) {
         console.error('Lỗi khi thêm câu hỏi vào quiz: ', error);
         return res.status(500).json({message: 'Lỗi khi thêm câu hỏi vào quiz', error: error.message});
+    }
+}
+
+export const removeQuizQuestion = async (req, res) => {
+    const {quizId} = req.params;
+    const {question_id} = req.body;
+    if (!quizId || !question_id) {
+        return res.status(400).json({message: 'Vui lòng cung cấp đầy đủ thông tin'});
+    }
+    try {
+        await deleteQuizQuestion(quizId, question_id);
+        return res.status(200).json({message: 'Đã xóa câu hỏi khỏi quiz thành công'});
+    } catch (error) {
+        console.error('Lỗi khi xóa câu hỏi khỏi quiz: ', error);
+        return res.status(500).json({message: 'Lỗi khi xóa câu hỏi khỏi quiz', error: error.message});
     }
 }
 

@@ -64,12 +64,14 @@ export const getQuestionsNotInThisQuiz = async (quiz_id) => {
     });
 };
 
-// export const removeQuizQuestion = async (quiz_id, question_id) => {
-//     await QuestionQuiz.destroy({ where: { quiz_id, question_id } });
+export const deleteQuizQuestion = async (quiz_id, question_id) => {
+    const deleted = await QuestionQuiz.destroy({ where: { quiz_id, question_id } });
 
-//     // Đếm lại số câu hỏi của quiz này
-//     const count = await QuestionQuiz.count({ where: { quiz_id } });
+    // Đếm lại số câu hỏi của quiz này
+    const count = await QuestionQuiz.count({ where: { quiz_id } });
 
-//     // Cập nhật lại question_count cho quiz
-//     await Quiz.update({ question_count: count }, { where: { id: quiz_id } });
-// };
+    // Cập nhật lại question_count cho quiz
+    await Quiz.update({ question_count: count }, { where: { id: quiz_id } });
+
+    return deleted;
+};
