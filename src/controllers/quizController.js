@@ -1,5 +1,5 @@
 import { Op } from "sequelize";
-import { getQuizById, getQuizzesByKeyword, getAllQuizzes, addQuiz, editQuiz } from "../services/quiz_services.js";
+import { getQuizById, getQuizzesByKeyword, getAllQuizzes, addQuiz, editQuiz, removeQuiz } from "../services/quiz_services.js";
 // import QuizAttempt from "../models/quizAttempt.js";
 export const getQuizzes = async (req, res) => {
     try {
@@ -120,12 +120,12 @@ export const deleteQuiz = async (req, res) => {
     try {
         const {id} = req.params;
 
-        const quiz = Quiz.findByPk(id);
+        const quiz = await getQuizById(id);
         if(!quiz) {
             return res.status(404).json({message: 'Quiz không tồn tại'});
         }
 
-        await Quiz.destroy();
+        await removeQuiz(id);
 
         return res.status(200).json({message: 'Xóa Quiz thành công'});
     } catch (error) {

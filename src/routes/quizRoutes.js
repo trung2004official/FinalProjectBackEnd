@@ -11,6 +11,6 @@ router.get('/:id?',getQuizzes);
 router.post('/create-quiz', addNewQuiz);
 router.put('/update-quiz/:id', updateQuiz);
 router.patch('/update-status/:id', updateQuizStatus);
-// router.delete('/delete-quiz/:id', deleteQuiz);
+router.delete('/delete-quiz/:id', deleteQuiz);
 
 export default router;

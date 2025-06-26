@@ -57,3 +57,10 @@ export const editQuiz = async (id, title, duration, difficulty, major, question_
 
     return updatedQuiz;
 }
+
+export const removeQuiz = async (id) => {
+    const deletedQuiz = await Quiz.destroy({
+        where: { id },
+    });
+    return deletedQuiz;
+}
