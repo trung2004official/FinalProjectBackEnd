@@ -65,7 +65,7 @@ export const deleteQuestionData = async (req, res) => {
     try {
         const result = await deleteQuestion(id);
         if(!result) {
-            return res.status(404).json({message: 'Không tìm thấy câu hỏi để xóa.'});
+            return res.status(404).json({message: 'không thể xóa câu hỏi này.'});
         }
         return res.status(200).json({message: 'Đã xóa câu hỏi thành công.', questionId: id});
     } catch (error) {

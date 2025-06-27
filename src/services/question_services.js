@@ -1,5 +1,6 @@
 import Answer from "../models/answer.js"
 import Question from "../models/question.js"
+import QuestionQuiz from "../models/question_quiz.js";
 
 export const getAnswersData = async (id) => {
     const answers = await Question.findAll({
@@ -50,6 +51,11 @@ export const updateQuestion = async (id, content, major,difficulty, explaination
 }
 
 export const deleteQuestion = async (id) => {
+    const existedQuestion = await QuestionQuiz.findOne({ where: { question_id: id } });
+    if (existedQuestion) {
+        return false; 
+    }
+
     const result = await Question.destroy({
         where: { id },
     });
