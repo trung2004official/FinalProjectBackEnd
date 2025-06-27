@@ -61,3 +61,24 @@ export const getAllAnswer = async () => {
     const answers = await Answer.findAll();
     return answers;
 }
+
+export const updateAnswer = async (id, content, is_correct) => {
+    const answer = await Answer.findByPk(id);
+
+    if (!answer) {
+        return null;
+    }
+
+    answer.content = content;
+    answer.is_correct = is_correct;
+    await answer.save();
+
+    return answer;
+};
+
+export const getAllAnswerByQuestionId = async (id) => {
+    const answers = await Answer.findAll({
+        where: { question_id: id },
+    });
+    return answers;
+}

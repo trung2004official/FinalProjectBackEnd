@@ -34,7 +34,7 @@ export const getQuestionById = async (id) => {
     return question;
 }
 
-export const updateQuestion = async (id, content, major, explaination) => {
+export const updateQuestion = async (id, content, major,difficulty, explaination) => {
     const updatedQuestion = await Question.findByPk(id);
 
     if (!updatedQuestion) {
@@ -43,6 +43,7 @@ export const updateQuestion = async (id, content, major, explaination) => {
 
     updatedQuestion.content = content;
     updatedQuestion.major = major;
+    updatedQuestion.difficulty = difficulty;
     updatedQuestion.explaination = explaination;
 
     return updatedQuestion;
