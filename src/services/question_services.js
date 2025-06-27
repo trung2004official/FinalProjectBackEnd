@@ -59,5 +59,6 @@ export const deleteQuestion = async (id) => {
     const result = await Question.destroy({
         where: { id },
     });
+    
     return result > 0;
 }
