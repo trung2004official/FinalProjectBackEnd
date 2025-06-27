@@ -82,3 +82,10 @@ export const getAllAnswerByQuestionId = async (id) => {
     });
     return answers;
 }
+
+export const deleteAnswer = async (question_id) => {
+    const result = await Answer.destroy({
+        where: { question_id },
+    });
+    return result > 0;
+};

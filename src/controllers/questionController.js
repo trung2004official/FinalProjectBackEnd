@@ -1,5 +1,5 @@
 import { getAllAnswerByQuestionId } from "../services/answer_services.js";
-import { addQuestion, findQuesionExisted, getAllQuestions, getQuestionById, updateQuestion } from "../services/question_services.js";
+import { addQuestion, findQuesionExisted, getAllQuestions, getQuestionById, updateQuestion, deleteQuestion } from "../services/question_services.js";
 export const getQuestions = async (req, res) => {
     const {id} = req.params;
     if(id) {
@@ -56,5 +56,20 @@ export const updateQuestionData = async (req, res) => {
     } catch (error) {
         console.error('Lỗi khi chỉnh sửa câu hỏi: ', error);
         return res.status(500).json({message: 'Lỗi khi chỉnh sửa câu hỏi.'})
+    }
+}
+
+export const deleteQuestionData = async (req, res) => {
+    const {id} = req.params;
+
+    try {
+        const result = await deleteQuestion(id);
+        if(!result) {
+            return res.status(404).json({message: 'Không tìm thấy câu hỏi để xóa.'});
+        }
+        return res.status(200).json({message: 'Đã xóa câu hỏi thành công.', questionId: id});
+    } catch (error) {
+        console.error('Lỗi khi xóa câu hỏi: ', error);
+        return res.status(500).json({message: 'Lỗi khi xóa câu hỏi.', error: error.message});
     }
 }

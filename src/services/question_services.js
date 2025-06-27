@@ -48,3 +48,10 @@ export const updateQuestion = async (id, content, major,difficulty, explaination
 
     return updatedQuestion;
 }
+
+export const deleteQuestion = async (id) => {
+    const result = await Question.destroy({
+        where: { id },
+    });
+    return result > 0;
+}

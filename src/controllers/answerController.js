@@ -1,4 +1,4 @@
-import { addAnswer, getAllAnswer, getAllAnswerByQuestionId, updateAnswer } from "../services/answer_services.js";
+import { addAnswer, getAllAnswer, getAllAnswerByQuestionId, updateAnswer, deleteAnswer } from "../services/answer_services.js";
 
 export const addNewAnswer = async (req, res) => {
     const { question_id } = req.params;
@@ -48,5 +48,20 @@ export const updateAnswerData = async (req, res) => {
     } catch (error) {
         console.error('Lỗi khi cập nhật câu trả lời: ', error);
         return res.status(500).json({ message: 'Lỗi khi cập nhật câu trả lời.', error: error.message });
+    }
+}
+
+export const deleteAnswerData = async (req, res) => {
+    const { question_id } = req.params;
+
+    try {
+        const result = await deleteAnswer(question_id);
+        if (!result) {
+            return res.status(404).json({ message: 'Không tìm thấy câu trả lời để xóa.' });
+        }
+        return res.status(200).json({ message: 'Đã xóa câu trả lời thành công.' });
+    } catch (error) {
+        console.error('Lỗi khi xóa câu trả lời: ', error);
+        return res.status(500).json({ message: 'Lỗi khi xóa câu trả lời.', error: error.message });
     }
 }
