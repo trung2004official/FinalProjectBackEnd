@@ -1,14 +1,12 @@
 import express from 'express';
-import { addNewQuiz, deleteQuiz, getQuizzes, updateQuiz, getQuizzesByMajor, updateQuizStatus  } from '../controllers/quizController.js';
+import { addNewQuiz, deleteQuiz, getQuizzes, updateQuiz, importQuizzesFromExcel, updateQuizStatus  } from '../controllers/quizController.js';
+import upload from '../middleware/upload.js';
 
 const router = express.Router();
 
 router.get('/:id?',getQuizzes);
-// router.get('/major', getQuizzesByMajor);
-// router.post('/:id/attempt', startQuizAttempt);
-// router.post('/:id/attempt/answer', submitAnswer);
-// router.post('/:id/attempt/submit', submitQuiz);
 router.post('/create-quiz', addNewQuiz);
+router.post('/import-quizzes',upload.single('file'), importQuizzesFromExcel);
 router.put('/update-quiz/:id', updateQuiz);
 router.patch('/update-status/:id', updateQuizStatus);
 router.delete('/delete-quiz/:id', deleteQuiz);
