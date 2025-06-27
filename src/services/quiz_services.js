@@ -64,3 +64,20 @@ export const removeQuiz = async (id) => {
     });
     return deletedQuiz;
 }
+
+export const addQuizzesFromExcel = async (quizList) => {
+    const createdQuizzes = [];
+    for (const item of quizList) {
+        const {title, duration, difficulty, major, description} = item;
+        if(!title || !duration || !difficulty || !major) continue;
+        const quiz = await Quiz.create({
+            title,
+            duration,
+            difficulty,
+            major,
+            description,
+        });
+        createdQuizzes.push(quiz);
+    }
+    return createdQuizzes;
+}

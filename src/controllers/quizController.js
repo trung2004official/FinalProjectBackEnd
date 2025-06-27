@@ -1,5 +1,5 @@
 import xlsx from 'xlsx';
-import { getQuizById, getQuizzesByKeyword, getAllQuizzes, addQuiz, editQuiz, removeQuiz } from "../services/quiz_services.js";
+import { getQuizById, getQuizzesByKeyword, getAllQuizzes, addQuiz, editQuiz, removeQuiz, addQuizzesFromExcel } from "../services/quiz_services.js";
 // import QuizAttempt from "../models/quizAttempt.js";
 export const getQuizzes = async (req, res) => {
     try {
@@ -136,7 +136,7 @@ export const deleteQuiz = async (req, res) => {
 
 export const importQuizzesFromExcel = async (req, res) => {
     try {
-        const { file } = req.body;
+        const file  = req.file;
 
         if (!file) {
             return res.status(400).json({ message: 'Vui lòng cung cấp file Excel' });
@@ -145,16 +145,7 @@ export const importQuizzesFromExcel = async (req, res) => {
         const sheetName = workbook.SheetNames[0];
         const sheet = workbook.Sheets[sheetName];
         const data = xlsx.utils.sheet_to_json(sheet);
-       for (const item of data) {
-           const { title, duration, difficulty, major, description } = item;
-
-           // Validate and process each quiz item
-           if (!title || !duration || !difficulty || !major) {
-               continue; // Skip invalid items
-           }
-
-           await addQuiz(title, duration, difficulty, major, description);
-       }
+        await addQuizzesFromExcel(data);
 
        return res.status(201).json({ message: 'Đã nhập quiz từ file Excel' });
    } catch (error) {
