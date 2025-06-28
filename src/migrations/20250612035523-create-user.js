@@ -17,6 +17,10 @@ export default {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      fullname: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
       email: {
         type: Sequelize.STRING,
         allowNull: false,
@@ -25,17 +29,17 @@ export default {
         type: Sequelize.ENUM('admin', 'user'),
         allowNull: false,
       },
+      address: {
+        type: Sequelize.STRING,
+        allowNull: true,
+      },
+      phone: {
+        type: Sequelize.STRING,
+        allowNull: true,
+      },
       avatar: {
         type: Sequelize.STRING,
-        allowNull:true,
-      },
-      createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
+        allowNull: true,
       }
     });
   },
