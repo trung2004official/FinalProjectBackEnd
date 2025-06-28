@@ -27,7 +27,9 @@ export const loginUser = async (req, res) => {
             { expiresIn: process.env.JWT_EXPIRES_IN || '1d' },
         );
 
-        res.json({ message: 'Đăng nhập thành công', token});
+        const { password: pw, ...userData } = user.get({ plain: true });
+
+        res.json({ message: 'Đăng nhập thành công', token, user: userData});
     } catch (error) {   
         res.status(500).json({ message: 'Lỗi Server', error });
     }
