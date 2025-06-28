@@ -25,6 +25,10 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    fullname: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     email: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -32,6 +36,14 @@ User.init(
     role: {
       type: DataTypes.ENUM('admin', 'user'),
       allowNull: false,
+    },
+    address: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
+    phone: {
+      type: DataTypes.STRING,
+      allowNull: true,
     },
     avatar: {
       type: DataTypes.STRING,
