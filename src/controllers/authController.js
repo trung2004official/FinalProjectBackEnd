@@ -36,9 +36,10 @@ export const loginUser = async (req, res) => {
 };
 
 export const registerUser = async (req, res) => {
-    const { username, password, email, rePassword } = req.body;
+    const { username, password, email, rePassword, fullname, address, phone } = req.body;
+    const avatar = req.file ? req.file.filename : null;
 
-    if (!username || !password || !email || !rePassword) {
+    if (!username || !password || !email || !rePassword || !fullname ) {
         return res.status(400).json({message: 'Cần nhập đầy đủ thông tin!'});
     }
 
@@ -51,6 +52,10 @@ export const registerUser = async (req, res) => {
             username: username,
             password: await bcrypt.hash(password,10),
             email: email,
+            fullname,
+            address,
+            phone,
+            avatar,
             role: 'user',
         });
         return res.status(200).json({message: 'Đăng ký thành công', user: newUser});
