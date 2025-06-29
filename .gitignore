@@ -1,0 +1,22 @@
+# Bỏ thư mục chứa file upload
+uploads/
+
+# Bỏ các file môi trường
+.env
+.env.*
+
+# Bỏ các file log
+*.log
+npm-debug.log*
+
+# Bỏ thư mục node_modules
+node_modules/
+
+# Bỏ các file hệ thống của VSCode và hệ điều hành
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Bỏ các file build (nếu có)
+dist/
+build/
