@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import User from '../models/user.js';
-import { getUserById, getUsers } from '../services/auth_services.js';
+import { getUserById, getUsers, updateProfile } from '../services/auth_services.js';
 
 export const loginUser = async (req, res) => {
     const { username, password } = req.body;
@@ -75,4 +75,23 @@ export const getAllUsers = async (req, res) => {
 
     const data = await getUsers();
     return res.status(200).json({users: data});
+}
+
+export const updateUser = async (req, res) => {
+    const {id} = req.params;
+    const {fullname, email, address, phone} = req.body;
+    const avatar = req.file ? req.file.filename : undefined;
+
+    if(!id) {
+        return res.status(400).json({message: 'Không tìm thấy user id.'});
+    }
+    try {
+        const user = await updateProfile(id, fullname, email, address, phone, avatar);
+        await user.save();
+    
+        const { password, ...userData} = user.get({ plain: true});
+        return res.status(200).json({message: 'Cập nhật user thành công.', user: userData});
+    } catch ( error ) {
+        return res.status(500).json({message: 'Lỗi server',error: error.message});
+    }
 }
