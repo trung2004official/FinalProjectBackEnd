@@ -9,3 +9,8 @@ export const createNewRating = async (userId, quizId, star, comment) => {
     });
     return newRating;
 }
+
+export const getAllRatings = async () => {
+    const ratings = await Rating.findAll();
+    return ratings;
+}
