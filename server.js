@@ -11,6 +11,9 @@ import ratingRoute from './src/routes/ratingRoutes.js';
 import cors from 'cors';
 import db from './src/models/index.js';
 import path from 'path';
+import http from 'http';
+import { Server as SocketIOServer } from 'socket.io';
+import initSocket from './src/sockets/index.js';
 
 dotenv.config();
 
@@ -34,6 +37,16 @@ app.use('/api/attempts', quizAttemptRoute);
 app.use('/api/answers-attempts', answerAttemptRoute);
 app.use('/api/answers', answerRoute );
 app.use('/api/ratings', ratingRoute );
+
+const server = http.createServer(app);
+const io = new SocketIOServer(server, {
+  cors: {
+    origin: 'http://localhost:5173',
+    credentials: true,
+  }
+});
+
+initSocket(io);
 
 db.sequelize.sync().then(() => {
   app.listen(port, () => {
