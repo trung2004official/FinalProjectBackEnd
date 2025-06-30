@@ -3,9 +3,9 @@ import sequelize from "../config/sequelize.js";
 
 class Rating extends Model {
     static associate(models) {
-        Rating.belongsTo(models.QuestionQuiz, {
-            foreignKey: 'quiz_question_id',
-            as: 'quizzes_questions'
+        Rating.belongsTo(models.Quiz, {
+            foreignKey: 'quiz_id',
+            as: 'quizzes'
         });
         Rating.belongsTo(models.User, {
             foreignKey: 'user_id',
@@ -22,11 +22,11 @@ Rating.init(
             autoIncrement: true,
             allowNull: false,
         },
-        quiz_question_id: {
+        quiz_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
             references: {
-                model: 'questions_quizzes',
+                model: 'quizzes',
                 key: 'id'
             },
             onDelete: 'CASCADE'

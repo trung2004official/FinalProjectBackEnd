@@ -13,15 +13,6 @@ class QuestionQuiz extends Model {
       as: 'questions',
     });
 
-    QuestionQuiz.hasMany(models.Rating, {
-      foreignKey: 'quiz_question_id'
-    });
-
-    QuestionQuiz.belongsToMany(models.User, {
-      through: models.Rating,
-      foreignKey: 'quiz_question_id',
-      otherKey: 'user_id',
-    });
   }
 }
 

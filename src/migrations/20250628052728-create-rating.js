@@ -7,11 +7,11 @@ export default {
         autoIncrement: true,
         allowNull: false,
       },
-      quiz_question_id: {
+      quiz_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {
-          model: 'questions_quizzes',
+          model: 'quizzes',
           key: 'id',
         },
         onDelete: 'CASCADE',

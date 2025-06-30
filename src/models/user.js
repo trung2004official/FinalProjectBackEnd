@@ -6,10 +6,10 @@ class User extends Model {
     User.hasMany(models.QuizAttempt, {
       foreignKey: 'user_id',
     });
-    User.belongsToMany(models.QuestionQuiz, {
+    User.belongsToMany(models.Quiz, {
       through: models.Rating,
       foreignKey: 'user_id',
-      otherKey: 'quiz_question_id'
+      otherKey: 'quiz_id'
     });
     User.hasMany(models.Rating, {
       foreignKey: 'user_id',

@@ -18,6 +18,17 @@ class Quiz extends Model {
     Quiz.hasMany(models.QuizAttempt, {
       foreignKey: 'quiz_id',
     });
+
+    
+    Quiz.hasMany(models.Rating, {
+      foreignKey: 'quiz_id'
+    });
+
+    Quiz.belongsToMany(models.User, {
+      through: models.Rating,
+      foreignKey: 'quiz_id',
+      otherKey: 'user_id',
+    });
   }
 }
 
