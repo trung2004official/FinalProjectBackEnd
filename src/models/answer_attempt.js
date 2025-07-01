@@ -2,7 +2,7 @@ import { Model, DataTypes } from "sequelize";
 import sequelize from "../config/sequelize.js";
 
 class AnswerAttempt extends Model {
-    static associations(models) {
+    static associate(models) {
         AnswerAttempt.belongsTo(models.QuizAttempt, {
             foreignKey: 'quiz_attempt_id'
         });

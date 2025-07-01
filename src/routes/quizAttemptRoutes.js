@@ -1,10 +1,10 @@
 import express from 'express';
-import { getQuizAttemptData, startQuizAttempt, submitQuizAttempt } from '../controllers/quizAttemptController.js';
+import { getQuizAttemptData, startQuizAttempt, getResultHistory } from '../controllers/quizAttemptController.js';
 
 const router = express.Router();
 
 router.get('/:id?', getQuizAttemptData);
+router.get('/user-history/:user_id', getResultHistory);
 router.post('/start', startQuizAttempt);
-router.post('/:id/submit', submitQuizAttempt);
 
 export default router;

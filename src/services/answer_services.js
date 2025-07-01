@@ -29,8 +29,10 @@ export const submitQuizAttempt = async (attemptId, answers) => {
     await QuizAttempt.update(
         {
             status: 'completed',
-            score: correct,
-            end_time: new Date()
+            end_time: new Date(),
+            wrong: wrong,
+            skipped: skipped,
+            correct: correct,
         },
         { where: { id: attemptId } }
     );

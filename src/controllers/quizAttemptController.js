@@ -1,4 +1,4 @@
-import { startQuiz, getAttemptById, getAllAttempts } from "../services/quiz_attempt_services.js";
+import { startQuiz, getAttemptById, getAllAttempts, getAttemptsByUser } from "../services/quiz_attempt_services.js";
 
 export const startQuizAttempt = async (req, res) => {
     const {user_id, quiz_id} = req.body;
@@ -22,6 +22,7 @@ export const startQuizAttempt = async (req, res) => {
 
 export const getQuizAttemptData = async (req, res) => {
     const {id} = req.params;
+    const {user_id} = req.body;
 
     if (id) {
         const data = await getAttemptById(id);
@@ -32,8 +33,12 @@ export const getQuizAttemptData = async (req, res) => {
     return res.status(200).json({ message: `Đã lấy tất cả thông tin quiz_attempts: `, data: data });
 }
 
-export const submitQuizAttempt = async (req, res) => {
-    const {id} = req.params;
+export const getResultHistory = async (req, res) => {
+    const { user_id } = req.params;
 
-    
+    if (!user_id) {
+        return res.status(400).json({ message: 'Người dùng chưa đăng nhập.' });
+    }
+    const data = await getAttemptsByUser(user_id);
+    return res.status(200).json({ message: `Đã lấy lịch sử làm bài`, attempts: data });
 }
