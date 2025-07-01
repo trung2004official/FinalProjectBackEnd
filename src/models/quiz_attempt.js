@@ -55,6 +55,21 @@ QuizAttempt.init (
             type: DataTypes.ENUM('in_progress', 'completed'),
             allowNull: true,
         },
+        correct: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            defaultValue: 0,
+        },
+        wrong: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            defaultValue: 0,
+        },
+        skipped: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            defaultValue: 0,
+        },
         created_at: {
             type: DataTypes.DATE,
             allowNull: false,

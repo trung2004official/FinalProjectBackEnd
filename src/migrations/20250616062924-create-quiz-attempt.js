@@ -28,6 +28,21 @@ export default {
         onUpdate: 'CASCADE',
         onDelete: 'CASCADE',
       },
+      correct: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        defaultValue: 0,
+      },
+      wrong: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        defaultValue: 0,
+      },
+      skipped: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        defaultValue: 0,
+      },
       start_time: {
         type: Sequelize.DATE,
         allowNull: true,
