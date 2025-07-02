@@ -7,7 +7,8 @@ class AnswerAttempt extends Model {
             foreignKey: 'quiz_attempt_id'
         });
         AnswerAttempt.belongsTo(models.Answer, {
-            foreignKey: 'selected_answer_id'
+            foreignKey: 'selected_answer_id',
+            as: 'selected_answer'
         });
         AnswerAttempt.belongsTo(models.Question, {
             foreignKey: 'question_id'

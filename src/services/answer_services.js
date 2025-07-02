@@ -10,6 +10,11 @@ export const submitQuizAttempt = async (attemptId, answers) => {
     for (const [questionId, answerId] of Object.entries(answers)) {
         if (!answerId) {
             skipped++;
+            await AnswerAttempt.create({
+                quiz_attempt_id: attemptId,
+                question_id: questionId,
+                selected_answer_id: null,
+            });
             continue;
         }
 
@@ -57,7 +62,7 @@ export const addAnswer = async (question_id, content, is_correct) => {
         is_correct,
     });
     return answer;
-}   
+}
 
 export const getAllAnswer = async () => {
     const answers = await Answer.findAll();
