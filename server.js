@@ -24,7 +24,10 @@ const __dirname = path.resolve();
 
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:5173'], // hoặc '*' nếu cần test
+  origin: [
+    'http://localhost:5173',                    // local
+    'https://quiztechapp.netlify.app',          // FE deploy
+  ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
@@ -43,9 +46,9 @@ app.use('/api/ratings', ratingRoute );
 const server = http.createServer(app);
 const io = new SocketIOServer(server, {
   cors: {
-    origin: '*',
+    origin: ['http://localhost:5173', 'https://quiztechapp.netlify.app'],
     credentials: true,
-  }
+  },
 });
 
 initSocket(io);
