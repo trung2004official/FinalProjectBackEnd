@@ -23,10 +23,10 @@ const host = process.env.DB_HOST || 'localhost';
 const __dirname = path.resolve();
 
 app.use(express.json());
-app.use(cors({
+app.options('*', cors({
   origin: [
-    'http://localhost:5173',                    // local
-    'https://quiztechapp.netlify.app',          // FE deploy
+    'http://localhost:5173',
+    'https://quiztechapp.netlify.app',
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
@@ -55,6 +55,6 @@ initSocket(io);
 
 db.sequelize.sync().then(() => {
   server.listen(port, () => {
-    console.log(`Server is running on http://${host}:${port}`);
+    console.log(`Server is running on port ${port}`);
   });
 })
