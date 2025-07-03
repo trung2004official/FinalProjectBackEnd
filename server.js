@@ -19,12 +19,12 @@ dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 5000;
-const host = process.env.DB_HOST || 'locahost';
+const host = process.env.DB_HOST || 'localhost';
 const __dirname = path.resolve();
 
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: ['http://localhost:5173', 'https://quiztechapp.netlify.app'],
   credentials: true,
 }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
@@ -49,7 +49,7 @@ const io = new SocketIOServer(server, {
 initSocket(io);
 
 db.sequelize.sync().then(() => {
-  app.listen(port, () => {
+  server.listen(port, () => {
     console.log(`Server is running on http://${host}:${port}`);
   });
 })
