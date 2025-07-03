@@ -24,8 +24,10 @@ const __dirname = path.resolve();
 
 app.use(express.json());
 app.use(cors({
-  origin: '*',
+  origin: ['http://localhost:5173'], // hoặc '*' nếu cần test
   credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
 }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
