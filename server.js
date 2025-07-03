@@ -24,7 +24,7 @@ const __dirname = path.resolve();
 
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://quiztechapp.netlify.app'],
+  origin: '*',
   credentials: true,
 }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
@@ -41,7 +41,7 @@ app.use('/api/ratings', ratingRoute );
 const server = http.createServer(app);
 const io = new SocketIOServer(server, {
   cors: {
-    origin: 'http://localhost:5173',
+    origin: '*',
     credentials: true,
   }
 });
