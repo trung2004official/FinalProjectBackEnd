@@ -23,7 +23,7 @@ const host = process.env.DB_HOST || 'localhost';
 const __dirname = path.resolve();
 
 app.use(express.json());
-app.options('*', cors({
+const corsOptions = {
   origin: [
     'http://localhost:5173',
     'https://quiztechapp.netlify.app',
@@ -31,7 +31,10 @@ app.options('*', cors({
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
-}));
+};
+
+app.use(cors(corsOptions));        
+app.options('*', cors(corsOptions)); 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 app.use('/api/auth', authRoute);
