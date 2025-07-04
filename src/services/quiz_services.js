@@ -38,6 +38,8 @@ export const addQuiz = async (title, duration, difficulty, major, description) =
         difficulty,
         major,
         description,
+        updatedAt: new Date(),
+        createdAt: new Date(),
     });
     return quiz;
 }
@@ -54,8 +56,8 @@ export const editQuiz = async (id, title, duration, difficulty, major, question_
     updatedQuiz.difficulty = difficulty || updatedQuiz.difficulty;
     updatedQuiz.major = major || updatedQuiz.major;
     updatedQuiz.question_count = question_count || updatedQuiz.question_count;
-    updatedQuiz.createdAt = new Date();
-    updatedQuiz.updatedQuiz = new Date();
+    updatedQuiz.createdAt = updatedQuiz.createdAt;
+    updatedQuiz.updatedAt = new Date();
     return updatedQuiz;
 }
 
@@ -77,6 +79,8 @@ export const addQuizzesFromExcel = async (quizList) => {
             difficulty,
             major,
             description,
+            updatedAt: new Date(),
+            createdAt: new Date(),
         });
         createdQuizzes.push(quiz);
     }
