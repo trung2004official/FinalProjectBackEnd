@@ -54,7 +54,8 @@ export const editQuiz = async (id, title, duration, difficulty, major, question_
     updatedQuiz.difficulty = difficulty || updatedQuiz.difficulty;
     updatedQuiz.major = major || updatedQuiz.major;
     updatedQuiz.question_count = question_count || updatedQuiz.question_count;
-
+    updatedQuiz.createdAt = new Date();
+    updatedQuiz.updatedQuiz = new Date();
     return updatedQuiz;
 }
 
