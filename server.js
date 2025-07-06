@@ -8,6 +8,7 @@ import quizAttemptRoute from './src/routes/quizAttemptRoutes.js';
 import answerAttemptRoute from './src/routes/answerAttemptRoutes.js';
 import answerRoute from './src/routes/answerRoutes.js';
 import ratingRoute from './src/routes/ratingRoutes.js';
+import favoriteRoute from './src/routes/favoriteRoutes.js';
 import cors from 'cors';
 import db from './src/models/index.js';
 import path from 'path';
@@ -45,6 +46,7 @@ app.use('/api/attempts', quizAttemptRoute);
 app.use('/api/answers-attempts', answerAttemptRoute);
 app.use('/api/answers', answerRoute );
 app.use('/api/ratings', ratingRoute );
+app.use('/api/favorites', favoriteRoute );
 
 const server = http.createServer(app);
 const io = new SocketIOServer(server, {

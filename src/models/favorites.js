@@ -45,4 +45,6 @@ Favorite.init(
         modelName: 'Favorite',
         tableName: 'favorites',
     }
-)
+);
+
+export default Favorite;
