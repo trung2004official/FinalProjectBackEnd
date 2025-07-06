@@ -29,6 +29,10 @@ class Quiz extends Model {
       foreignKey: 'quiz_id',
       otherKey: 'user_id',
     });
+
+    Quiz.hasMany(models.Favorite, {
+      foreignKey: 'quiz_id',
+    });
   }
 }
 

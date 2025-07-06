@@ -13,7 +13,10 @@ class User extends Model {
     });
     User.hasMany(models.Rating, {
       foreignKey: 'user_id',
-    })
+    });
+    User.hasMany(models.Favorite, {
+      foreignKey: 'user_id',
+    });
   }
 }
 
