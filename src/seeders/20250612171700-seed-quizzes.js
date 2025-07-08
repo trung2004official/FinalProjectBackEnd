@@ -13,15 +13,15 @@ export default {
         updatedAt: new Date(),
       },
       {
-        id: 5, title: 'JavaScript ES6 Basics', description: 'Kiến thức cơ bản ES6', duration: 40, difficulty: 'Gà mờ', status: 'private', image: null, question_count: 0, createdAt: new Date(),
+        id: 5, title: 'JavaScript ES6 Basics', description: 'Kiến thức cơ bản ES6', duration: 40, difficulty: 'Gà mờ', status: 'public', image: null, question_count: 40, createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        id: 6, title: 'Responsive Web Design', description: 'Thiết kế web responsive', duration: 40, difficulty: 'Gà mờ', status: 'private', image: null, question_count: 0, createdAt: new Date(),
+        id: 6, title: 'Responsive Web Design', description: 'Thiết kế web responsive', duration: 40, difficulty: 'Gà mờ', status: 'public', image: null, question_count: 40, createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        id: 7, title: 'Bootstrap Framework', description: 'Sử dụng Bootstrap hiệu quả', duration: 40, difficulty: 'Gà mờ', status: 'private', image: null, question_count: 0, createdAt: new Date(),
+        id: 7, title: 'Bootstrap Framework', description: 'Sử dụng Bootstrap hiệu quả', duration: 40, difficulty: 'Gà mờ', status: 'public', image: null, question_count: 40, createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
@@ -90,15 +90,15 @@ export default {
     // Mobile (20 quiz)
     const mobileQuizzes = [
       {
-        id: 23, title: 'Android Development Basics', description: 'Cơ bản về lập trình Android', duration: 40, difficulty: 'Gà mờ', status: 'private', image: null, question_count: 0, createdAt: new Date(),
+        id: 23, title: 'Android Development Basics', description: 'Cơ bản về lập trình Android', duration: 40, difficulty: 'Gà mờ', status: 'public', image: null, question_count: 40, createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        id: 24, title: 'iOS Swift Introduction', description: 'Giới thiệu Swift cho iOS', duration: 40, difficulty: 'Gà mờ', status: 'private', image: null, question_count: 0, createdAt: new Date(),
+        id: 24, title: 'iOS Swift Introduction', description: 'Giới thiệu Swift cho iOS', duration: 40, difficulty: 'Gà mờ', status: 'public', image: null, question_count: 40, createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        id: 25, title: 'Flutter Basics', description: 'Kiến thức cơ bản về Flutter', duration: 40, difficulty: 'Gà mờ', status: 'private', image: null, question_count: 0, createdAt: new Date(),
+        id: 25, title: 'Flutter Basics', description: 'Kiến thức cơ bản về Flutter', duration: 40, difficulty: 'Gà mờ', status: 'public', image: null, question_count: 40, createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
@@ -175,15 +175,15 @@ export default {
     // Mạng Máy Tính (20 quiz)
     const networkQuizzes = [
       {
-        id: 43, title: 'Networking Basics', description: 'Kiến thức cơ bản về mạng', duration: 40, difficulty: 'Gà mờ', status: 'private', image: null, question_count: 0, createdAt: new Date(),
+        id: 43, title: 'Networking Basics', description: 'Kiến thức cơ bản về mạng', duration: 40, difficulty: 'Gà mờ', status: 'public', image: null, question_count: 40, createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        id: 44, title: 'TCP/IP Introduction', description: 'Giới thiệu giao thức TCP/IP', duration: 40, difficulty: 'Gà mờ', status: 'private', image: null, question_count: 0, createdAt: new Date(),
+        id: 44, title: 'TCP/IP Introduction', description: 'Giới thiệu giao thức TCP/IP', duration: 40, difficulty: 'Gà mờ', status: 'public', image: null, question_count: 40, createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        id: 45, title: 'Subnetting Basics', description: 'Cơ bản về chia subnet', duration: 40, difficulty: 'Gà mờ', status: 'private', image: null, question_count: 0, createdAt: new Date(),
+        id: 45, title: 'Subnetting Basics', description: 'Cơ bản về chia subnet', duration: 40, difficulty: 'Gà mờ', status: 'public', image: null, question_count: 40, createdAt: new Date(),
         updatedAt: new Date(),
       },
       {

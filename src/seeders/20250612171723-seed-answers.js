@@ -824,6 +824,1813 @@ export default {
     updatedAt: new Date(), },
       { id: 369, question_id: 93, content: 'User authentication', is_correct: false,     createdAt: new Date(),
     updatedAt: new Date(), },
+    // Answers for Question 104
+      { id: 370, content: 'Gói tin', is_correct: true, question_id: 104, createdAt: new Date(), updatedAt: new Date() },
+      { id: 371, content: 'Dữ liệu thô', is_correct: false, question_id: 104, createdAt: new Date(), updatedAt: new Date() },
+      { id: 372, content: 'Tệp tin', is_correct: false, question_id: 104, createdAt: new Date(), updatedAt: new Date() },
+      { id: 373, content: 'Khối dữ liệu', is_correct: false, question_id: 104, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 105
+      { id: 374, content: 'Tầng Application', is_correct: true, question_id: 105, createdAt: new Date(), updatedAt: new Date() },
+      { id: 375, content: 'Tầng Transport', is_correct: false, question_id: 105, createdAt: new Date(), updatedAt: new Date() },
+      { id: 376, content: 'Tầng Network', is_correct: false, question_id: 105, createdAt: new Date(), updatedAt: new Date() },
+      { id: 377, content: 'Tầng Data Link', is_correct: false, question_id: 105, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 106
+      { id: 378, content: '7', is_correct: true, question_id: 106, createdAt: new Date(), updatedAt: new Date() },
+      { id: 379, content: '5', is_correct: false, question_id: 106, createdAt: new Date(), updatedAt: new Date() },
+      { id: 380, content: '4', is_correct: false, question_id: 106, createdAt: new Date(), updatedAt: new Date() },
+      { id: 381, content: '8', is_correct: false, question_id: 106, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 107
+      { id: 382, content: 'Địa chỉ IP', is_correct: true, question_id: 107, createdAt: new Date(), updatedAt: new Date() },
+      { id: 383, content: 'Địa chỉ MAC', is_correct: false, question_id: 107, createdAt: new Date(), updatedAt: new Date() },
+      { id: 384, content: 'Địa chỉ cổng', is_correct: false, question_id: 107, createdAt: new Date(), updatedAt: new Date() },
+      { id: 385, content: 'Địa chỉ VLAN', is_correct: false, question_id: 107, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 108
+      { id: 386, content: 'Địa chỉ MAC', is_correct: true, question_id: 108, createdAt: new Date(), updatedAt: new Date() },
+      { id: 387, content: 'Địa chỉ IP', is_correct: false, question_id: 108, createdAt: new Date(), updatedAt: new Date() },
+      { id: 388, content: 'Địa chỉ cổng', is_correct: false, question_id: 108, createdAt: new Date(), updatedAt: new Date() },
+      { id: 389, content: 'Địa chỉ mạng', is_correct: false, question_id: 108, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 109
+      { id: 390, content: 'Router', is_correct: true, question_id: 109, createdAt: new Date(), updatedAt: new Date() },
+      { id: 391, content: 'Switch', is_correct: false, question_id: 109, createdAt: new Date(), updatedAt: new Date() },
+      { id: 392, content: 'Hub', is_correct: false, question_id: 109, createdAt: new Date(), updatedAt: new Date() },
+      { id: 393, content: 'Bridge', is_correct: false, question_id: 109, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 110
+      { id: 394, content: 'Switch', is_correct: true, question_id: 110, createdAt: new Date(), updatedAt: new Date() },
+      { id: 395, content: 'Router', is_correct: false, question_id: 110, createdAt: new Date(), updatedAt: new Date() },
+      { id: 396, content: 'Hub', is_correct: false, question_id: 110, createdAt: new Date(), updatedAt: new Date() },
+      { id: 397, content: 'Gateway', is_correct: false, question_id: 110, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 111
+      { id: 398, content: 'Hub', is_correct: true, question_id: 111, createdAt: new Date(), updatedAt: new Date() },
+      { id: 399, content: 'Switch', is_correct: false, question_id: 111, createdAt: new Date(), updatedAt: new Date() },
+      { id: 400, content: 'Router', is_correct: false, question_id: 111, createdAt: new Date(), updatedAt: new Date() },
+      { id: 401, content: 'Bridge', is_correct: false, question_id: 111, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 112
+      { id: 402, content: 'Ethernet', is_correct: true, question_id: 112, createdAt: new Date(), updatedAt: new Date() },
+      { id: 403, content: 'Wi-Fi', is_correct: false, question_id: 112, createdAt: new Date(), updatedAt: new Date() },
+      { id: 404, content: 'Bluetooth', is_correct: false, question_id: 112, createdAt: new Date(), updatedAt: new Date() },
+      { id: 405, content: 'Infrared', is_correct: false, question_id: 112, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 113
+      { id: 406, content: 'LAN', is_correct: true, question_id: 113, createdAt: new Date(), updatedAt: new Date() },
+      { id: 407, content: 'WAN', is_correct: false, question_id: 113, createdAt: new Date(), updatedAt: new Date() },
+      { id: 408, content: 'MAN', is_correct: false, question_id: 113, createdAt: new Date(), updatedAt: new Date() },
+      { id: 409, content: 'PAN', is_correct: false, question_id: 113, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 114
+      { id: 410, content: 'WAN', is_correct: true, question_id: 114, createdAt: new Date(), updatedAt: new Date() },
+      { id: 411, content: 'LAN', is_correct: false, question_id: 114, createdAt: new Date(), updatedAt: new Date() },
+      { id: 412, content: 'MAN', is_correct: false, question_id: 114, createdAt: new Date(), updatedAt: new Date() },
+      { id: 413, content: 'PAN', is_correct: false, question_id: 114, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 115
+      { id: 414, content: 'Tầng Data Link', is_correct: true, question_id: 115, createdAt: new Date(), updatedAt: new Date() },
+      { id: 415, content: 'Tầng Network', is_correct: false, question_id: 115, createdAt: new Date(), updatedAt: new Date() },
+      { id: 416, content: 'Tầng Transport', is_correct: false, question_id: 115, createdAt: new Date(), updatedAt: new Date() },
+      { id: 417, content: 'Tầng Application', is_correct: false, question_id: 115, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 116
+      { id: 418, content: 'Tầng Network', is_correct: true, question_id: 116, createdAt: new Date(), updatedAt: new Date() },
+      { id: 419, content: 'Tầng Data Link', is_correct: false, question_id: 116, createdAt: new Date(), updatedAt: new Date() },
+      { id: 420, content: 'Tầng Transport', is_correct: false, question_id: 116, createdAt: new Date(), updatedAt: new Date() },
+      { id: 421, content: 'Tầng Physical', is_correct: false, question_id: 116, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 117
+      { id: 422, content: 'Tầng Transport', is_correct: true, question_id: 117, createdAt: new Date(), updatedAt: new Date() },
+      { id: 423, content: 'Tầng Network', is_correct: false, question_id: 117, createdAt: new Date(), updatedAt: new Date() },
+      { id: 424, content: 'Tầng Data Link', is_correct: false, question_id: 117, createdAt: new Date(), updatedAt: new Date() },
+      { id: 425, content: 'Tầng Application', is_correct: false, question_id: 117, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 118
+      { id: 426, content: 'Gói tin', is_correct: true, question_id: 118, createdAt: new Date(), updatedAt: new Date() },
+      { id: 427, content: 'Frame', is_correct: false, question_id: 118, createdAt: new Date(), updatedAt: new Date() },
+      { id: 428, content: 'Segment', is_correct: false, question_id: 118, createdAt: new Date(), updatedAt: new Date() },
+      { id: 429, content: 'Bit', is_correct: false, question_id: 118, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 119
+      { id: 430, content: 'Frame', is_correct: true, question_id: 119, createdAt: new Date(), updatedAt: new Date() },
+      { id: 431, content: 'Gói tin', is_correct: false, question_id: 119, createdAt: new Date(), updatedAt: new Date() },
+      { id: 432, content: 'Segment', is_correct: false, question_id: 119, createdAt: new Date(), updatedAt: new Date() },
+      { id: 433, content: 'Bit', is_correct: false, question_id: 119, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 120
+      { id: 434, content: 'Segment', is_correct: true, question_id: 120, createdAt: new Date(), updatedAt: new Date() },
+      { id: 435, content: 'Gói tin', is_correct: false, question_id: 120, createdAt: new Date(), updatedAt: new Date() },
+      { id: 436, content: 'Frame', is_correct: false, question_id: 120, createdAt: new Date(), updatedAt: new Date() },
+      { id: 437, content: 'Bit', is_correct: false, question_id: 120, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 121
+      { id: 438, content: 'TCP/IP', is_correct: true, question_id: 121, createdAt: new Date(), updatedAt: new Date() },
+      { id: 439, content: 'OSI', is_correct: false, question_id: 121, createdAt: new Date(), updatedAt: new Date() },
+      { id: 440, content: 'HTTP', is_correct: false, question_id: 121, createdAt: new Date(), updatedAt: new Date() },
+      { id: 441, content: 'FTP', is_correct: false, question_id: 121, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 122
+      { id: 442, content: '4', is_correct: true, question_id: 122, createdAt: new Date(), updatedAt: new Date() },
+      { id: 443, content: '7', is_correct: false, question_id: 122, createdAt: new Date(), updatedAt: new Date() },
+      { id: 444, content: '5', is_correct: false, question_id: 122, createdAt: new Date(), updatedAt: new Date() },
+      { id: 445, content: '6', is_correct: false, question_id: 122, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 123
+      { id: 446, content: 'Định tuyến', is_correct: true, question_id: 123, createdAt: new Date(), updatedAt: new Date() },
+      { id: 447, content: 'Chuyển mạch', is_correct: false, question_id: 123, createdAt: new Date(), updatedAt: new Date() },
+      { id: 448, content: 'Nén dữ liệu', is_correct: false, question_id: 123, createdAt: new Date(), updatedAt: new Date() },
+      { id: 449, content: 'Mã hóa', is_correct: false, question_id: 123, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 124
+      { id: 450, content: 'Chuyển mạch', is_correct: true, question_id: 124, createdAt: new Date(), updatedAt: new Date() },
+      { id: 451, content: 'Định tuyến', is_correct: false, question_id: 124, createdAt: new Date(), updatedAt: new Date() },
+      { id: 452, content: 'Nén dữ liệu', is_correct: false, question_id: 124, createdAt: new Date(), updatedAt: new Date() },
+      { id: 453, content: 'Mã hóa', is_correct: false, question_id: 124, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 125
+      { id: 454, content: 'DNS', is_correct: true, question_id: 125, createdAt: new Date(), updatedAt: new Date() },
+      { id: 455, content: 'DHCP', is_correct: false, question_id: 125, createdAt: new Date(), updatedAt: new Date() },
+      { id: 456, content: 'FTP', is_correct: false, question_id: 125, createdAt: new Date(), updatedAt: new Date() },
+      { id: 457, content: 'HTTP', is_correct: false, question_id: 125, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 126
+      { id: 458, content: 'DHCP', is_correct: true, question_id: 126, createdAt: new Date(), updatedAt: new Date() },
+      { id: 459, content: 'DNS', is_correct: false, question_id: 126, createdAt: new Date(), updatedAt: new Date() },
+      { id: 460, content: 'FTP', is_correct: false, question_id: 126, createdAt: new Date(), updatedAt: new Date() },
+      { id: 461, content: 'SNMP', is_correct: false, question_id: 126, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 127
+      { id: 462, content: 'Firewall', is_correct: true, question_id: 127, createdAt: new Date(), updatedAt: new Date() },
+      { id: 463, content: 'Router', is_correct: false, question_id: 127, createdAt: new Date(), updatedAt: new Date() },
+      { id: 464, content: 'Switch', is_correct: false, question_id: 127, createdAt: new Date(), updatedAt: new Date() },
+      { id: 465, content: 'Hub', is_correct: false, question_id: 127, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 128
+      { id: 466, content: '80', is_correct: true, question_id: 128, createdAt: new Date(), updatedAt: new Date() },
+      { id: 467, content: '443', is_correct: false, question_id: 128, createdAt: new Date(), updatedAt: new Date() },
+      { id: 468, content: '21', is_correct: false, question_id: 128, createdAt: new Date(), updatedAt: new Date() },
+      { id: 469, content: '22', is_correct: false, question_id: 128, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 129
+      { id: 470, content: '443', is_correct: true, question_id: 129, createdAt: new Date(), updatedAt: new Date() },
+      { id: 471, content: '80', is_correct: false, question_id: 129, createdAt: new Date(), updatedAt: new Date() },
+      { id: 472, content: '21', is_correct: false, question_id: 129, createdAt: new Date(), updatedAt: new Date() },
+      { id: 473, content: '22', is_correct: false, question_id: 129, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 130
+      { id: 474, content: '22', is_correct: true, question_id: 130, createdAt: new Date(), updatedAt: new Date() },
+      { id: 475, content: '80', is_correct: false, question_id: 130, createdAt: new Date(), updatedAt: new Date() },
+      { id: 476, content: '443', is_correct: false, question_id: 130, createdAt: new Date(), updatedAt: new Date() },
+      { id: 477, content: '21', is_correct: false, question_id: 130, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 131
+      { id: 478, content: 'VLAN', is_correct: true, question_id: 131, createdAt: new Date(), updatedAt: new Date() },
+      { id: 479, content: 'VPN', is_correct: false, question_id: 131, createdAt: new Date(), updatedAt: new Date() },
+      { id: 480, content: 'WAN', is_correct: false, question_id: 131, createdAt: new Date(), updatedAt: new Date() },
+      { id: 481, content: 'LAN', is_correct: false, question_id: 131, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 132
+      { id: 482, content: 'VPN', is_correct: true, question_id: 132, createdAt: new Date(), updatedAt: new Date() },
+      { id: 483, content: 'VLAN', is_correct: false, question_id: 132, createdAt: new Date(), updatedAt: new Date() },
+      { id: 484, content: 'WAN', is_correct: false, question_id: 132, createdAt: new Date(), updatedAt: new Date() },
+      { id: 485, content: 'LAN', is_correct: false, question_id: 132, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 133
+      { id: 486, content: 'Giao thức', is_correct: true, question_id: 133, createdAt: new Date(), updatedAt: new Date() },
+      { id: 487, content: 'Phần cứng', is_correct: false, question_id: 133, createdAt: new Date(), updatedAt: new Date() },
+      { id: 488, content: 'Phần mềm', is_correct: false, question_id: 133, createdAt: new Date(), updatedAt: new Date() },
+      { id: 489, content: 'Cáp mạng', is_correct: false, question_id: 133, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 134
+      { id: 490, content: 'Tầng Physical', is_correct: true, question_id: 134, createdAt: new Date(), updatedAt: new Date() },
+      { id: 491, content: 'Tầng Data Link', is_correct: false, question_id: 134, createdAt: new Date(), updatedAt: new Date() },
+      { id: 492, content: 'Tầng Network', is_correct: false, question_id: 134, createdAt: new Date(), updatedAt: new Date() },
+      { id: 493, content: 'Tầng Application', is_correct: false, question_id: 134, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 135
+      { id: 494, content: 'ARP', is_correct: true, question_id: 135, createdAt: new Date(), updatedAt: new Date() },
+      { id: 495, content: 'DNS', is_correct: false, question_id: 135, createdAt: new Date(), updatedAt: new Date() },
+      { id: 496, content: 'DHCP', is_correct: false, question_id: 135, createdAt: new Date(), updatedAt: new Date() },
+      { id: 497, content: 'ICMP', is_correct: false, question_id: 135, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 136
+      { id: 498, content: 'Gateway', is_correct: true, question_id: 136, createdAt: new Date(), updatedAt: new Date() },
+      { id: 499, content: 'Switch', is_correct: false, question_id: 136, createdAt: new Date(), updatedAt: new Date() },
+      { id: 500, content: 'Hub', is_correct: false, question_id: 136, createdAt: new Date(), updatedAt: new Date() },
+      { id: 501, content: 'Bridge', is_correct: false, question_id: 136, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 137
+      { id: 502, content: 'NAT', is_correct: true, question_id: 137, createdAt: new Date(), updatedAt: new Date() },
+      { id: 503, content: 'PAT', is_correct: false, question_id: 137, createdAt: new Date(), updatedAt: new Date() },
+      { id: 504, content: 'VLAN', is_correct: false, question_id: 137, createdAt: new Date(), updatedAt: new Date() },
+      { id: 505, content: 'VPN', is_correct: false, question_id: 137, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 138
+      { id: 506, content: '21', is_correct: true, question_id: 138, createdAt: new Date(), updatedAt: new Date() },
+      { id: 507, content: '22', is_correct: false, question_id: 138, createdAt: new Date(), updatedAt: new Date() },
+      { id: 508, content: '80', is_correct: false, question_id: 138, createdAt: new Date(), updatedAt: new Date() },
+      { id: 509, content: '443', is_correct: false, question_id: 138, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 139
+      { id: 510, content: 'Tầng Session', is_correct: true, question_id: 139, createdAt: new Date(), updatedAt: new Date() },
+      { id: 511, content: 'Tầng Transport', is_correct: false, question_id: 139, createdAt: new Date(), updatedAt: new Date() },
+      { id: 512, content: 'Tầng Network', is_correct: false, question_id: 139, createdAt: new Date(), updatedAt: new Date() },
+      { id: 513, content: 'Tầng Data Link', is_correct: false, question_id: 139, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 140
+      { id: 514, content: 'Tầng Presentation', is_correct: true, question_id: 140, createdAt: new Date(), updatedAt: new Date() },
+      { id: 515, content: 'Tầng Application', is_correct: false, question_id: 140, createdAt: new Date(), updatedAt: new Date() },
+      { id: 516, content: 'Tầng Transport', is_correct: false, question_id: 140, createdAt: new Date(), updatedAt: new Date() },
+      { id: 517, content: 'Tầng Network', is_correct: false, question_id: 140, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 141
+      { id: 518, content: 'Bridge', is_correct: true, question_id: 141, createdAt: new Date(), updatedAt: new Date() },
+      { id: 519, content: 'Router', is_correct: false, question_id: 141, createdAt: new Date(), updatedAt: new Date() },
+      { id: 520, content: 'Switch', is_correct: false, question_id: 141, createdAt: new Date(), updatedAt: new Date() },
+      { id: 521, content: 'Hub', is_correct: false, question_id: 141, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 142
+      { id: 522, content: '802.11', is_correct: true, question_id: 142, createdAt: new Date(), updatedAt: new Date() },
+      { id: 523, content: '802.3', is_correct: false, question_id: 142, createdAt: new Date(), updatedAt: new Date() },
+      { id: 524, content: '802.1', is_correct: false, question_id: 142, createdAt: new Date(), updatedAt: new Date() },
+      { id: 525, content: '802.5', is_correct: false, question_id: 142, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 143
+      { id: 526, content: '802.3', is_correct: true, question_id: 143, createdAt: new Date(), updatedAt: new Date() },
+      { id: 527, content: '802.11', is_correct: false, question_id: 143, createdAt: new Date(), updatedAt: new Date() },
+      { id: 528, content: '802.1', is_correct: false, question_id: 143, createdAt: new Date(), updatedAt: new Date() },
+      { id: 529, content: '802.5', is_correct: false, question_id: 143, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 144
+      { id: 530, content: 'CSMA/CD', is_correct: true, question_id: 144, createdAt: new Date(), updatedAt: new Date() },
+      { id: 531, content: 'CSMA/CA', is_correct: false, question_id: 144, createdAt: new Date(), updatedAt: new Date() },
+      { id: 532, content: 'TDMA', is_correct: false, question_id: 144, createdAt: new Date(), updatedAt: new Date() },
+      { id: 533, content: 'FDMA', is_correct: false, question_id: 144, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 145
+      { id: 534, content: 'CSMA/CA', is_correct: true, question_id: 145, createdAt: new Date(), updatedAt: new Date() },
+      { id: 535, content: 'CSMA/CD', is_correct: false, question_id: 145, createdAt: new Date(), updatedAt: new Date() },
+      { id: 536, content: 'TDMA', is_correct: false, question_id: 145, createdAt: new Date(), updatedAt: new Date() },
+      { id: 537, content: 'FDMA', is_correct: false, question_id: 145, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 146
+      { id: 538, content: 'IP', is_correct: true, question_id: 146, createdAt: new Date(), updatedAt: new Date() },
+      { id: 539, content: 'TCP', is_correct: false, question_id: 146, createdAt: new Date(), updatedAt: new Date() },
+      { id: 540, content: 'UDP', is_correct: false, question_id: 146, createdAt: new Date(), updatedAt: new Date() },
+      { id: 541, content: 'ICMP', is_correct: false, question_id: 146, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 147
+      { id: 542, content: 'TCP', is_correct: true, question_id: 147, createdAt: new Date(), updatedAt: new Date() },
+      { id: 543, content: 'IP', is_correct: false, question_id: 147, createdAt: new Date(), updatedAt: new Date() },
+      { id: 544, content: 'UDP', is_correct: false, question_id: 147, createdAt: new Date(), updatedAt: new Date() },
+      { id: 545, content: 'ICMP', is_correct: false, question_id: 147, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 148
+      { id: 546, content: 'UDP', is_correct: true, question_id: 148, createdAt: new Date(), updatedAt: new Date() },
+      { id: 547, content: 'TCP', is_correct: false, question_id: 148, createdAt: new Date(), updatedAt: new Date() },
+      { id: 548, content: 'IP', is_correct: false, question_id: 148, createdAt: new Date(), updatedAt: new Date() },
+      { id: 549, content: 'ICMP', is_correct: false, question_id: 148, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 149
+      { id: 550, content: 'FTP', is_correct: true, question_id: 149, createdAt: new Date(), updatedAt: new Date() },
+      { id: 551, content: 'HTTP', is_correct: false, question_id: 149, createdAt: new Date(), updatedAt: new Date() },
+      { id: 552, content: 'SMTP', is_correct: false, question_id: 149, createdAt: new Date(), updatedAt: new Date() },
+      { id: 553, content: 'DNS', is_correct: false, question_id: 149, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 150
+      { id: 554, content: 'HTTP', is_correct: true, question_id: 150, createdAt: new Date(), updatedAt: new Date() },
+      { id: 555, content: 'FTP', is_correct: false, question_id: 150, createdAt: new Date(), updatedAt: new Date() },
+      { id: 556, content: 'SMTP', is_correct: false, question_id: 150, createdAt: new Date(), updatedAt: new Date() },
+      { id: 557, content: 'DNS', is_correct: false, question_id: 150, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 151
+      { id: 558, content: 'SMTP', is_correct: true, question_id: 151, createdAt: new Date(), updatedAt: new Date() },
+      { id: 559, content: 'HTTP', is_correct: false, question_id: 151, createdAt: new Date(), updatedAt: new Date() },
+      { id: 560, content: 'FTP', is_correct: false, question_id: 151, createdAt: new Date(), updatedAt: new Date() },
+      { id: 561, content: 'DNS', is_correct: false, question_id: 151, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 152
+      { id: 562, content: 'Đồng bộ dữ liệu', is_correct: true, question_id: 152, createdAt: new Date(), updatedAt: new Date() },
+      { id: 563, content: 'Nén dữ liệu', is_correct: false, question_id: 152, createdAt: new Date(), updatedAt: new Date() },
+      { id: 564, content: 'Mã hóa dữ liệu', is_correct: false, question_id: 152, createdAt: new Date(), updatedAt: new Date() },
+      { id: 565, content: 'Phân mảnh dữ liệu', is_correct: false, question_id: 152, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 153
+      { id: 566, content: 'Tầng Application', is_correct: true, question_id: 153, createdAt: new Date(), updatedAt: new Date() },
+      { id: 567, content: 'Tầng Transport', is_correct: false, question_id: 153, createdAt: new Date(), updatedAt: new Date() },
+      { id: 568, content: 'Tầng Network', is_correct: false, question_id: 153, createdAt: new Date(), updatedAt: new Date() },
+      { id: 569, content: 'Tầng Data Link', is_correct: false, question_id: 153, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 154
+      { id: 570, content: 'Tầng Internet', is_correct: true, question_id: 154, createdAt: new Date(), updatedAt: new Date() },
+      { id: 571, content: 'Tầng Application', is_correct: false, question_id: 154, createdAt: new Date(), updatedAt: new Date() },
+      { id: 572, content: 'Tầng Transport', is_correct: false, question_id: 154, createdAt: new Date(), updatedAt: new Date() },
+      { id: 573, content: 'Tầng Link', is_correct: false, question_id: 154, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 155
+      { id: 574, content: 'Tầng Link', is_correct: true, question_id: 155, createdAt: new Date(), updatedAt: new Date() },
+      { id: 575, content: 'Tầng Internet', is_correct: false, question_id: 155, createdAt: new Date(), updatedAt: new Date() },
+      { id: 576, content: 'Tầng Transport', is_correct: false, question_id: 155, createdAt: new Date(), updatedAt: new Date() },
+      { id: 577, content: 'Tầng Application', is_correct: false, question_id: 155, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 156
+      { id: 578, content: 'Tầng Transport', is_correct: true, question_id: 156, createdAt: new Date(), updatedAt: new Date() },
+      { id: 579, content: 'Tầng Internet', is_correct: false, question_id: 156, createdAt: new Date(), updatedAt: new Date() },
+      { id: 580, content: 'Tầng Link', is_correct: false, question_id: 156, createdAt: new Date(), updatedAt: new Date() },
+      { id: 581, content: 'Tầng Application', is_correct: false, question_id: 156, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 157
+      { id: 582, content: 'Ping', is_correct: true, question_id: 157, createdAt: new Date(), updatedAt: new Date() },
+      { id: 583, content: 'Traceroute', is_correct: false, question_id: 157, createdAt: new Date(), updatedAt: new Date() },
+      { id: 584, content: 'Telnet', is_correct: false, question_id: 157, createdAt: new Date(), updatedAt: new Date() },
+      { id: 585, content: 'FTP', is_correct: false, question_id: 157, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 158
+      { id: 586, content: 'Traceroute', is_correct: true, question_id: 158, createdAt: new Date(), updatedAt: new Date() },
+      { id: 587, content: 'Ping', is_correct: false, question_id: 158, createdAt: new Date(), updatedAt: new Date() },
+      { id: 588, content: 'Telnet', is_correct: false, question_id: 158, createdAt: new Date(), updatedAt: new Date() },
+      { id: 589, content: 'FTP', is_correct: false, question_id: 158, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 159
+      { id: 590, content: 'Telnet', is_correct: true, question_id: 159, createdAt: new Date(), updatedAt: new Date() },
+      { id: 591, content: 'SSH', is_correct: false, question_id: 159, createdAt: new Date(), updatedAt: new Date() },
+      { id: 592, content: 'FTP', is_correct: false, question_id: 159, createdAt: new Date(), updatedAt: new Date() },
+      { id: 593, content: 'HTTP', is_correct: false, question_id: 159, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 160
+      { id: 594, content: 'SSH', is_correct: true, question_id: 160, createdAt: new Date(), updatedAt: new Date() },
+      { id: 595, content: 'Telnet', is_correct: false, question_id: 160, createdAt: new Date(), updatedAt: new Date() },
+      { id: 596, content: 'FTP', is_correct: false, question_id: 160, createdAt: new Date(), updatedAt: new Date() },
+      { id: 597, content: 'HTTP', is_correct: false, question_id: 160, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 161
+      { id: 598, content: 'SNMP', is_correct: true, question_id: 161, createdAt: new Date(), updatedAt: new Date() },
+      { id: 599, content: 'FTP', is_correct: false, question_id: 161, createdAt: new Date(), updatedAt: new Date() },
+      { id: 600, content: 'HTTP', is_correct: false, question_id: 161, createdAt: new Date(), updatedAt: new Date() },
+      { id: 601, content: 'DNS', is_correct: false, question_id: 161, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 162
+      { id: 602, content: 'RIP', is_correct: true, question_id: 162, createdAt: new Date(), updatedAt: new Date() },
+      { id: 603, content: 'OSPF', is_correct: false, question_id: 162, createdAt: new Date(), updatedAt: new Date() },
+      { id: 604, content: 'BGP', is_correct: false, question_id: 162, createdAt: new Date(), updatedAt: new Date() },
+      { id: 605, content: 'IGMP', is_correct: false, question_id: 162, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 163
+      { id: 606, content: 'OSPF', is_correct: true, question_id: 163, createdAt: new Date(), updatedAt: new Date() },
+      { id: 607, content: 'RIP', is_correct: false, question_id: 163, createdAt: new Date(), updatedAt: new Date() },
+      { id: 608, content: 'BGP', is_correct: false, question_id: 163, createdAt: new Date(), updatedAt: new Date() },
+      { id: 609, content: 'IGMP', is_correct: false, question_id: 163, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 164
+      { id: 610, content: 'BGP', is_correct: true, question_id: 164, createdAt: new Date(), updatedAt: new Date() },
+      { id: 611, content: 'RIP', is_correct: false, question_id: 164, createdAt: new Date(), updatedAt: new Date() },
+      { id: 612, content: 'OSPF', is_correct: false, question_id: 164, createdAt: new Date(), updatedAt: new Date() },
+      { id: 613, content: 'IGMP', is_correct: false, question_id: 164, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 165
+      { id: 614, content: 'Tầng Data Link', is_correct: true, question_id: 165, createdAt: new Date(), updatedAt: new Date() },
+      { id: 615, content: 'Tầng Network', is_correct: false, question_id: 165, createdAt: new Date(), updatedAt: new Date() },
+      { id: 616, content: 'Tầng Transport', is_correct: false, question_id: 165, createdAt: new Date(), updatedAt: new Date() },
+      { id: 617, content: 'Tầng Application', is_correct: false, question_id: 165, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 166
+      { id: 618, content: 'Tầng Network', is_correct: true, question_id: 166, createdAt: new Date(), updatedAt: new Date() },
+      { id: 619, content: 'Tầng Data Link', is_correct: false, question_id: 166, createdAt: new Date(), updatedAt: new Date() },
+      { id: 620, content: 'Tầng Transport', is_correct: false, question_id: 166, createdAt: new Date(), updatedAt: new Date() },
+      { id: 621, content: 'Tầng Physical', is_correct: false, question_id: 166, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 167
+      { id: 622, content: 'Tầng Transport', is_correct: true, question_id: 167, createdAt: new Date(), updatedAt: new Date() },
+      { id: 623, content: 'Tầng Network', is_correct: false, question_id: 167, createdAt: new Date(), updatedAt: new Date() },
+      { id: 624, content: 'Tầng Data Link', is_correct: false, question_id: 167, createdAt: new Date(), updatedAt: new Date() },
+      { id: 625, content: 'Tầng Application', is_correct: false, question_id: 167, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 168
+      { id: 626, content: 'Frame', is_correct: true, question_id: 168, createdAt: new Date(), updatedAt: new Date() },
+      { id: 627, content: 'Gói tin', is_correct: false, question_id: 168, createdAt: new Date(), updatedAt: new Date() },
+      { id: 628, content: 'Segment', is_correct: false, question_id: 168, createdAt: new Date(), updatedAt: new Date() },
+      { id: 629, content: 'Bit', is_correct: false, question_id: 168, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 169
+      { id: 630, content: 'Gói tin', is_correct: true, question_id: 169, createdAt: new Date(), updatedAt: new Date() },
+      { id: 631, content: 'Frame', is_correct: false, question_id: 169, createdAt: new Date(), updatedAt: new Date() },
+      { id: 632, content: 'Segment', is_correct: false, question_id: 169, createdAt: new Date(), updatedAt: new Date() },
+      { id: 633, content: 'Bit', is_correct: false, question_id: 169, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 170
+      { id: 634, content: 'Segment', is_correct: true, question_id: 170, createdAt: new Date(), updatedAt: new Date() },
+      { id: 635, content: 'Gói tin', is_correct: false, question_id: 170, createdAt: new Date(), updatedAt: new Date() },
+      { id: 636, content: 'Frame', is_correct: false, question_id: 170, createdAt: new Date(), updatedAt: new Date() },
+      { id: 637, content: 'Bit', is_correct: false, question_id: 170, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 171
+      { id: 638, content: '4', is_correct: true, question_id: 171, createdAt: new Date(), updatedAt: new Date() },
+      { id: 639, content: '7', is_correct: false, question_id: 171, createdAt: new Date(), updatedAt: new Date() },
+      { id: 640, content: '5', is_correct: false, question_id: 171, createdAt: new Date(), updatedAt: new Date() },
+      { id: 641, content: '6', is_correct: false, question_id: 171, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 172
+      { id: 642, content: 'TCP/IP', is_correct: true, question_id: 172, createdAt: new Date(), updatedAt: new Date() },
+      { id: 643, content: 'OSI', is_correct: false, question_id: 172, createdAt: new Date(), updatedAt: new Date() },
+      { id: 644, content: 'HTTP', is_correct: false, question_id: 172, createdAt: new Date(), updatedAt: new Date() },
+      { id: 645, content: 'FTP', is_correct: false, question_id: 172, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 173
+      { id: 646, content: 'Router', is_correct: true, question_id: 173, createdAt: new Date(), updatedAt: new Date() },
+      { id: 647, content: 'Switch', is_correct: false, question_id: 173, createdAt: new Date(), updatedAt: new Date() },
+      { id: 648, content: 'Hub', is_correct: false, question_id: 173, createdAt: new Date(), updatedAt: new Date() },
+      { id: 649, content: 'Bridge', is_correct: false, question_id: 173, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 174
+      { id: 650, content: 'Switch', is_correct: true, question_id: 174, createdAt: new Date(), updatedAt: new Date() },
+      { id: 651, content: 'Router', is_correct: false, question_id: 174, createdAt: new Date(), updatedAt: new Date() },
+      { id: 652, content: 'Hub', is_correct: false, question_id: 174, createdAt: new Date(), updatedAt: new Date() },
+      { id: 653, content: 'Gateway', is_correct: false, question_id: 174, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 175
+      { id: 654, content: 'Hub', is_correct: true, question_id: 175, createdAt: new Date(), updatedAt: new Date() },
+      { id: 655, content: 'Switch', is_correct: false, question_id: 175, createdAt: new Date(), updatedAt: new Date() },
+      { id: 656, content: 'Router', is_correct: false, question_id: 175, createdAt: new Date(), updatedAt: new Date() },
+      { id: 657, content: 'Bridge', is_correct: false, question_id: 175, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 176
+      { id: 658, content: 'Địa chỉ IP', is_correct: true, question_id: 176, createdAt: new Date(), updatedAt: new Date() },
+      { id: 659, content: 'Địa chỉ MAC', is_correct: false, question_id: 176, createdAt: new Date(), updatedAt: new Date() },
+      { id: 660, content: 'Địa chỉ cổng', is_correct: false, question_id: 176, createdAt: new Date(), updatedAt: new Date() },
+      { id: 661, content: 'Địa chỉ VLAN', is_correct: false, question_id: 176, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 177
+      { id: 662, content: 'Địa chỉ MAC', is_correct: true, question_id: 177, createdAt: new Date(), updatedAt: new Date() },
+      { id: 663, content: 'Địa chỉ IP', is_correct: false, question_id: 177, createdAt: new Date(), updatedAt: new Date() },
+      { id: 664, content: 'Địa chỉ cổng', is_correct: false, question_id: 177, createdAt: new Date(), updatedAt: new Date() },
+      { id: 665, content: 'Địa chỉ mạng', is_correct: false, question_id: 177, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 178
+      { id: 666, content: 'LAN', is_correct: true, question_id: 178, createdAt: new Date(), updatedAt: new Date() },
+      { id: 667, content: 'WAN', is_correct: false, question_id: 178, createdAt: new Date(), updatedAt: new Date() },
+      { id: 668, content: 'MAN', is_correct: false, question_id: 178, createdAt: new Date(), updatedAt: new Date() },
+      { id: 669, content: 'PAN', is_correct: false, question_id: 178, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 179
+      { id: 670, content: 'WAN', is_correct: true, question_id: 179, createdAt: new Date(), updatedAt: new Date() },
+      { id: 671, content: 'LAN', is_correct: false, question_id: 179, createdAt: new Date(), updatedAt: new Date() },
+      { id: 672, content: 'MAN', is_correct: false, question_id: 179, createdAt: new Date(), updatedAt: new Date() },
+      { id: 673, content: 'PAN', is_correct: false, question_id: 179, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 180
+      { id: 674, content: 'VLAN', is_correct: true, question_id: 180, createdAt: new Date(), updatedAt: new Date() },
+      { id: 675, content: 'VPN', is_correct: false, question_id: 180, createdAt: new Date(), updatedAt: new Date() },
+      { id: 676, content: 'WAN', is_correct: false, question_id: 180, createdAt: new Date(), updatedAt: new Date() },
+      { id: 677, content: 'LAN', is_correct: false, question_id: 180, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 181
+      { id: 678, content: 'VPN', is_correct: true, question_id: 181, createdAt: new Date(), updatedAt: new Date() },
+      { id: 679, content: 'VLAN', is_correct: false, question_id: 181, createdAt: new Date(), updatedAt: new Date() },
+      { id: 680, content: 'WAN', is_correct: false, question_id: 181, createdAt: new Date(), updatedAt: new Date() },
+      { id: 681, content: 'LAN', is_correct: false, question_id: 181, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 182
+      { id: 682, content: 'Firewall', is_correct: true, question_id: 182, createdAt: new Date(), updatedAt: new Date() },
+      { id: 683, content: 'Router', is_correct: false, question_id: 182, createdAt: new Date(), updatedAt: new Date() },
+      { id: 684, content: 'Switch', is_correct: false, question_id: 182, createdAt: new Date(), updatedAt: new Date() },
+      { id: 685, content: 'Hub', is_correct: false, question_id: 182, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 183
+      { id: 686, content: 'NAT', is_correct: true, question_id: 183, createdAt: new Date(), updatedAt: new Date() },
+      { id: 687, content: 'PAT', is_correct: false, question_id: 183, createdAt: new Date(), updatedAt: new Date() },
+      { id: 688, content: 'VLAN', is_correct: false, question_id: 183, createdAt: new Date(), updatedAt: new Date() },
+      { id: 689, content: 'VPN', is_correct: false, question_id: 183, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 184
+      { id: 690, content: 'PAT', is_correct: true, question_id: 184, createdAt: new Date(), updatedAt: new Date() },
+      { id: 691, content: 'NAT', is_correct: false, question_id: 184, createdAt: new Date(), updatedAt: new Date() },
+      { id: 692, content: 'VLAN', is_correct: false, question_id: 184, createdAt: new Date(), updatedAt: new Date() },
+      { id: 693, content: 'VPN', is_correct: false, question_id: 184, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 185
+      { id: 694, content: 'DNS', is_correct: true, question_id: 185, createdAt: new Date(), updatedAt: new Date() },
+      { id: 695, content: 'DHCP', is_correct: false, question_id: 185, createdAt: new Date(), updatedAt: new Date() },
+      { id: 696, content: 'FTP', is_correct: false, question_id: 185, createdAt: new Date(), updatedAt: new Date() },
+      { id: 697, content: 'HTTP', is_correct: false, question_id: 185, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 186
+      { id: 698, content: 'DHCP', is_correct: true, question_id: 186, createdAt: new Date(), updatedAt: new Date() },
+      { id: 699, content: 'DNS', is_correct: false, question_id: 186, createdAt: new Date(), updatedAt: new Date() },
+      { id: 700, content: 'FTP', is_correct: false, question_id: 186, createdAt: new Date(), updatedAt: new Date() },
+      { id: 701, content: 'SNMP', is_correct: false, question_id: 186, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 187
+      { id: 702, content: 'Ping', is_correct: true, question_id: 187, createdAt: new Date(), updatedAt: new Date() },
+      { id: 703, content: 'Traceroute', is_correct: false, question_id: 187, createdAt: new Date(), updatedAt: new Date() },
+      { id: 704, content: 'Telnet', is_correct: false, question_id: 187, createdAt: new Date(), updatedAt: new Date() },
+      { id: 705, content: 'FTP', is_correct: false, question_id: 187, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 188
+      { id: 706, content: 'Traceroute', is_correct: true, question_id: 188, createdAt: new Date(), updatedAt: new Date() },
+      { id: 707, content: 'Ping', is_correct: false, question_id: 188, createdAt: new Date(), updatedAt: new Date() },
+      { id: 708, content: 'Telnet', is_correct: false, question_id: 188, createdAt: new Date(), updatedAt: new Date() },
+      { id: 709, content: 'FTP', is_correct: false, question_id: 188, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 189
+      { id: 710, content: '80', is_correct: true, question_id: 189, createdAt: new Date(), updatedAt: new Date() },
+      { id: 711, content: '443', is_correct: false, question_id: 189, createdAt: new Date(), updatedAt: new Date() },
+      { id: 712, content: '21', is_correct: false, question_id: 189, createdAt: new Date(), updatedAt: new Date() },
+      { id: 713, content: '22', is_correct: false, question_id: 189, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 190
+      { id: 714, content: '443', is_correct: true, question_id: 190, createdAt: new Date(), updatedAt: new Date() },
+      { id: 715, content: '80', is_correct: false, question_id: 190, createdAt: new Date(), updatedAt: new Date() },
+      { id: 716, content: '21', is_correct: false, question_id: 190, createdAt: new Date(), updatedAt: new Date() },
+      { id: 717, content: '22', is_correct: false, question_id: 190, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 191
+      { id: 718, content: '22', is_correct: true, question_id: 191, createdAt: new Date(), updatedAt: new Date() },
+      { id: 719, content: '80', is_correct: false, question_id: 191, createdAt: new Date(), updatedAt: new Date() },
+      { id: 720, content: '443', is_correct: false, question_id: 191, createdAt: new Date(), updatedAt: new Date() },
+      { id: 721, content: '21', is_correct: false, question_id: 191, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 192
+      { id: 722, content: '21', is_correct: true, question_id: 192, createdAt: new Date(), updatedAt: new Date() },
+      { id: 723, content: '22', is_correct: false, question_id: 192, createdAt: new Date(), updatedAt: new Date() },
+      { id: 724, content: '80', is_correct: false, question_id: 192, createdAt: new Date(), updatedAt: new Date() },
+      { id: 725, content: '443', is_correct: false, question_id: 192, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 193
+      { id: 726, content: 'Tầng Session', is_correct: true, question_id: 193, createdAt: new Date(), updatedAt: new Date() },
+      { id: 727, content: 'Tầng Transport', is_correct: false, question_id: 193, createdAt: new Date(), updatedAt: new Date() },
+      { id: 728, content: 'Tầng Network', is_correct: false, question_id: 193, createdAt: new Date(), updatedAt: new Date() },
+      { id: 729, content: 'Tầng Data Link', is_correct: false, question_id: 193, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 194
+      { id: 730, content: 'Tầng Presentation', is_correct: true, question_id: 194, createdAt: new Date(), updatedAt: new Date() },
+      { id: 731, content: 'Tầng Application', is_correct: false, question_id: 194, createdAt: new Date(), updatedAt: new Date() },
+      { id: 732, content: 'Tầng Transport', is_correct: false, question_id: 194, createdAt: new Date(), updatedAt: new Date() },
+      { id: 733, content: 'Tầng Network', is_correct: false, question_id: 194, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 195
+      { id: 734, content: 'Bridge', is_correct: true, question_id: 195, createdAt: new Date(), updatedAt: new Date() },
+      { id: 735, content: 'Router', is_correct: false, question_id: 195, createdAt: new Date(), updatedAt: new Date() },
+      { id: 736, content: 'Switch', is_correct: false, question_id: 195, createdAt: new Date(), updatedAt: new Date() },
+      { id: 737, content: 'Hub', is_correct: false, question_id: 195, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 196
+      { id: 738, content: '802.11', is_correct: true, question_id: 196, createdAt: new Date(), updatedAt: new Date() },
+      { id: 739, content: '802.3', is_correct: false, question_id: 196, createdAt: new Date(), updatedAt: new Date() },
+      { id: 740, content: '802.1', is_correct: false, question_id: 196, createdAt: new Date(), updatedAt: new Date() },
+      { id: 741, content: '802.5', is_correct: false, question_id: 196, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 197
+      { id: 742, content: '802.3', is_correct: true, question_id: 197, createdAt: new Date(), updatedAt: new Date() },
+      { id: 743, content: '802.11', is_correct: false, question_id: 197, createdAt: new Date(), updatedAt: new Date() },
+      { id: 744, content: '802.1', is_correct: false, question_id: 197, createdAt: new Date(), updatedAt: new Date() },
+      { id: 745, content: '802.5', is_correct: false, question_id: 197, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 198
+      { id: 746, content: 'CSMA/CD', is_correct: true, question_id: 198, createdAt: new Date(), updatedAt: new Date() },
+      { id: 747, content: 'CSMA/CA', is_correct: false, question_id: 198, createdAt: new Date(), updatedAt: new Date() },
+      { id: 748, content: 'TDMA', is_correct: false, question_id: 198, createdAt: new Date(), updatedAt: new Date() },
+      { id: 749, content: 'FDMA', is_correct: false, question_id: 198, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 199
+      { id: 750, content: 'CSMA/CA', is_correct: true, question_id: 199, createdAt: new Date(), updatedAt: new Date() },
+      { id: 751, content: 'CSMA/CD', is_correct: false, question_id: 199, createdAt: new Date(), updatedAt: new Date() },
+      { id: 752, content: 'TDMA', is_correct: false, question_id: 199, createdAt: new Date(), updatedAt: new Date() },
+      { id: 753, content: 'FDMA', is_correct: false, question_id: 199, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 200
+      { id: 754, content: 'IP', is_correct: true, question_id: 200, createdAt: new Date(), updatedAt: new Date() },
+      { id: 755, content: 'TCP', is_correct: false, question_id: 200, createdAt: new Date(), updatedAt: new Date() },
+      { id: 756, content: 'UDP', is_correct: false, question_id: 200, createdAt: new Date(), updatedAt: new Date() },
+      { id: 757, content: 'ICMP', is_correct: false, question_id: 200, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 201
+      { id: 758, content: 'TCP', is_correct: true, question_id: 201, createdAt: new Date(), updatedAt: new Date() },
+      { id: 759, content: 'IP', is_correct: false, question_id: 201, createdAt: new Date(), updatedAt: new Date() },
+      { id: 760, content: 'UDP', is_correct: false, question_id: 201, createdAt: new Date(), updatedAt: new Date() },
+      { id: 761, content: 'ICMP', is_correct: false, question_id: 201, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 202
+      { id: 762, content: 'UDP', is_correct: true, question_id: 202, createdAt: new Date(), updatedAt: new Date() },
+      { id: 763, content: 'TCP', is_correct: false, question_id: 202, createdAt: new Date(), updatedAt: new Date() },
+      { id: 764, content: 'IP', is_correct: false, question_id: 202, createdAt: new Date(), updatedAt: new Date() },
+      { id: 765, content: 'ICMP', is_correct: false, question_id: 202, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 203
+      { id: 766, content: 'FTP', is_correct: true, question_id: 203, createdAt: new Date(), updatedAt: new Date() },
+      { id: 767, content: 'HTTP', is_correct: false, question_id: 203, createdAt: new Date(), updatedAt: new Date() },
+      { id: 768, content: 'SMTP', is_correct: false, question_id: 203, createdAt: new Date(), updatedAt: new Date() },
+      { id: 769, content: 'DNS', is_correct: false, question_id: 203, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 204
+      { id: 770, content: 'HTTP', is_correct: true, question_id: 204, createdAt: new Date(), updatedAt: new Date() },
+      { id: 771, content: 'FTP', is_correct: false, question_id: 204, createdAt: new Date(), updatedAt: new Date() },
+      { id: 772, content: 'SMTP', is_correct: false, question_id: 204, createdAt: new Date(), updatedAt: new Date() },
+      { id: 773, content: 'DNS', is_correct: false, question_id: 204, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 205
+      { id: 774, content: 'SMTP', is_correct: true, question_id: 205, createdAt: new Date(), updatedAt: new Date() },
+      { id: 775, content: 'HTTP', is_correct: false, question_id: 205, createdAt: new Date(), updatedAt: new Date() },
+      { id: 776, content: 'FTP', is_correct: false, question_id: 205, createdAt: new Date(), updatedAt: new Date() },
+      { id: 777, content: 'DNS', is_correct: false, question_id: 205, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 206
+      { id: 778, content: 'DNS', is_correct: true, question_id: 206, createdAt: new Date(), updatedAt: new Date() },
+      { id: 779, content: 'DHCP', is_correct: false, question_id: 206, createdAt: new Date(), updatedAt: new Date() },
+      { id: 780, content: 'FTP', is_correct: false, question_id: 206, createdAt: new Date(), updatedAt: new Date() },
+      { id: 781, content: 'HTTP', is_correct: false, question_id: 206, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 206 (continued from ID 781)
+      { id: 782, content: 'DHCP', is_correct: true, question_id: 206, createdAt: new Date(), updatedAt: new Date() },
+      { id: 783, content: 'DNS', is_correct: false, question_id: 206, createdAt: new Date(), updatedAt: new Date() },
+      { id: 784, content: 'FTP', is_correct: false, question_id: 206, createdAt: new Date(), updatedAt: new Date() },
+      { id: 785, content: 'SNMP', is_correct: false, question_id: 206, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 207
+      { id: 786, content: 'SNMP', is_correct: true, question_id: 207, createdAt: new Date(), updatedAt: new Date() },
+      { id: 787, content: 'FTP', is_correct: false, question_id: 207, createdAt: new Date(), updatedAt: new Date() },
+      { id: 788, content: 'HTTP', is_correct: false, question_id: 207, createdAt: new Date(), updatedAt: new Date() },
+      { id: 789, content: 'DNS', is_correct: false, question_id: 207, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 208
+      { id: 790, content: 'RIP', is_correct: true, question_id: 208, createdAt: new Date(), updatedAt: new Date() },
+      { id: 791, content: 'OSPF', is_correct: false, question_id: 208, createdAt: new Date(), updatedAt: new Date() },
+      { id: 792, content: 'BGP', is_correct: false, question_id: 208, createdAt: new Date(), updatedAt: new Date() },
+      { id: 793, content: 'IGMP', is_correct: false, question_id: 208, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 209
+      { id: 794, content: 'OSPF', is_correct: true, question_id: 209, createdAt: new Date(), updatedAt: new Date() },
+      { id: 795, content: 'RIP', is_correct: false, question_id: 209, createdAt: new Date(), updatedAt: new Date() },
+      { id: 796, content: 'BGP', is_correct: false, question_id: 209, createdAt: new Date(), updatedAt: new Date() },
+      { id: 797, content: 'IGMP', is_correct: false, question_id: 209, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 210
+      { id: 798, content: 'BGP', is_correct: true, question_id: 210, createdAt: new Date(), updatedAt: new Date() },
+      { id: 799, content: 'RIP', is_correct: false, question_id: 210, createdAt: new Date(), updatedAt: new Date() },
+      { id: 800, content: 'OSPF', is_correct: false, question_id: 210, createdAt: new Date(), updatedAt: new Date() },
+      { id: 801, content: 'IGMP', is_correct: false, question_id: 210, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 211
+      { id: 802, content: 'ICMP', is_correct: true, question_id: 211, createdAt: new Date(), updatedAt: new Date() },
+      { id: 803, content: 'TCP', is_correct: false, question_id: 211, createdAt: new Date(), updatedAt: new Date() },
+      { id: 804, content: 'UDP', is_correct: false, question_id: 211, createdAt: new Date(), updatedAt: new Date() },
+      { id: 805, content: 'IP', is_correct: false, question_id: 211, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 212
+      { id: 806, content: 'ARP', is_correct: true, question_id: 212, createdAt: new Date(), updatedAt: new Date() },
+      { id: 807, content: 'RARP', is_correct: false, question_id: 212, createdAt: new Date(), updatedAt: new Date() },
+      { id: 808, content: 'DNS', is_correct: false, question_id: 212, createdAt: new Date(), updatedAt: new Date() },
+      { id: 809, content: 'DHCP', is_correct: false, question_id: 212, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 213
+      { id: 810, content: 'RARP', is_correct: true, question_id: 213, createdAt: new Date(), updatedAt: new Date() },
+      { id: 811, content: 'ARP', is_correct: false, question_id: 213, createdAt: new Date(), updatedAt: new Date() },
+      { id: 812, content: 'DNS', is_correct: false, question_id: 213, createdAt: new Date(), updatedAt: new Date() },
+      { id: 813, content: 'DHCP', is_correct: false, question_id: 213, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 214
+      { id: 814, content: 'Gateway', is_correct: true, question_id: 214, createdAt: new Date(), updatedAt: new Date() },
+      { id: 815, content: 'Router', is_correct: false, question_id: 214, createdAt: new Date(), updatedAt: new Date() },
+      { id: 816, content: 'Switch', is_correct: false, question_id: 214, createdAt: new Date(), updatedAt: new Date() },
+      { id: 817, content: 'Hub', is_correct: false, question_id: 214, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 215
+      { id: 818, content: 'NAT', is_correct: true, question_id: 215, createdAt: new Date(), updatedAt: new Date() },
+      { id: 819, content: 'PAT', is_correct: false, question_id: 215, createdAt: new Date(), updatedAt: new Date() },
+      { id: 820, content: 'VLAN', is_correct: false, question_id: 215, createdAt: new Date(), updatedAt: new Date() },
+      { id: 821, content: 'VPN', is_correct: false, question_id: 215, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 216
+      { id: 822, content: 'PAT', is_correct: true, question_id: 216, createdAt: new Date(), updatedAt: new Date() },
+      { id: 823, content: 'NAT', is_correct: false, question_id: 216, createdAt: new Date(), updatedAt: new Date() },
+      { id: 824, content: 'VLAN', is_correct: false, question_id: 216, createdAt: new Date(), updatedAt: new Date() },
+      { id: 825, content: 'VPN', is_correct: false, question_id: 216, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 217
+      { id: 826, content: '255.255.255.0', is_correct: true, question_id: 217, createdAt: new Date(), updatedAt: new Date() },
+      { id: 827, content: '255.255.0.0', is_correct: false, question_id: 217, createdAt: new Date(), updatedAt: new Date() },
+      { id: 828, content: '255.0.0.0', is_correct: false, question_id: 217, createdAt: new Date(), updatedAt: new Date() },
+      { id: 829, content: '255.255.255.255', is_correct: false, question_id: 217, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 218
+      { id: 830, content: '255.255.0.0', is_correct: true, question_id: 218, createdAt: new Date(), updatedAt: new Date() },
+      { id: 831, content: '255.255.255.0', is_correct: false, question_id: 218, createdAt: new Date(), updatedAt: new Date() },
+      { id: 832, content: '255.0.0.0', is_correct: false, question_id: 218, createdAt: new Date(), updatedAt: new Date() },
+      { id: 833, content: '255.255.255.255', is_correct: false, question_id: 218, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 219
+      { id: 834, content: '255.0.0.0', is_correct: true, question_id: 219, createdAt: new Date(), updatedAt: new Date() },
+      { id: 835, content: '255.255.0.0', is_correct: false, question_id: 219, createdAt: new Date(), updatedAt: new Date() },
+      { id: 836, content: '255.255.255.0', is_correct: false, question_id: 219, createdAt: new Date(), updatedAt: new Date() },
+      { id: 837, content: '255.255.255.255', is_correct: false, question_id: 219, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 220
+      { id: 838, content: '/24', is_correct: true, question_id: 220, createdAt: new Date(), updatedAt: new Date() },
+      { id: 839, content: '/16', is_correct: false, question_id: 220, createdAt: new Date(), updatedAt: new Date() },
+      { id: 840, content: '/8', is_correct: false, question_id: 220, createdAt: new Date(), updatedAt: new Date() },
+      { id: 841, content: '/32', is_correct: false, question_id: 220, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 221
+      { id: 842, content: '/16', is_correct: true, question_id: 221, createdAt: new Date(), updatedAt: new Date() },
+      { id: 843, content: '/24', is_correct: false, question_id: 221, createdAt: new Date(), updatedAt: new Date() },
+      { id: 844, content: '/8', is_correct: false, question_id: 221, createdAt: new Date(), updatedAt: new Date() },
+      { id: 845, content: '/32', is_correct: false, question_id: 221, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 222
+      { id: 846, content: '/8', is_correct: true, question_id: 222, createdAt: new Date(), updatedAt: new Date() },
+      { id: 847, content: '/16', is_correct: false, question_id: 222, createdAt: new Date(), updatedAt: new Date() },
+      { id: 848, content: '/24', is_correct: false, question_id: 222, createdAt: new Date(), updatedAt: new Date() },
+      { id: 849, content: '/32', is_correct: false, question_id: 222, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 223
+      { id: 850, content: '254', is_correct: true, question_id: 223, createdAt: new Date(), updatedAt: new Date() },
+      { id: 851, content: '256', is_correct: false, question_id: 223, createdAt: new Date(), updatedAt: new Date() },
+      { id: 852, content: '128', is_correct: false, question_id: 223, createdAt: new Date(), updatedAt: new Date() },
+      { id: 853, content: '512', is_correct: false, question_id: 223, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 224
+      { id: 854, content: '65534', is_correct: true, question_id: 224, createdAt: new Date(), updatedAt: new Date() },
+      { id: 855, content: '256', is_correct: false, question_id: 224, createdAt: new Date(), updatedAt: new Date() },
+      { id: 856, content: '254', is_correct: false, question_id: 224, createdAt: new Date(), updatedAt: new Date() },
+      { id: 857, content: '128', is_correct: false, question_id: 224, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 225
+      { id: 858, content: '16777214', is_correct: true, question_id: 225, createdAt: new Date(), updatedAt: new Date() },
+      { id: 859, content: '65534', is_correct: false, question_id: 225, createdAt: new Date(), updatedAt: new Date() },
+      { id: 860, content: '254', is_correct: false, question_id: 225, createdAt: new Date(), updatedAt: new Date() },
+      { id: 861, content: '512', is_correct: false, question_id: 225, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 226
+      { id: 862, content: '2', is_correct: true, question_id: 226, createdAt: new Date(), updatedAt: new Date() },
+      { id: 863, content: '4', is_correct: false, question_id: 226, createdAt: new Date(), updatedAt: new Date() },
+      { id: 864, content: '8', is_correct: false, question_id: 226, createdAt: new Date(), updatedAt: new Date() },
+      { id: 865, content: '16', is_correct: false, question_id: 226, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 227
+      { id: 866, content: '4', is_correct: true, question_id: 227, createdAt: new Date(), updatedAt: new Date() },
+      { id: 867, content: '2', is_correct: false, question_id: 227, createdAt: new Date(), updatedAt: new Date() },
+      { id: 868, content: '8', is_correct: false, question_id: 227, createdAt: new Date(), updatedAt: new Date() },
+      { id: 869, content: '16', is_correct: false, question_id: 227, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 228
+      { id: 870, content: '8', is_correct: true, question_id: 228, createdAt: new Date(), updatedAt: new Date() },
+      { id: 871, content: '4', is_correct: false, question_id: 228, createdAt: new Date(), updatedAt: new Date() },
+      { id: 872, content: '2', is_correct: false, question_id: 228, createdAt: new Date(), updatedAt: new Date() },
+      { id: 873, content: '16', is_correct: false, question_id: 228, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 229
+      { id: 874, content: 'Subnetting', is_correct: true, question_id: 229, createdAt: new Date(), updatedAt: new Date() },
+      { id: 875, content: 'Supernetting', is_correct: false, question_id: 229, createdAt: new Date(), updatedAt: new Date() },
+      { id: 876, content: 'VLAN', is_correct: false, question_id: 229, createdAt: new Date(), updatedAt: new Date() },
+      { id: 877, content: 'NAT', is_correct: false, question_id: 229, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 230
+      { id: 878, content: 'Supernetting', is_correct: true, question_id: 230, createdAt: new Date(), updatedAt: new Date() },
+      { id: 879, content: 'Subnetting', is_correct: false, question_id: 230, createdAt: new Date(), updatedAt: new Date() },
+      { id: 880, content: 'VLAN', is_correct: false, question_id: 230, createdAt: new Date(), updatedAt: new Date() },
+      { id: 881, content: 'NAT', is_correct: false, question_id: 230, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 231
+      { id: 882, content: 'VLSM', is_correct: true, question_id: 231, createdAt: new Date(), updatedAt: new Date() },
+      { id: 883, content: 'CIDR', is_correct: false, question_id: 231, createdAt: new Date(), updatedAt: new Date() },
+      { id: 884, content: 'NAT', is_correct: false, question_id: 231, createdAt: new Date(), updatedAt: new Date() },
+      { id: 885, content: 'PAT', is_correct: false, question_id: 231, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 232
+      { id: 886, content: 'CIDR', is_correct: true, question_id: 232, createdAt: new Date(), updatedAt: new Date() },
+      { id: 887, content: 'VLSM', is_correct: false, question_id: 232, createdAt: new Date(), updatedAt: new Date() },
+      { id: 888, content: 'NAT', is_correct: false, question_id: 232, createdAt: new Date(), updatedAt: new Date() },
+      { id: 889, content: 'PAT', is_correct: false, question_id: 232, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 233
+      { id: 890, content: '255.255.255.128', is_correct: true, question_id: 233, createdAt: new Date(), updatedAt: new Date() },
+      { id: 891, content: '255.255.255.0', is_correct: false, question_id: 233, createdAt: new Date(), updatedAt: new Date() },
+      { id: 892, content: '255.255.0.0', is_correct: false, question_id: 233, createdAt: new Date(), updatedAt: new Date() },
+      { id: 893, content: '255.0.0.0', is_correct: false, question_id: 233, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 234
+      { id: 894, content: '255.255.255.192', is_correct: true, question_id: 234, createdAt: new Date(), updatedAt: new Date() },
+      { id: 895, content: '255.255.255.128', is_correct: false, question_id: 234, createdAt: new Date(), updatedAt: new Date() },
+      { id: 896, content: '255.255.255.0', is_correct: false, question_id: 234, createdAt: new Date(), updatedAt: new Date() },
+      { id: 897, content: '255.255.0.0', is_correct: false, question_id: 234, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 235
+      { id: 898, content: '255.255.255.224', is_correct: true, question_id: 235, createdAt: new Date(), updatedAt: new Date() },
+      { id: 899, content: '255.255.255.192', is_correct: false, question_id: 235, createdAt: new Date(), updatedAt: new Date() },
+      { id: 900, content: '255.255.255.128', is_correct: false, question_id: 235, createdAt: new Date(), updatedAt: new Date() },
+      { id: 901, content: '255.255.255.0', is_correct: false, question_id: 235, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 236
+      { id: 902, content: '/25', is_correct: true, question_id: 236, createdAt: new Date(), updatedAt: new Date() },
+      { id: 903, content: '/24', is_correct: false, question_id: 236, createdAt: new Date(), updatedAt: new Date() },
+      { id: 904, content: '/26', is_correct: false, question_id: 236, createdAt: new Date(), updatedAt: new Date() },
+      { id: 905, content: '/27', is_correct: false, question_id: 236, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 237
+      { id: 906, content: '/26', is_correct: true, question_id: 237, createdAt: new Date(), updatedAt: new Date() },
+      { id: 907, content: '/25', is_correct: false, question_id: 237, createdAt: new Date(), updatedAt: new Date() },
+      { id: 908, content: '/24', is_correct: false, question_id: 237, createdAt: new Date(), updatedAt: new Date() },
+      { id: 909, content: '/27', is_correct: false, question_id: 237, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 238
+      { id: 910, content: '/27', is_correct: true, question_id: 238, createdAt: new Date(), updatedAt: new Date() },
+      { id: 911, content: '/26', is_correct: false, question_id: 238, createdAt: new Date(), updatedAt: new Date() },
+      { id: 912, content: '/25', is_correct: false, question_id: 238, createdAt: new Date(), updatedAt: new Date() },
+      { id: 913, content: '/24', is_correct: false, question_id: 238, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 239
+      { id: 914, content: '128', is_correct: true, question_id: 239, createdAt: new Date(), updatedAt: new Date() },
+      { id: 915, content: '64', is_correct: false, question_id: 239, createdAt: new Date(), updatedAt: new Date() },
+      { id: 916, content: '32', is_correct: false, question_id: 239, createdAt: new Date(), updatedAt: new Date() },
+      { id: 917, content: '256', is_correct: false, question_id: 239, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 240
+      { id: 918, content: '64', is_correct: true, question_id: 240, createdAt: new Date(), updatedAt: new Date() },
+      { id: 919, content: '128', is_correct: false, question_id: 240, createdAt: new Date(), updatedAt: new Date() },
+      { id: 920, content: '32', is_correct: false, question_id: 240, createdAt: new Date(), updatedAt: new Date() },
+      { id: 921, content: '16', is_correct: false, question_id: 240, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 241
+      { id: 922, content: '32', is_correct: true, question_id: 241, createdAt: new Date(), updatedAt: new Date() },
+      { id: 923, content: '64', is_correct: false, question_id: 241, createdAt: new Date(), updatedAt: new Date() },
+      { id: 924, content: '128', is_correct: false, question_id: 241, createdAt: new Date(), updatedAt: new Date() },
+      { id: 925, content: '16', is_correct: false, question_id: 241, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 242
+      { id: 926, content: '16', is_correct: true, question_id: 242, createdAt: new Date(), updatedAt: new Date() },
+      { id: 927, content: '32', is_correct: false, question_id: 242, createdAt: new Date(), updatedAt: new Date() },
+      { id: 928, content: '64', is_correct: false, question_id: 242, createdAt: new Date(), updatedAt: new Date() },
+      { id: 929, content: '8', is_correct: false, question_id: 242, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 243
+      { id: 930, content: '8', is_correct: true, question_id: 243, createdAt: new Date(), updatedAt: new Date() },
+      { id: 931, content: '16', is_correct: false, question_id: 243, createdAt: new Date(), updatedAt: new Date() },
+      { id: 932, content: '32', is_correct: false, question_id: 243, createdAt: new Date(), updatedAt: new Date() },
+      { id: 933, content: '4', is_correct: false, question_id: 243, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 244
+      { id: 934, content: '4', is_correct: true, question_id: 244, createdAt: new Date(), updatedAt: new Date() },
+      { id: 935, content: '8', is_correct: false, question_id: 244, createdAt: new Date(), updatedAt: new Date() },
+      { id: 936, content: '16', is_correct: false, question_id: 244, createdAt: new Date(), updatedAt: new Date() },
+      { id: 937, content: '2', is_correct: false, question_id: 244, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 245
+      { id: 938, content: '2', is_correct: true, question_id: 245, createdAt: new Date(), updatedAt: new Date() },
+      { id: 939, content: '4', is_correct: false, question_id: 245, createdAt: new Date(), updatedAt: new Date() },
+      { id: 940, content: '8', is_correct: false, question_id: 245, createdAt: new Date(), updatedAt: new Date() },
+      { id: 941, content: '16', is_correct: false, question_id: 245, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 246
+      { id: 942, content: '1 bit', is_correct: true, question_id: 246, createdAt: new Date(), updatedAt: new Date() },
+      { id: 943, content: '2 bit', is_correct: false, question_id: 246, createdAt: new Date(), updatedAt: new Date() },
+      { id: 944, content: '3 bit', is_correct: false, question_id: 246, createdAt: new Date(), updatedAt: new Date() },
+      { id: 945, content: '4 bit', is_correct: false, question_id: 246, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 247
+      { id: 946, content: '2 bit', is_correct: true, question_id: 247, createdAt: new Date(), updatedAt: new Date() },
+      { id: 947, content: '1 bit', is_correct: false, question_id: 247, createdAt: new Date(), updatedAt: new Date() },
+      { id: 948, content: '3 bit', is_correct: false, question_id: 247, createdAt: new Date(), updatedAt: new Date() },
+      { id: 949, content: '4 bit', is_correct: false, question_id: 247, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 248
+      { id: 950, content: '3 bit', is_correct: true, question_id: 248, createdAt: new Date(), updatedAt: new Date() },
+      { id: 951, content: '2 bit', is_correct: false, question_id: 248, createdAt: new Date(), updatedAt: new Date() },
+      { id: 952, content: '1 bit', is_correct: false, question_id: 248, createdAt: new Date(), updatedAt: new Date() },
+      { id: 953, content: '4 bit', is_correct: false, question_id: 248, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 249
+      { id: 954, content: '4 bit', is_correct: true, question_id: 249, createdAt: new Date(), updatedAt: new Date() },
+      { id: 955, content: '3 bit', is_correct: false, question_id: 249, createdAt: new Date(), updatedAt: new Date() },
+      { id: 956, content: '2 bit', is_correct: false, question_id: 249, createdAt: new Date(), updatedAt: new Date() },
+      { id: 957, content: '1 bit', is_correct: false, question_id: 249, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 250
+      { id: 958, content: '5 bit', is_correct: true, question_id: 250, createdAt: new Date(), updatedAt: new Date() },
+      { id: 959, content: '4 bit', is_correct: false, question_id: 250, createdAt: new Date(), updatedAt: new Date() },
+      { id: 960, content: '3 bit', is_correct: false, question_id: 250, createdAt: new Date(), updatedAt: new Date() },
+      { id: 961, content: '6 bit', is_correct: false, question_id: 250, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 251
+      { id: 962, content: '6 bit', is_correct: true, question_id: 251, createdAt: new Date(), updatedAt: new Date() },
+      { id: 963, content: '5 bit', is_correct: false, question_id: 251, createdAt: new Date(), updatedAt: new Date() },
+      { id: 964, content: '4 bit', is_correct: false, question_id: 251, createdAt: new Date(), updatedAt: new Date() },
+      { id: 965, content: '3 bit', is_correct: false, question_id: 251, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 252
+      { id: 966, content: 'Subnet mask', is_correct: true, question_id: 252, createdAt: new Date(), updatedAt: new Date() },
+      { id: 967, content: 'Gateway', is_correct: false, question_id: 252, createdAt: new Date(), updatedAt: new Date() },
+      { id: 968, content: 'DNS', is_correct: false, question_id: 252, createdAt: new Date(), updatedAt: new Date() },
+      { id: 969, content: 'IP address', is_correct: false, question_id: 252, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 253
+      { id: 970, content: 'Gateway', is_correct: true, question_id: 253, createdAt: new Date(), updatedAt: new Date() },
+      { id: 971, content: 'Subnet mask', is_correct: false, question_id: 253, createdAt: new Date(), updatedAt: new Date() },
+      { id: 972, content: 'DNS', is_correct: false, question_id: 253, createdAt: new Date(), updatedAt: new Date() },
+      { id: 973, content: 'IP address', is_correct: false, question_id: 253, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 254
+      { id: 974, content: 'Broadcast', is_correct: true, question_id: 254, createdAt: new Date(), updatedAt: new Date() },
+      { id: 975, content: 'Unicast', is_correct: false, question_id: 254, createdAt: new Date(), updatedAt: new Date() },
+      { id: 976, content: 'Multicast', is_correct: false, question_id: 254, createdAt: new Date(), updatedAt: new Date() },
+      { id: 977, content: 'Anycast', is_correct: false, question_id: 254, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 255
+      { id: 978, content: 'Unicast', is_correct: true, question_id: 255, createdAt: new Date(), updatedAt: new Date() },
+      { id: 979, content: 'Broadcast', is_correct: false, question_id: 255, createdAt: new Date(), updatedAt: new Date() },
+      { id: 980, content: 'Multicast', is_correct: false, question_id: 255, createdAt: new Date(), updatedAt: new Date() },
+      { id: 981, content: 'Anycast', is_correct: false, question_id: 255, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 256
+      { id: 982, content: 'Multicast', is_correct: true, question_id: 256, createdAt: new Date(), updatedAt: new Date() },
+      { id: 983, content: 'Unicast', is_correct: false, question_id: 256, createdAt: new Date(), updatedAt: new Date() },
+      { id: 984, content: 'Broadcast', is_correct: false, question_id: 256, createdAt: new Date(), updatedAt: new Date() },
+      { id: 985, content: 'Anycast', is_correct: false, question_id: 256, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 257
+      { id: 986, content: 'Anycast', is_correct: true, question_id: 257, createdAt: new Date(), updatedAt: new Date() },
+      { id: 987, content: 'Multicast', is_correct: false, question_id: 257, createdAt: new Date(), updatedAt: new Date() },
+      { id: 988, content: 'Unicast', is_correct: false, question_id: 257, createdAt: new Date(), updatedAt: new Date() },
+      { id: 989, content: 'Broadcast', is_correct: false, question_id: 257, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 258
+      { id: 990, content: '192.168.0.0/16', is_correct: true, question_id: 258, createdAt: new Date(), updatedAt: new Date() },
+      { id: 991, content: '10.0.0.0/8', is_correct: false, question_id: 258, createdAt: new Date(), updatedAt: new Date() },
+      { id: 992, content: '172.16.0.0/12', is_correct: false, question_id: 258, createdAt: new Date(), updatedAt: new Date() },
+      { id: 993, content: '169.254.0.0/16', is_correct: false, question_id: 258, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 259
+      { id: 994, content: '10.0.0.0/8', is_correct: true, question_id: 259, createdAt: new Date(), updatedAt: new Date() },
+      { id: 995, content: '192.168.0.0/16', is_correct: false, question_id: 259, createdAt: new Date(), updatedAt: new Date() },
+      { id: 996, content: '172.16.0.0/12', is_correct: false, question_id: 259, createdAt: new Date(), updatedAt: new Date() },
+      { id: 997, content: '169.254.0.0/16', is_correct: false, question_id: 259, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 260
+      { id: 998, content: '172.16.0.0/12', is_correct: true, question_id: 260, createdAt: new Date(), updatedAt: new Date() },
+      { id: 999, content: '10.0.0.0/8', is_correct: false, question_id: 260, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1000, content: '192.168.0.0/16', is_correct: false, question_id: 260, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1001, content: '169.254.0.0/16', is_correct: false, question_id: 260, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 261
+      { id: 1002, content: '169.254.0.0/16', is_correct: true, question_id: 261, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1003, content: '10.0.0.0/8', is_correct: false, question_id: 261, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1004, content: '192.168.0.0/16', is_correct: false, question_id: 261, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1005, content: '172.16.0.0/12', is_correct: false, question_id: 261, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 262
+      { id: 1006, content: '255.255.255.252', is_correct: true, question_id: 262, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1007, content: '255.255.255.248', is_correct: false, question_id: 262, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1008, content: '255.255.255.240', is_correct: false, question_id: 262, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1009, content: '255.255.255.224', is_correct: false, question_id: 262, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 263
+      { id: 1010, content: '255.255.255.248', is_correct: true, question_id: 263, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1011, content: '255.255.255.252', is_correct: false, question_id: 263, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1012, content: '255.255.255.240', is_correct: false, question_id: 263, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1013, content: '255.255.255.224', is_correct: false, question_id: 263, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 264
+      { id: 1014, content: '255.255.255.240', is_correct: true, question_id: 264, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1015, content: '255.255.255.248', is_correct: false, question_id: 264, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1016, content: '255.255.255.252', is_correct: false, question_id: 264, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1017, content: '255.255.255.224', is_correct: false, question_id: 264, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 265
+      { id: 1018, content: '/30', is_correct: true, question_id: 265, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1019, content: '/29', is_correct: false, question_id: 265, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1020, content: '/28', is_correct: false, question_id: 265, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1021, content: '/27', is_correct: false, question_id: 265, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 266
+      { id: 1022, content: '/29', is_correct: true, question_id: 266, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1023, content: '/30', is_correct: false, question_id: 266, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1024, content: '/28', is_correct: false, question_id: 266, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1025, content: '/27', is_correct: false, question_id: 266, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 267
+      { id: 1026, content: '/28', is_correct: true, question_id: 267, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1027, content: '/29', is_correct: false, question_id: 267, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1028, content: '/30', is_correct: false, question_id: 267, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1029, content: '/27', is_correct: false, question_id: 267, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 268
+      { id: 1030, content: '2', is_correct: true, question_id: 268, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1031, content: '4', is_correct: false, question_id: 268, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1032, content: '8', is_correct: false, question_id: 268, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1033, content: '16', is_correct: false, question_id: 268, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 269
+      { id: 1034, content: '6', is_correct: true, question_id: 269, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1035, content: '2', is_correct: false, question_id: 269, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1036, content: '4', is_correct: false, question_id: 269, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1037, content: '8', is_correct: false, question_id: 269, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 270
+      { id: 1038, content: '14', is_correct: true, question_id: 270, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1039, content: '6', is_correct: false, question_id: 270, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1040, content: '2', is_correct: false, question_id: 270, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1041, content: '4', is_correct: false, question_id: 270, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 271
+      { id: 1042, content: '30', is_correct: true, question_id: 271, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1043, content: '14', is_correct: false, question_id: 271, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1044, content: '6', is_correct: false, question_id: 271, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1045, content: '2', is_correct: false, question_id: 271, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 272
+      { id: 1046, content: '62', is_correct: true, question_id: 272, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1047, content: '30', is_correct: false, question_id: 272, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1048, content: '14', is_correct: false, question_id: 272, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1049, content: '6', is_correct: false, question_id: 272, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 273
+      { id: 1050, content: '126', is_correct: true, question_id: 273, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1051, content: '62', is_correct: false, question_id: 273, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1052, content: '30', is_correct: false, question_id: 273, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1053, content: '14', is_correct: false, question_id: 273, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 274
+      { id: 1054, content: 'Lớp A', is_correct: true, question_id: 274, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1055, content: 'Lớp B', is_correct: false, question_id: 274, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1056, content: 'Lớp C', is_correct: false, question_id: 274, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1057, content: 'Lớp D', is_correct: false, question_id: 274, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 275
+      { id: 1058, content: 'Lớp B', is_correct: true, question_id: 275, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1059, content: 'Lớp A', is_correct: false, question_id: 275, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1060, content: 'Lớp C', is_correct: false, question_id: 275, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1061, content: 'Lớp D', is_correct: false, question_id: 275, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 276
+      { id: 1062, content: 'Lớp C', is_correct: true, question_id: 276, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1063, content: 'Lớp A', is_correct: false, question_id: 276, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1064, content: 'Lớp B', is_correct: false, question_id: 276, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1065, content: 'Lớp D', is_correct: false, question_id: 276, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 277
+      { id: 1066, content: 'Lớp D', is_correct: true, question_id: 277, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1067, content: 'Lớp A', is_correct: false, question_id: 277, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1068, content: 'Lớp B', is_correct: false, question_id: 277, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1069, content: 'Lớp C', is_correct: false, question_id: 277, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 278
+      { id: 1070, content: '255.255.255.254', is_correct: true, question_id: 278, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1071, content: '255.255.255.252', is_correct: false, question_id: 278, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1072, content: '255.255.255.248', is_correct: false, question_id: 278, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1073, content: '255.255.255.240', is_correct: false, question_id: 278, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 279
+      { id: 1074, content: '/31', is_correct: true, question_id: 279, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1075, content: '/30', is_correct: false, question_id: 279, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1076, content: '/29', is_correct: false, question_id: 279, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1077, content: '/28', is_correct: false, question_id: 279, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 280
+      { id: 1078, content: '2', is_correct: true, question_id: 280, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1079, content: '4', is_correct: false, question_id: 280, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1080, content: '6', is_correct: false, question_id: 280, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1081, content: '8', is_correct: false, question_id: 280, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 281
+      { id: 1082, content: 'Địa chỉ mạng', is_correct: true, question_id: 281, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1083, content: 'Địa chỉ broadcast', is_correct: false, question_id: 281, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1084, content: 'Địa chỉ gateway', is_correct: false, question_id: 281, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1085, content: 'Địa chỉ host', is_correct: false, question_id: 281, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 282
+      { id: 1086, content: 'Địa chỉ broadcast', is_correct: true, question_id: 282, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1087, content: 'Địa chỉ mạng', is_correct: false, question_id: 282, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1088, content: 'Địa chỉ gateway', is_correct: false, question_id: 282, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1089, content: 'Địa chỉ host', is_correct: false, question_id: 282, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 283
+      { id: 1090, content: 'Địa chỉ gateway', is_correct: true, question_id: 283, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1091, content: 'Địa chỉ mạng', is_correct: false, question_id: 283, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1092, content: 'Địa chỉ broadcast', is_correct: false, question_id: 283, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1093, content: 'Địa chỉ host', is_correct: false, question_id: 283, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 284
+      { id: 1094, content: 'Địa chỉ host', is_correct: true, question_id: 284, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1095, content: 'Địa chỉ mạng', is_correct: false, question_id: 284, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1096, content: 'Địa chỉ broadcast', is_correct: false, question_id: 284, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1097, content: 'Địa chỉ gateway', is_correct: false, question_id: 284, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 285
+      { id: 1098, content: '1', is_correct: true, question_id: 285, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1099, content: '2', is_correct: false, question_id: 285, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1100, content: '3', is_correct: false, question_id: 285, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1101, content: '4', is_correct: false, question_id: 285, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 286
+      { id: 1102, content: '2', is_correct: true, question_id: 286, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1103, content: '1', is_correct: false, question_id: 286, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1104, content: '3', is_correct: false, question_id: 286, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1105, content: '4', is_correct: false, question_id: 286, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 287
+      { id: 1106, content: '3', is_correct: true, question_id: 287, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1107, content: '2', is_correct: false, question_id: 287, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1108, content: '1', is_correct: false, question_id: 287, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1109, content: '4', is_correct: false, question_id: 287, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 288
+      { id: 1110, content: '4', is_correct: true, question_id: 288, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1111, content: '3', is_correct: false, question_id: 288, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1112, content: '2', is_correct: false, question_id: 288, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1113, content: '1', is_correct: false, question_id: 288, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 289
+      { id: 1114, content: '5', is_correct: true, question_id: 289, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1115, content: '4', is_correct: false, question_id: 289, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1116, content: '3', is_correct: false, question_id: 289, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1117, content: '6', is_correct: false, question_id: 289, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 290
+      { id: 1118, content: '6', is_correct: true, question_id: 290, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1119, content: '5', is_correct: false, question_id: 290, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1120, content: '4', is_correct: false, question_id: 290, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1121, content: '3', is_correct: false, question_id: 290, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 291
+      { id: 1122, content: '7', is_correct: true, question_id: 291, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1123, content: '6', is_correct: false, question_id: 291, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1124, content: '5', is_correct: false, question_id: 291, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1125, content: '4', is_correct: false, question_id: 291, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 292
+      { id: 1126, content: '8', is_correct: true, question_id: 292, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1127, content: '7', is_correct: false, question_id: 292, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1128, content: '6', is_correct: false, question_id: 292, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1129, content: '5', is_correct: false, question_id: 292, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 293
+      { id: 1130, content: 'Network address', is_correct: true, question_id: 293, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1131, content: 'Broadcast address', is_correct: false, question_id: 293, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1132, content: 'Gateway address', is_correct: false, question_id: 293, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1133, content: 'Host address', is_correct: false, question_id: 293, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 294
+      { id: 1134, content: 'Broadcast address', is_correct: true, question_id: 294, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1135, content: 'Network address', is_correct: false, question_id: 294, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1136, content: 'Gateway address', is_correct: false, question_id: 294, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1137, content: 'Host address', is_correct: false, question_id: 294, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 295
+      { id: 1138, content: 'Gateway address', is_correct: true, question_id: 295, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1139, content: 'Network address', is_correct: false, question_id: 295, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1140, content: 'Broadcast address', is_correct: false, question_id: 295, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1141, content: 'Host address', is_correct: false, question_id: 295, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 296
+      { id: 1142, content: 'Host address', is_correct: true, question_id: 296, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1143, content: 'Network address', is_correct: false, question_id: 296, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1144, content: 'Broadcast address', is_correct: false, question_id: 296, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1145, content: 'Gateway address', is_correct: false, question_id: 296, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 297
+      { id: 1146, content: '255.255.255.255', is_correct: true, question_id: 297, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1147, content: '255.255.255.0', is_correct: false, question_id: 297, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1148, content: '255.255.0.0', is_correct: false, question_id: 297, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1149, content: '255.0.0.0', is_correct: false, question_id: 297, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 298
+      { id: 1150, content: '/32', is_correct: true, question_id: 298, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1151, content: '/31', is_correct: false, question_id: 298, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1152, content: '/30', is_correct: false, question_id: 298, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1153, content: '/29', is_correct: false, question_id: 298, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 299
+      { id: 1154, content: '1', is_correct: true, question_id: 299, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1155, content: '2', is_correct: false, question_id: 299, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1156, content: '4', is_correct: false, question_id: 299, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1157, content: '8', is_correct: false, question_id: 299, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 300
+      { id: 1158, content: 'Point-to-point', is_correct: true, question_id: 300, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1159, content: 'Broadcast', is_correct: false, question_id: 300, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1160, content: 'Multicast', is_correct: false, question_id: 300, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1161, content: 'Unicast', is_correct: false, question_id: 300, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 301
+      { id: 1162, content: 'VLSM', is_correct: true, question_id: 301, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1163, content: 'CIDR', is_correct: false, question_id: 301, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1164, content: 'NAT', is_correct: false, question_id: 301, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1165, content: 'PAT', is_correct: false, question_id: 301, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 302
+      { id: 1166, content: 'CIDR', is_correct: true, question_id: 302, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1167, content: 'VLSM', is_correct: false, question_id: 302, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1168, content: 'NAT', is_correct: false, question_id: 302, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1169, content: 'PAT', is_correct: false, question_id: 302, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 303
+      { id: 1170, content: '255.255.255.240', is_correct: true, question_id: 303, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1171, content: '255.255.255.224', is_correct: false, question_id: 303, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1172, content: '255.255.255.248', is_correct: false, question_id: 303, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1173, content: '255.255.255.252', is_correct: false, question_id: 303, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 304
+      { id: 1174, content: '/28', is_correct: true, question_id: 304, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1175, content: '/27', is_correct: false, question_id: 304, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1176, content: '/29', is_correct: false, question_id: 304, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1177, content: '/30', is_correct: false, question_id: 304, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 305
+      { id: 1178, content: '14', is_correct: true, question_id: 305, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1179, content: '16', is_correct: false, question_id: 305, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1180, content: '12', is_correct: false, question_id: 305, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1181, content: '10', is_correct: false, question_id: 305, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 306
+      { id: 1182, content: '255.255.255.248', is_correct: true, question_id: 306, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1183, content: '255.255.255.240', is_correct: false, question_id: 306, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1184, content: '255.255.255.252', is_correct: false, question_id: 306, createdAt: new Date(), updatedAt: new Date() },
+        // Answers for Question 306 (continued from ID 1184)
+      { id: 1185, content: '255.255.255.224', is_correct: false, question_id: 306, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 307
+      { id: 1186, content: '/29', is_correct: true, question_id: 307, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1187, content: '/28', is_correct: false, question_id: 307, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1188, content: '/30', is_correct: false, question_id: 307, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1189, content: '/27', is_correct: false, question_id: 307, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 308
+      { id: 1190, content: '6', is_correct: true, question_id: 308, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1191, content: '8', is_correct: false, question_id: 308, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1192, content: '4', is_correct: false, question_id: 308, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1193, content: '2', is_correct: false, question_id: 308, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 309
+      { id: 1194, content: '255.255.255.252', is_correct: true, question_id: 309, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1195, content: '255.255.255.248', is_correct: false, question_id: 309, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1196, content: '255.255.255.240', is_correct: false, question_id: 309, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1197, content: '255.255.255.224', is_correct: false, question_id: 309, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 310
+      { id: 1198, content: '/30', is_correct: true, question_id: 310, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1199, content: '/29', is_correct: false, question_id: 310, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1200, content: '/28', is_correct: false, question_id: 310, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1201, content: '/27', is_correct: false, question_id: 310, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 311
+      { id: 1202, content: '2', is_correct: true, question_id: 311, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1203, content: '4', is_correct: false, question_id: 311, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1204, content: '6', is_correct: false, question_id: 311, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1205, content: '8', is_correct: false, question_id: 311, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 312
+      { id: 1206, content: 'VLAN', is_correct: true, question_id: 312, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1207, content: 'VPN', is_correct: false, question_id: 312, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1208, content: 'NAT', is_correct: false, question_id: 312, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1209, content: 'PAT', is_correct: false, question_id: 312, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 313
+      { id: 1210, content: 'VPN', is_correct: true, question_id: 313, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1211, content: 'VLAN', is_correct: false, question_id: 313, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1212, content: 'NAT', is_correct: false, question_id: 313, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1213, content: 'PAT', is_correct: false, question_id: 313, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 314
+      { id: 1214, content: '802.1Q', is_correct: true, question_id: 314, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1215, content: '802.11', is_correct: false, question_id: 314, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1216, content: '802.3', is_correct: false, question_id: 314, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1217, content: '802.15', is_correct: false, question_id: 314, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 315
+      { id: 1218, content: 'Trunking', is_correct: true, question_id: 315, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1219, content: 'Tunneling', is_correct: false, question_id: 315, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1220, content: 'Bridging', is_correct: false, question_id: 315, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1221, content: 'Routing', is_correct: false, question_id: 315, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 316
+      { id: 1222, content: 'Tunneling', is_correct: true, question_id: 316, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1223, content: 'Trunking', is_correct: false, question_id: 316, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1224, content: 'Bridging', is_correct: false, question_id: 316, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1225, content: 'Routing', is_correct: false, question_id: 316, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 317
+      { id: 1226, content: 'IPSec', is_correct: true, question_id: 317, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1227, content: 'SSL', is_correct: false, question_id: 317, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1228, content: 'TLS', is_correct: false, question_id: 317, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1229, content: 'PPTP', is_correct: false, question_id: 317, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 318
+      { id: 1230, content: 'L2TP', is_correct: true, question_id: 318, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1231, content: 'IPSec', is_correct: false, question_id: 318, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1232, content: 'SSL', is_correct: false, question_id: 318, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1233, content: 'PPTP', is_correct: false, question_id: 318, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 319
+      { id: 1234, content: 'PPTP', is_correct: true, question_id: 319, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1235, content: 'L2TP', is_correct: false, question_id: 319, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1236, content: 'IPSec', is_correct: false, question_id: 319, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1237, content: 'SSL', is_correct: false, question_id: 319, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 320
+      { id: 1238, content: 'Firewall', is_correct: true, question_id: 320, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1239, content: 'Router', is_correct: false, question_id: 320, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1240, content: 'Switch', is_correct: false, question_id: 320, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1241, content: 'Hub', is_correct: false, question_id: 320, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 321
+      { id: 1242, content: 'Packet filtering', is_correct: true, question_id: 321, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1243, content: 'Stateful inspection', is_correct: false, question_id: 321, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1244, content: 'Proxy', is_correct: false, question_id: 321, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1245, content: 'NAT', is_correct: false, question_id: 321, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 322
+      { id: 1246, content: 'Stateful inspection', is_correct: true, question_id: 322, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1247, content: 'Packet filtering', is_correct: false, question_id: 322, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1248, content: 'Proxy', is_correct: false, question_id: 322, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1249, content: 'NAT', is_correct: false, question_id: 322, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 323
+      { id: 1250, content: 'Proxy', is_correct: true, question_id: 323, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1251, content: 'Stateful inspection', is_correct: false, question_id: 323, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1252, content: 'Packet filtering', is_correct: false, question_id: 323, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1253, content: 'NAT', is_correct: false, question_id: 323, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 324
+      { id: 1254, content: 'ACL', is_correct: true, question_id: 324, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1255, content: 'VLAN', is_correct: false, question_id: 324, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1256, content: 'VPN', is_correct: false, question_id: 324, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1257, content: 'NAT', is_correct: false, question_id: 324, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 325
+      { id: 1258, content: 'DMZ', is_correct: true, question_id: 325, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1259, content: 'VLAN', is_correct: false, question_id: 325, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1260, content: 'VPN', is_correct: false, question_id: 325, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1261, content: 'NAT', is_correct: false, question_id: 325, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 326
+      { id: 1262, content: 'Load balancer', is_correct: true, question_id: 326, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1263, content: 'Firewall', is_correct: false, question_id: 326, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1264, content: 'Router', is_correct: false, question_id: 326, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1265, content: 'Switch', is_correct: false, question_id: 326, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 327
+      { id: 1266, content: 'Round-robin', is_correct: true, question_id: 327, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1267, content: 'Weighted', is_correct: false, question_id: 327, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1268, content: 'Least connections', is_correct: false, question_id: 327, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1269, content: 'IP hash', is_correct: false, question_id: 327, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 328
+      { id: 1270, content: 'Weighted', is_correct: true, question_id: 328, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1271, content: 'Round-robin', is_correct: false, question_id: 328, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1272, content: 'Least connections', is_correct: false, question_id: 328, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1273, content: 'IP hash', is_correct: false, question_id: 328, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 329
+      { id: 1274, content: 'Least connections', is_correct: true, question_id: 329, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1275, content: 'Weighted', is_correct: false, question_id: 329, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1276, content: 'Round-robin', is_correct: false, question_id: 329, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1277, content: 'IP hash', is_correct: false, question_id: 329, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 330
+      { id: 1278, content: 'IP hash', is_correct: true, question_id: 330, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1279, content: 'Least connections', is_correct: false, question_id: 330, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1280, content: 'Weighted', is_correct: false, question_id: 330, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1281, content: 'Round-robin', is_correct: false, question_id: 330, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 331
+      { id: 1282, content: 'QoS', is_correct: true, question_id: 331, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1283, content: 'VLAN', is_correct: false, question_id: 331, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1284, content: 'VPN', is_correct: false, question_id: 331, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1285, content: 'NAT', is_correct: false, question_id: 331, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 332
+      { id: 1286, content: 'Traffic shaping', is_correct: true, question_id: 332, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1287, content: 'Packet filtering', is_correct: false, question_id: 332, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1288, content: 'Load balancing', is_correct: false, question_id: 332, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1289, content: 'Routing', is_correct: false, question_id: 332, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 333
+      { id: 1290, content: '802.1p', is_correct: true, question_id: 333, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1291, content: '802.1Q', is_correct: false, question_id: 333, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1292, content: '802.11', is_correct: false, question_id: 333, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1293, content: '802.3', is_correct: false, question_id: 333, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 334
+      { id: 1294, content: 'DiffServ', is_correct: true, question_id: 334, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1295, content: 'IntServ', is_correct: false, question_id: 334, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1296, content: 'MPLS', is_correct: false, question_id: 334, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1297, content: 'RSVP', is_correct: false, question_id: 334, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 335
+      { id: 1298, content: 'IntServ', is_correct: true, question_id: 335, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1299, content: 'DiffServ', is_correct: false, question_id: 335, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1300, content: 'MPLS', is_correct: false, question_id: 335, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1301, content: 'RSVP', is_correct: false, question_id: 335, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 336
+      { id: 1302, content: 'MPLS', is_correct: true, question_id: 336, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1303, content: 'IntServ', is_correct: false, question_id: 336, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1304, content: 'DiffServ', is_correct: false, question_id: 336, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1305, content: 'RSVP', is_correct: false, question_id: 336, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 337
+      { id: 1306, content: 'RSVP', is_correct: true, question_id: 337, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1307, content: 'MPLS', is_correct: false, question_id: 337, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1308, content: 'IntServ', is_correct: false, question_id: 337, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1309, content: 'DiffServ', is_correct: false, question_id: 337, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 338
+      { id: 1310, content: 'DNS', is_correct: true, question_id: 338, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1311, content: 'DHCP', is_correct: false, question_id: 338, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1312, content: 'NTP', is_correct: false, question_id: 338, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1313, content: 'SNMP', is_correct: false, question_id: 338, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 339
+      { id: 1314, content: 'A record', is_correct: true, question_id: 339, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1315, content: 'MX record', is_correct: false, question_id: 339, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1316, content: 'CNAME record', is_correct: false, question_id: 339, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1317, content: 'PTR record', is_correct: false, question_id: 339, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 340
+      { id: 1318, content: 'MX record', is_correct: true, question_id: 340, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1319, content: 'A record', is_correct: false, question_id: 340, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1320, content: 'CNAME record', is_correct: false, question_id: 340, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1321, content: 'PTR record', is_correct: false, question_id: 340, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 341
+      { id: 1322, content: 'CNAME record', is_correct: true, question_id: 341, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1323, content: 'MX record', is_correct: false, question_id: 341, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1324, content: 'A record', is_correct: false, question_id: 341, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1325, content: 'PTR record', is_correct: false, question_id: 341, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 342
+      { id: 1326, content: 'PTR record', is_correct: true, question_id: 342, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1327, content: 'CNAME record', is_correct: false, question_id: 342, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1328, content: 'MX record', is_correct: false, question_id: 342, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1329, content: 'A record', is_correct: false, question_id: 342, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 343
+      { id: 1330, content: 'NTP', is_correct: true, question_id: 343, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1331, content: 'DNS', is_correct: false, question_id: 343, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1332, content: 'DHCP', is_correct: false, question_id: 343, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1333, content: 'SNMP', is_correct: false, question_id: 343, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 344
+      { id: 1334, content: 'SNMP', is_correct: true, question_id: 344, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1335, content: 'NTP', is_correct: false, question_id: 344, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1336, content: 'DNS', is_correct: false, question_id: 344, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1337, content: 'DHCP', is_correct: false, question_id: 344, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 345
+      { id: 1338, content: 'MIB', is_correct: true, question_id: 345, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1339, content: 'OID', is_correct: false, question_id: 345, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1340, content: 'SNMPv3', is_correct: false, question_id: 345, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1341, content: 'Trap', is_correct: false, question_id: 345, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 346
+      { id: 1342, content: 'OID', is_correct: true, question_id: 346, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1343, content: 'MIB', is_correct: false, question_id: 346, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1344, content: 'SNMPv3', is_correct: false, question_id: 346, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1345, content: 'Trap', is_correct: false, question_id: 346, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 347
+      { id: 1346, content: 'Trap', is_correct: true, question_id: 347, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1347, content: 'OID', is_correct: false, question_id: 347, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1348, content: 'MIB', is_correct: false, question_id: 347, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1349, content: 'SNMPv3', is_correct: false, question_id: 347, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 348
+      { id: 1350, content: 'SNMPv3', is_correct: true, question_id: 348, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1351, content: 'Trap', is_correct: false, question_id: 348, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1352, content: 'OID', is_correct: false, question_id: 348, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1353, content: 'MIB', is_correct: false, question_id: 348, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 349
+      { id: 1354, content: 'VoIP', is_correct: true, question_id: 349, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1355, content: 'SIP', is_correct: false, question_id: 349, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1356, content: 'RTP', is_correct: false, question_id: 349, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1357, content: 'H.323', is_correct: false, question_id: 349, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 350
+      { id: 1358, content: 'SIP', is_correct: true, question_id: 350, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1359, content: 'VoIP', is_correct: false, question_id: 350, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1360, content: 'RTP', is_correct: false, question_id: 350, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1361, content: 'H.323', is_correct: false, question_id: 350, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 351
+      { id: 1362, content: 'RTP', is_correct: true, question_id: 351, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1363, content: 'SIP', is_correct: false, question_id: 351, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1364, content: 'VoIP', is_correct: false, question_id: 351, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1365, content: 'H.323', is_correct: false, question_id: 351, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 352
+      { id: 1366, content: 'H.323', is_correct: true, question_id: 352, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1367, content: 'RTP', is_correct: false, question_id: 352, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1368, content: 'SIP', is_correct: false, question_id: 352, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1369, content: 'VoIP', is_correct: false, question_id: 352, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 353
+      { id: 1370, content: 'Jitter', is_correct: true, question_id: 353, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1371, content: 'Latency', is_correct: false, question_id: 353, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1372, content: 'Packet loss', is_correct: false, question_id: 353, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1373, content: 'Bandwidth', is_correct: false, question_id: 353, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 354
+      { id: 1374, content: 'Latency', is_correct: true, question_id: 354, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1375, content: 'Jitter', is_correct: false, question_id: 354, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1376, content: 'Packet loss', is_correct: false, question_id: 354, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1377, content: 'Bandwidth', is_correct: false, question_id: 354, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 355
+      { id: 1378, content: 'Packet loss', is_correct: true, question_id: 355, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1379, content: 'Latency', is_correct: false, question_id: 355, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1380, content: 'Jitter', is_correct: false, question_id: 355, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1381, content: 'Bandwidth', is_correct: false, question_id: 355, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 356
+      { id: 1382, content: 'Bandwidth', is_correct: true, question_id: 356, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1383, content: 'Packet loss', is_correct: false, question_id: 356, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1384, content: 'Latency', is_correct: false, question_id: 356, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1385, content: 'Jitter', is_correct: false, question_id: 356, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 357
+      { id: 1386, content: '802.11', is_correct: true, question_id: 357, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1387, content: '802.1Q', is_correct: false, question_id: 357, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1388, content: '802.3', is_correct: false, question_id: 357, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1389, content: '802.15', is_correct: false, question_id: 357, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 358
+      { id: 1390, content: 'Wi-Fi', is_correct: true, question_id: 358, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1391, content: 'Bluetooth', is_correct: false, question_id: 358, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1392, content: 'Zigbee', is_correct: false, question_id: 358, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1393, content: 'Ethernet', is_correct: false, question_id: 358, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 359
+      { id: 1394, content: 'WPA3', is_correct: true, question_id: 359, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1395, content: 'WPA2', is_correct: false, question_id: 359, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1396, content: 'WEP', is_correct: false, question_id: 359, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1397, content: 'TKIP', is_correct: false, question_id: 359, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 360
+      { id: 1398, content: 'WPA2', is_correct: true, question_id: 360, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1399, content: 'WPA3', is_correct: false, question_id: 360, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1400, content: 'WEP', is_correct: false, question_id: 360, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1401, content: 'TKIP', is_correct: false, question_id: 360, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 361
+      { id: 1402, content: 'WEP', is_correct: true, question_id: 361, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1403, content: 'WPA2', is_correct: false, question_id: 361, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1404, content: 'WPA3', is_correct: false, question_id: 361, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1405, content: 'TKIP', is_correct: false, question_id: 361, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 362
+      { id: 1406, content: 'TKIP', is_correct: true, question_id: 362, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1407, content: 'WEP', is_correct: false, question_id: 362, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1408, content: 'WPA2', is_correct: false, question_id: 362, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1409, content: 'WPA3', is_correct: false, question_id: 362, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 363
+      { id: 1410, content: 'AES', is_correct: true, question_id: 363, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1411, content: 'TKIP', is_correct: false, question_id: 363, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1412, content: 'WEP', is_correct: false, question_id: 363, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1413, content: 'WPA', is_correct: false, question_id: 363, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 364
+      { id: 1414, content: 'SSID', is_correct: true, question_id: 364, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1415, content: 'BSSID', is_correct: false, question_id: 364, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1416, content: 'MAC', is_correct: false, question_id: 364, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1417, content: 'IP', is_correct: false, question_id: 364, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 365
+      { id: 1418, content: 'BSSID', is_correct: true, question_id: 365, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1419, content: 'SSID', is_correct: false, question_id: 365, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1420, content: 'MAC', is_correct: false, question_id: 365, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1421, content: 'IP', is_correct: false, question_id: 365, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 366
+      { id: 1422, content: '2.4 GHz', is_correct: true, question_id: 366, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1423, content: '5 GHz', is_correct: false, question_id: 366, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1424, content: '3.6 GHz', is_correct: false, question_id: 366, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1425, content: '6 GHz', is_correct: false, question_id: 366, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 367
+      { id: 1426, content: '5 GHz', is_correct: true, question_id: 367, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1427, content: '2.4 GHz', is_correct: false, question_id: 367, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1428, content: '3.6 GHz', is_correct: false, question_id: 367, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1429, content: '6 GHz', is_correct: false, question_id: 367, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 368
+      { id: 1430, content: '6 GHz', is_correct: true, question_id: 368, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1431, content: '5 GHz', is_correct: false, question_id: 368, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1432, content: '2.4 GHz', is_correct: false, question_id: 368, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1433, content: '3.6 GHz', is_correct: false, question_id: 368, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 369
+      { id: 1434, content: '802.11ax', is_correct: true, question_id: 369, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1435, content: '802.11ac', is_correct: false, question_id: 369, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1436, content: '802.11n', is_correct: false, question_id: 369, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1437, content: '802.11g', is_correct: false, question_id: 369, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 370
+      { id: 1438, content: '802.11ac', is_correct: true, question_id: 370, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1439, content: '802.11ax', is_correct: false, question_id: 370, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1440, content: '802.11n', is_correct: false, question_id: 370, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1441, content: '802.11g', is_correct: false, question_id: 370, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 371
+      { id: 1442, content: '802.11n', is_correct: true, question_id: 371, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1443, content: '802.11ac', is_correct: false, question_id: 371, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1444, content: '802.11ax', is_correct: false, question_id: 371, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1445, content: '802.11g', is_correct: false, question_id: 371, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 372
+      { id: 1446, content: '802.11g', is_correct: true, question_id: 372, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1447, content: '802.11n', is_correct: false, question_id: 372, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1448, content: '802.11ac', is_correct: false, question_id: 372, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1449, content: '802.11ax', is_correct: false, question_id: 372, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 373
+      { id: 1450, content: 'MIMO', is_correct: true, question_id: 373, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1451, content: 'SISO', is_correct: false, question_id: 373, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1452, content: 'OFDM', is_correct: false, question_id: 373, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1453, content: 'QAM', is_correct: false, question_id: 373, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 374
+      { id: 1454, content: 'OFDM', is_correct: true, question_id: 374, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1455, content: 'MIMO', is_correct: false, question_id: 374, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1456, content: 'SISO', is_correct: false, question_id: 374, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1457, content: 'QAM', is_correct: false, question_id: 374, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 375
+      { id: 1458, content: 'QAM', is_correct: true, question_id: 375, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1459, content: 'OFDM', is_correct: false, question_id: 375, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1460, content: 'MIMO', is_correct: false, question_id: 375, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1461, content: 'SISO', is_correct: false, question_id: 375, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 376
+      { id: 1462, content: 'SISO', is_correct: true, question_id: 376, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1463, content: 'QAM', is_correct: false, question_id: 376, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1464, content: 'OFDM', is_correct: false, question_id: 376, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1465, content: 'MIMO', is_correct: false, question_id: 376, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 377
+      { id: 1466, content: 'Channel bonding', is_correct: true, question_id: 377, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1467, content: 'Channel hopping', is_correct: false, question_id: 377, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1468, content: 'Channel switching', is_correct: false, question_id: 377, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1469, content: 'Channel aggregation', is_correct: false, question_id: 377, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 378
+      { id: 1470, content: 'Mesh network', is_correct: true, question_id: 378, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1471, content: 'Star network', is_correct: false, question_id: 378, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1472, content: 'Bus network', is_correct: false, question_id: 378, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1473, content: 'Ring network', is_correct: false, question_id: 378, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 379
+      { id: 1474, content: 'AP', is_correct: true, question_id: 379, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1475, content: 'Router', is_correct: false, question_id: 379, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1476, content: 'Switch', is_correct: false, question_id: 379, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1477, content: 'Hub', is_correct: false, question_id: 379, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 380
+      { id: 1478, content: 'Beacon frame', is_correct: true, question_id: 380, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1479, content: 'Data frame', is_correct: false, question_id: 380, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1480, content: 'Control frame', is_correct: false, question_id: 380, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1481, content: 'Management frame', is_correct: false, question_id: 380, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 381
+      { id: 1490, content: 'SFTP', is_correct: true, question_id: 381, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1491, content: 'FTP', is_correct: false, question_id: 381, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1492, content: 'HTTP', is_correct: false, question_id: 381, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1493, content: 'SNMP', is_correct: false, question_id: 381, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 382
+      { id: 1494, content: 'Truyền tín hiệu vật lý', is_correct: true, question_id: 382, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1495, content: 'Định tuyến gói tin', is_correct: false, question_id: 382, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1496, content: 'Mã hóa dữ liệu', is_correct: false, question_id: 382, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1497, content: 'Quản lý phiên', is_correct: false, question_id: 382, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 383
+      { id: 1498, content: 'Ping (ICMP)', is_correct: true, question_id: 383, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1499, content: 'Telnet', is_correct: false, question_id: 383, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1500, content: 'FTP', is_correct: false, question_id: 383, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1501, content: 'SNMP', is_correct: false, question_id: 383, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 384
+      { id: 1502, content: 'Tầng Transport', is_correct: true, question_id: 384, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1503, content: 'Tầng Network', is_correct: false, question_id: 384, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1504, content: 'Tầng Application', is_correct: false, question_id: 384, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1505, content: 'Tầng Data Link', is_correct: false, question_id: 384, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 385
+      { id: 1506, content: 'UDP không đảm bảo truyền dữ liệu', is_correct: true, question_id: 385, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1507, content: 'UDP chậm hơn TCP', is_correct: false, question_id: 385, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1508, content: 'UDP dùng cho email', is_correct: false, question_id: 385, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1509, content: 'UDP mã hóa dữ liệu', is_correct: false, question_id: 385, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 386
+      { id: 1510, content: '3 bước (SYN, SYN-ACK, ACK)', is_correct: true, question_id: 386, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1511, content: '2 bước', is_correct: false, question_id: 386, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1512, content: '4 bước', is_correct: false, question_id: 386, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1513, content: '5 bước', is_correct: false, question_id: 386, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 387
+      { id: 1514, content: 'SMTP', is_correct: true, question_id: 387, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1515, content: 'FTP', is_correct: false, question_id: 387, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1516, content: 'HTTP', is_correct: false, question_id: 387, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1517, content: 'DNS', is_correct: false, question_id: 387, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 388
+      { id: 1518, content: 'POP3', is_correct: true, question_id: 388, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1519, content: 'IMAP', is_correct: false, question_id: 388, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1520, content: 'SMTP', is_correct: false, question_id: 388, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1521, content: 'HTTP', is_correct: false, question_id: 388, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 389
+      { id: 1522, content: 'IMAP', is_correct: true, question_id: 389, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1523, content: 'POP3', is_correct: false, question_id: 389, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1524, content: 'SMTP', is_correct: false, question_id: 389, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1525, content: 'FTP', is_correct: false, question_id: 389, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 390
+      { id: 1526, content: 'Truyền dữ liệu đáng tin cậy', is_correct: true, question_id: 390, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1527, content: 'Truyền dữ liệu không đồng bộ', is_correct: false, question_id: 390, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1528, content: 'Nén dữ liệu', is_correct: false, question_id: 390, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1529, content: 'Mã hóa dữ liệu', is_correct: false, question_id: 390, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 391
+      { id: 1530, content: 'Streaming, VoIP', is_correct: true, question_id: 391, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1531, content: 'Email, FTP', is_correct: false, question_id: 391, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1532, content: 'Web browsing', is_correct: false, question_id: 391, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1533, content: 'Database access', is_correct: false, question_id: 391, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 392
+      { id: 1534, content: 'Địa chỉ nguồn, đích', is_correct: true, question_id: 392, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1535, content: 'Dữ liệu người dùng', is_correct: false, question_id: 392, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1536, content: 'Mã hóa gói tin', is_correct: false, question_id: 392, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1537, content: 'Cổng đích', is_correct: false, question_id: 392, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 393
+      { id: 1538, content: 'Kiểm soát lưu lượng dữ liệu', is_correct: true, question_id: 393, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1539, content: 'Nén dữ liệu', is_correct: false, question_id: 393, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1540, content: 'Mã hóa dữ liệu', is_correct: false, question_id: 393, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1541, content: 'Phân chia subnet', is_correct: false, question_id: 393, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 394
+      { id: 1542, content: 'Chẩn đoán lỗi mạng', is_correct: true, question_id: 394, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1543, content: 'Truyền file', is_correct: false, question_id: 394, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1544, content: 'Mã hóa dữ liệu', is_correct: false, question_id: 394, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1545, content: 'Quản lý phiên', is_correct: false, question_id: 394, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 395
+      { id: 1546, content: 'Bắt đầu kết nối', is_correct: true, question_id: 395, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1547, content: 'Kết thúc kết nối', is_correct: false, question_id: 395, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1548, content: 'Xác nhận dữ liệu', is_correct: false, question_id: 395, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1549, content: 'Đặt lại kết nối', is_correct: false, question_id: 395, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 396
+      { id: 1550, content: 'Xác nhận nhận dữ liệu', is_correct: true, question_id: 396, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1551, content: 'Bắt đầu kết nối', is_correct: false, question_id: 396, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1552, content: 'Kết thúc kết nối', is_correct: false, question_id: 396, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1553, content: 'Đẩy dữ liệu', is_correct: false, question_id: 396, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 397
+      { id: 1554, content: 'Kết thúc kết nối', is_correct: true, question_id: 397, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1555, content: 'Bắt đầu kết nối', is_correct: false, question_id: 397, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1556, content: 'Xác nhận dữ liệu', is_correct: false, question_id: 397, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1557, content: 'Đặt lại kết nối', is_correct: false, question_id: 397, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 398
+      { id: 1558, content: '32 bit', is_correct: true, question_id: 398, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1559, content: '64 bit', is_correct: false, question_id: 398, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1560, content: '128 bit', is_correct: false, question_id: 398, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1561, content: '16 bit', is_correct: false, question_id: 398, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 399
+      { id: 1562, content: '128 bit', is_correct: true, question_id: 399, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1563, content: '32 bit', is_correct: false, question_id: 399, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1564, content: '64 bit', is_correct: false, question_id: 399, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1565, content: '256 bit', is_correct: false, question_id: 399, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 400
+      { id: 1566, content: 'Header và dữ liệu', is_correct: true, question_id: 400, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1567, content: 'Chỉ dữ liệu', is_correct: false, question_id: 400, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1568, content: 'Chỉ header', is_correct: false, question_id: 400, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1569, content: 'Gói tin nén', is_correct: false, question_id: 400, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 401
+      { id: 1570, content: 'DNS', is_correct: true, question_id: 401, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1571, content: 'HTTP', is_correct: false, question_id: 401, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1572, content: 'FTP', is_correct: false, question_id: 401, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1573, content: 'SMTP', is_correct: false, question_id: 401, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 402
+      { id: 1574, content: 'Tránh tắc nghẽn mạng', is_correct: true, question_id: 402, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1575, content: 'Nén dữ liệu', is_correct: false, question_id: 402, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1576, content: 'Mã hóa gói tin', is_correct: false, question_id: 402, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1577, content: 'Phân chia subnet', is_correct: false, question_id: 402, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 403
+      { id: 1578, content: '8 byte', is_correct: true, question_id: 403, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1579, content: '20 byte', is_correct: false, question_id: 403, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1580, content: '16 byte', is_correct: false, question_id: 403, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1581, content: '32 byte', is_correct: false, question_id: 403, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 404
+      { id: 1582, content: '20 byte', is_correct: true, question_id: 404, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1583, content: '8 byte', is_correct: false, question_id: 404, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1584, content: '16 byte', is_correct: false, question_id: 404, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1585, content: '32 byte', is_correct: false, question_id: 404, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 405
+      { id: 1586, content: '6', is_correct: true, question_id: 405, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1587, content: '17', is_correct: false, question_id: 405, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1588, content: '1', is_correct: false, question_id: 405, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1589, content: '0', is_correct: false, question_id: 405, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 406
+      { id: 1590, content: '17', is_correct: true, question_id: 406, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1591, content: '6', is_correct: false, question_id: 406, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1592, content: '1', is_correct: false, question_id: 406, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1593, content: '0', is_correct: false, question_id: 406, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 407
+      { id: 1594, content: 'Gửi lại dữ liệu bị mất', is_correct: true, question_id: 407, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1595, content: 'Nén dữ liệu', is_correct: false, question_id: 407, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1596, content: 'Mã hóa dữ liệu', is_correct: false, question_id: 407, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1597, content: 'Kiểm tra cổng', is_correct: false, question_id: 407, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 408
+      { id: 1598, content: 'Sliding window', is_correct: true, question_id: 408, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1599, content: 'Checksum', is_correct: false, question_id: 408, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1600, content: 'Keepalive', is_correct: false, question_id: 408, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1601, content: 'Retransmission', is_correct: false, question_id: 408, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 409
+      { id: 1602, content: 'HTTP/HTTPS', is_correct: true, question_id: 409, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1603, content: 'FTP', is_correct: false, question_id: 409, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1604, content: 'SMTP', is_correct: false, question_id: 409, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1605, content: 'DNS', is_correct: false, question_id: 409, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 410
+      { id: 1606, content: 'Kiểm tra lỗi dữ liệu', is_correct: true, question_id: 410, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1607, content: 'Nén dữ liệu', is_correct: false, question_id: 410, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1608, content: 'Mã hóa dữ liệu', is_correct: false, question_id: 410, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1609, content: 'Phân chia subnet', is_correct: false, question_id: 410, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 411
+      { id: 1610, content: 'Địa chỉ IPv4', is_correct: true, question_id: 411, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1611, content: 'Địa chỉ IPv6', is_correct: false, question_id: 411, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1612, content: 'Mail server', is_correct: false, question_id: 411, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1613, content: 'CNAME', is_correct: false, question_id: 411, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 412
+      { id: 1614, content: 'Địa chỉ IPv6', is_correct: true, question_id: 412, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1615, content: 'Địa chỉ IPv4', is_correct: false, question_id: 412, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1616, content: 'Mail server', is_correct: false, question_id: 412, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1617, content: 'CNAME', is_correct: false, question_id: 412, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 413
+      { id: 1618, content: 'Duy trì kết nối', is_correct: true, question_id: 413, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1619, content: 'Kết thúc kết nối', is_correct: false, question_id: 413, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1620, content: 'Bắt đầu kết nối', is_correct: false, question_id: 413, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1621, content: 'Đặt lại kết nối', is_correct: false, question_id: 413, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 414
+      { id: 1622, content: 'Không nhận ACK trong thời gian', is_correct: true, question_id: 414, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1623, content: 'Kết nối bị reset', is_correct: false, question_id: 414, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1624, content: 'Gói tin bị nén', is_correct: false, question_id: 414, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1625, content: 'Cổng bị chặn', is_correct: false, question_id: 414, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 415
+      { id: 1626, content: 'FTP', is_correct: true, question_id: 415, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1627, content: 'HTTP', is_correct: false, question_id: 415, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1628, content: 'SMTP', is_correct: false, question_id: 415, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1629, content: 'DNS', is_correct: false, question_id: 415, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 416
+      { id: 1630, content: 'Đặt lại kết nối', is_correct: true, question_id: 416, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1631, content: 'Bắt đầu kết nối', is_correct: false, question_id: 416, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1632, content: 'Xác nhận dữ liệu', is_correct: false, question_id: 416, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1633, content: 'Đẩy dữ liệu', is_correct: false, question_id: 416, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 417
+      { id: 1634, content: 'Đẩy dữ liệu ngay lập tức', is_correct: true, question_id: 417, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1635, content: 'Đặt lại kết nối', is_correct: false, question_id: 417, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1636, content: 'Xác nhận dữ liệu', is_correct: false, question_id: 417, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1637, content: 'Kết thúc kết nối', is_correct: false, question_id: 417, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 418
+      { id: 1638, content: 'Gửi dữ liệu đến nhiều thiết bị', is_correct: true, question_id: 418, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1639, content: 'Gửi dữ liệu đến một thiết bị', is_correct: false, question_id: 418, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1640, content: 'Mã hóa dữ liệu', is_correct: false, question_id: 418, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1641, content: 'Nén dữ liệu', is_correct: false, question_id: 418, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 419
+      { id: 1642, content: 'Quản lý nhóm multicast', is_correct: true, question_id: 419, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1643, content: 'Quản lý VLAN', is_correct: false, question_id: 419, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1644, content: 'Định tuyến gói tin', is_correct: false, question_id: 419, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1645, content: 'Kiểm tra lỗi mạng', is_correct: false, question_id: 419, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 420
+      { id: 1646, content: 'Kích thước tối đa của segment', is_correct: true, question_id: 420, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1647, content: 'Kích thước gói tin', is_correct: false, question_id: 420, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1648, content: 'Kích thước header', is_correct: false, question_id: 420, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1649, content: 'Kích thước window', is_correct: false, question_id: 420, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 421
+      { id: 1650, content: 'Tăng dần kích thước window', is_correct: true, question_id: 421, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1651, content: 'Giảm kích thước window', is_correct: false, question_id: 421, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1652, content: 'Nén dữ liệu', is_correct: false, question_id: 421, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1653, content: 'Mã hóa dữ liệu', is_correct: false, question_id: 421, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 422
+      { id: 1654, content: 'Chỉ định mail server', is_correct: true, question_id: 422, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1655, content: 'Chỉ định địa chỉ IP', is_correct: false, question_id: 422, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1656, content: 'Chỉ định tên miền', is_correct: false, question_id: 422, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1657, content: 'Chỉ định cổng', is_correct: false, question_id: 422, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 423
+      { id: 1658, content: 'Gói SYN', is_correct: true, question_id: 423, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1659, content: 'Gói ACK', is_correct: false, question_id: 423, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1660, content: 'Gói FIN', is_correct: false, question_id: 423, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1661, content: 'Gói RST', is_correct: false, question_id: 423, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 424
+      { id: 1662, content: 'Phân chia mạng thành subnet', is_correct: true, question_id: 424, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1663, content: 'Mã hóa địa chỉ IP', is_correct: false, question_id: 424, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1664, content: 'Định tuyến gói tin', is_correct: false, question_id: 424, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1665, content: 'Kiểm tra lỗi mạng', is_correct: false, question_id: 424, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 425
+      { id: 1666, content: '/24', is_correct: true, question_id: 425, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1667, content: '/16', is_correct: false, question_id: 425, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1668, content: '/8', is_correct: false, question_id: 425, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1669, content: '/30', is_correct: false, question_id: 425, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 426
+      { id: 1670, content: '254 host', is_correct: true, question_id: 426, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1671, content: '256 host', is_correct: false, question_id: 426, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1672, content: '128 host', is_correct: false, question_id: 426, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1673, content: '512 host', is_correct: false, question_id: 426, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 427
+      { id: 1674, content: 'Classless Inter-Domain Routing', is_correct: true, question_id: 427, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1675, content: 'Classful Internet Domain Routing', is_correct: false, question_id: 427, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1676, content: 'Centralized IP Domain Routing', is_correct: false, question_id: 427, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1677, content: 'Controlled IP Data Routing', is_correct: false, question_id: 427, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 428
+      { id: 1678, content: '/16', is_correct: true, question_id: 428, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1679, content: '/24', is_correct: false, question_id: 428, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1680, content: '/8', is_correct: false, question_id: 428, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1681, content: '/30', is_correct: false, question_id: 428, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 429
+      { id: 1682, content: '65,534 host', is_correct: true, question_id: 429, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1683, content: '254 host', is_correct: false, question_id: 429, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1684, content: '16,777,214 host', is_correct: false, question_id: 429, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1685, content: '128 host', is_correct: false, question_id: 429, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 430
+      { id: 1686, content: '/8', is_correct: true, question_id: 430, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1687, content: '/16', is_correct: false, question_id: 430, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1688, content: '/24', is_correct: false, question_id: 430, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1689, content: '/30', is_correct: false, question_id: 430, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 431
+      { id: 1690, content: '16,777,214 host', is_correct: true, question_id: 431, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1691, content: '65,534 host', is_correct: false, question_id: 431, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1692, content: '254 host', is_correct: false, question_id: 431, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1693, content: '128 host', is_correct: false, question_id: 431, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 432
+      { id: 1694, content: 'Địa chỉ đại diện subnet', is_correct: true, question_id: 432, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1695, content: 'Địa chỉ broadcast', is_correct: false, question_id: 432, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1696, content: 'Địa chỉ gateway', is_correct: false, question_id: 432, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1697, content: 'Địa chỉ host', is_correct: false, question_id: 432, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 433
+      { id: 1698, content: 'Địa chỉ gửi đến tất cả thiết bị trong subnet', is_correct: true, question_id: 433, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1699, content: 'Địa chỉ mạng', is_correct: false, question_id: 433, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1700, content: 'Địa chỉ gateway', is_correct: false, question_id: 433, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1701, content: 'Địa chỉ host', is_correct: false, question_id: 433, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 434
+      { id: 1702, content: 'Tối ưu sử dụng IP, tăng bảo mật', is_correct: true, question_id: 434, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1703, content: 'Mã hóa dữ liệu', is_correct: false, question_id: 434, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1704, content: 'Nén gói tin', is_correct: false, question_id: 434, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1705, content: 'Kiểm tra lỗi mạng', is_correct: false, question_id: 434, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 435
+      { id: 1706, content: '2 host', is_correct: true, question_id: 435, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1707, content: '14 host', is_correct: false, question_id: 435, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1708, content: '30 host', is_correct: false, question_id: 435, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1709, content: '62 host', is_correct: false, question_id: 435, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 436
+      { id: 1710, content: '14 host', is_correct: true, question_id: 436, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1711, content: '2 host', is_correct: false, question_id: 436, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1712, content: '30 host', is_correct: false, question_id: 436, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1713, content: '62 host', is_correct: false, question_id: 436, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 437
+      { id: 1714, content: '30 host', is_correct: true, question_id: 437, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1715, content: '14 host', is_correct: false, question_id: 437, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1716, content: '2 host', is_correct: false, question_id: 437, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1717, content: '62 host', is_correct: false, question_id: 437, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 438
+      { id: 1718, content: '62 host', is_correct: true, question_id: 438, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1719, content: '30 host', is_correct: false, question_id: 438, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1720, content: '14 host', is_correct: false, question_id: 438, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1721, content: '126 host', is_correct: false, question_id: 438, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 439
+      { id: 1722, content: '126 host', is_correct: true, question_id: 439, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1723, content: '62 host', is_correct: false, question_id: 439, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1724, content: '30 host', is_correct: false, question_id: 439, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1725, content: '14 host', is_correct: false, question_id: 439, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 440
+      { id: 1726, content: 'Thiết bị chuyển tiếp gói tin ra ngoài mạng', is_correct: true, question_id: 440, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1727, content: 'Thiết bị mã hóa dữ liệu', is_correct: false, question_id: 440, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1728, content: 'Thiết bị phân chia subnet', is_correct: false, question_id: 440, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1729, content: 'Thiết bị kiểm tra lỗi', is_correct: false, question_id: 440, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 441
+      { id: 1730, content: '/25', is_correct: true, question_id: 441, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1731, content: '/26', is_correct: false, question_id: 441, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1732, content: '/24', is_correct: false, question_id: 441, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1733, content: '/30', is_correct: false, question_id: 441, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 442
+      { id: 1734, content: '/26', is_correct: true, question_id: 442, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1735, content: '/25', is_correct: false, question_id: 442, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1736, content: '/27', is_correct: false, question_id: 442, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1737, content: '/24', is_correct: false, question_id: 442, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 443
+      { id: 1738, content: '/27', is_correct: true, question_id: 443, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1739, content: '/26', is_correct: false, question_id: 443, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1740, content: '/28', is_correct: false, question_id: 443, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1741, content: '/25', is_correct: false, question_id: 443, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 444
+      { id: 1742, content: '/28', is_correct: true, question_id: 444, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1743, content: '/27', is_correct: false, question_id: 444, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1744, content: '/29', is_correct: false, question_id: 444, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1745, content: '/26', is_correct: false, question_id: 444, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 445
+      { id: 1746, content: '/29', is_correct: true, question_id: 445, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1747, content: '/28', is_correct: false, question_id: 445, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1748, content: '/30', is_correct: false, question_id: 445, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1749, content: '/27', is_correct: false, question_id: 445, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 446
+      { id: 1750, content: '/30', is_correct: true, question_id: 446, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 446 (continued from ID 1750)
+      { id: 1751, content: '/29', is_correct: false, question_id: 446, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1752, content: '/28', is_correct: false, question_id: 446, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1753, content: '/27', is_correct: false, question_id: 446, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 447
+      { id: 1754, content: '32 subnet', is_correct: true, question_id: 447, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1755, content: '16 subnet', is_correct: false, question_id: 447, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1756, content: '8 subnet', is_correct: false, question_id: 447, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1757, content: '64 subnet', is_correct: false, question_id: 447, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 448
+      { id: 1758, content: '16 subnet', is_correct: true, question_id: 448, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1759, content: '32 subnet', is_correct: false, question_id: 448, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1760, content: '8 subnet', is_correct: false, question_id: 448, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1761, content: '4 subnet', is_correct: false, question_id: 448, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 449
+      { id: 1762, content: '8 subnet', is_correct: true, question_id: 449, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1763, content: '16 subnet', is_correct: false, question_id: 449, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1764, content: '4 subnet', is_correct: false, question_id: 449, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1765, content: '32 subnet', is_correct: false, question_id: 449, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 450
+      { id: 1766, content: '4 subnet', is_correct: true, question_id: 450, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1767, content: '8 subnet', is_correct: false, question_id: 450, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1768, content: '2 subnet', is_correct: false, question_id: 450, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1769, content: '16 subnet', is_correct: false, question_id: 450, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 451
+      { id: 1770, content: '2 subnet', is_correct: true, question_id: 451, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1771, content: '4 subnet', is_correct: false, question_id: 451, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1772, content: '8 subnet', is_correct: false, question_id: 451, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1773, content: '16 subnet', is_correct: false, question_id: 451, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 452
+      { id: 1774, content: 'Lớp C', is_correct: true, question_id: 452, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1775, content: 'Lớp A', is_correct: false, question_id: 452, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1776, content: 'Lớp B', is_correct: false, question_id: 452, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1777, content: 'Lớp D', is_correct: false, question_id: 452, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 453
+      { id: 1778, content: 'Lớp A', is_correct: true, question_id: 453, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1779, content: 'Lớp B', is_correct: false, question_id: 453, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1780, content: 'Lớp C', is_correct: false, question_id: 453, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1781, content: 'Lớp D', is_correct: false, question_id: 453, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 454
+      { id: 1782, content: 'Lớp B', is_correct: true, question_id: 454, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1783, content: 'Lớp A', is_correct: false, question_id: 454, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1784, content: 'Lớp C', is_correct: false, question_id: 454, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1785, content: 'Lớp D', is_correct: false, question_id: 454, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 455
+      { id: 1786, content: 'Point-to-point', is_correct: true, question_id: 455, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1787, content: 'LAN', is_correct: false, question_id: 455, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1788, content: 'WAN', is_correct: false, question_id: 455, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1789, content: 'VLAN', is_correct: false, question_id: 455, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 456
+      { id: 1790, content: 'Variable Length Subnet Mask', is_correct: true, question_id: 456, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1791, content: 'Virtual LAN Subnet Mask', is_correct: false, question_id: 456, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1792, content: 'Variable Link Subnet Method', is_correct: false, question_id: 456, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1793, content: 'Virtual Local Subnet Mask', is_correct: false, question_id: 456, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 457
+      { id: 1794, content: 'Dựa trên số bit mượn', is_correct: true, question_id: 457, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1795, content: 'Dựa trên số host', is_correct: false, question_id: 457, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1796, content: 'Dựa trên số cổng', is_correct: false, question_id: 457, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1797, content: 'Dựa trên địa chỉ gateway', is_correct: false, question_id: 457, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 458
+      { id: 1798, content: 'Broadcast address', is_correct: true, question_id: 458, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1799, content: 'Network address', is_correct: false, question_id: 458, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1800, content: 'Gateway address', is_correct: false, question_id: 458, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1801, content: 'Host address', is_correct: false, question_id: 458, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 459
+      { id: 1802, content: 'Network address', is_correct: true, question_id: 459, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1803, content: 'Broadcast address', is_correct: false, question_id: 459, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1804, content: 'Gateway address', is_correct: false, question_id: 459, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1805, content: 'Host address', is_correct: false, question_id: 459, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 460
+      { id: 1806, content: '3 bit', is_correct: true, question_id: 460, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1807, content: '4 bit', is_correct: false, question_id: 460, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1808, content: '5 bit', is_correct: false, question_id: 460, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1809, content: '6 bit', is_correct: false, question_id: 460, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 461
+      { id: 1810, content: '4 bit', is_correct: true, question_id: 461, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1811, content: '3 bit', is_correct: false, question_id: 461, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1812, content: '5 bit', is_correct: false, question_id: 461, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1813, content: '6 bit', is_correct: false, question_id: 461, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 462
+      { id: 1814, content: '5 bit', is_correct: true, question_id: 462, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1815, content: '4 bit', is_correct: false, question_id: 462, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1816, content: '3 bit', is_correct: false, question_id: 462, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1817, content: '6 bit', is_correct: false, question_id: 462, createdAt: new Date(), updatedAt: new Date() },
+      // Answers for Question 463
+      { id: 1818, content: '6 bit', is_correct: true, question_id: 463, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1819, content: '5 bit', is_correct: false, question_id: 463, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1820, content: '4 bit', is_correct: false, question_id: 463, createdAt: new Date(), updatedAt: new Date() },
+      { id: 1821, content: '3 bit', is_correct: false, question_id: 463, createdAt: new Date(), updatedAt: new Date() },
     ];
     answers.push(...networkAnswers);
 

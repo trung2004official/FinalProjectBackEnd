@@ -1,5 +1,5 @@
 import xlsx from 'xlsx';
-import { getQuizById, getQuizzesByKeyword, getAllQuizzes, addQuiz, editQuiz, removeQuiz, addQuizzesFromExcel } from "../services/quiz_services.js";
+import { getQuizById, getQuizzesByKeyword, getAllQuizzes, addQuiz, editQuiz, removeQuiz, addQuizzesFromExcel, selectedQuizzesByMajor } from "../services/quiz_services.js";
 // import QuizAttempt from "../models/quizAttempt.js";
 export const getQuizzes = async (req, res) => {
     try {
@@ -26,13 +26,13 @@ export const getQuizzes = async (req, res) => {
 
 export const getQuizzesByMajor = async (req, res) => {
     try {
-        const { major } = req;
+        const { major } = req.body;
 
         if (!major) {
             return res.status(400).json({ message: 'Vui lòng cung cấp chuyên ngành' });
         }
 
-        const quizzes = await getQuizzesByMajor(major);
+        const quizzes = await selectedQuizzesByMajor(major);
         if (quizzes.length === 0) {
             return res.status(404).json({ message: 'Không tìm thấy quiz cho chuyên ngành này' });
         }
