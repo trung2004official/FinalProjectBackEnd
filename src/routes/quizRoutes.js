@@ -4,7 +4,7 @@ import upload from '../middleware/upload.js';
 
 const router = express.Router();
 
-router.get('/quizzes-by-major/:major',getQuizzesByMajor);
+router.get('/quizzes-by-major',getQuizzesByMajor);
 router.get('/:id?',getQuizzes);
 router.post('/create-quiz', addNewQuiz);
 router.post('/import-quizzes',upload.single('file'), importQuizzesFromExcel);
