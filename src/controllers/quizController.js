@@ -26,7 +26,7 @@ export const getQuizzes = async (req, res) => {
 
 export const getQuizzesByMajor = async (req, res) => {
     try {
-        const { major } = req.body;
+        const { major } = req.params;
 
         if (!major) {
             return res.status(400).json({ message: 'Vui lòng cung cấp chuyên ngành' });
